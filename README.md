@@ -58,6 +58,14 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 :link: <https://fr.wikipedia.org/wiki/Principe_KISS>
 
+### YAGNI : _You Ain't Gonna Need It_
+
+> Ce principe indique de ne pas se baser sur d'hypothétiques évolutions futures pour faire les choix du présent.
+
+:link: <https://fr.wikipedia.org/wiki/YAGNI>
+
+Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
+
 ### Principe de moindre surprise
 
 > Toute fonction ou classe doit implémenter les comportements auquels un autre programmeur peut raisonnablement s'attendre.
@@ -68,14 +76,6 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 * Les noms des fonctions doivent indiquer leur rôle, s'il faut examiner la documentation ou l'implémentation de la fonction pour connaître son rôle cela signifie qu'un meilleur nom doit être trouvé ou que la fonctionnalité doit être déplacée dans des fonctions ayant des noms appropriés.
 
 :link: <https://fr.wikipedia.org/wiki/Principe_de_moindre_surprise>
-
-### Pincipe YAGNI : _You Ain't Gonna Need It_
-
-> Ce principe indique de ne pas se baser sur d'hypothétiques évolutions futures pour faire les choix du présent.
-
-:link: <https://fr.wikipedia.org/wiki/YAGNI>
-
-Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
 
 ### Loi de "LeBlanc" 
 
