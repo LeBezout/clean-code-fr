@@ -2,11 +2,11 @@
 
 _Synthèse des notions de Clean Code de **Robert C. MARTIN**._
 
-## SOLID
+## A- SOLID
 
 ### SRP : _Single Responsability Principle_
 
-_Il ne doit exister qu'une et une seule riason de modifier eune classe ou un module._
+_Il ne doit exister qu'une et une seule raison de modifier une classe ou un module._
 
 ### OCP : _Open-Closed Principle_
 
@@ -20,15 +20,16 @@ Dans un système idéal nous incorporons de nouvelles fdonctionnalités en éten
 
 ### DIP : _Dependency Inversion Principle_
 
-L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et reespecte ainsi le principe de responsabilité unique.
+L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et respecte ainsi le principe de responsabilité unique.
 
-## Lois, règles et autres principes
+## B- Lois, règles et autres principes
 
 ### DRY : _Don't Repeat Yourself_
 
 _Principe qui consiste à éviter la redondance de code au travers de l’ensemble d’une application afin de faciliter la maintenance, le test, le débogage et les évolutions de cette dernière._
 
-**La redondance est le principal ennemi d'un système bien conçu.**
+* **La redondance est le principal ennemi d'un système bien conçu.**
+* **Une redondance représente en réalité une opportunité d'abstraction maqnuée.**
 
 <https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas>
 
@@ -38,9 +39,24 @@ _Principe dont la ligne directrice de conception qui préconise la simplicité d
 
 <https://fr.wikipedia.org/wiki/Principe_KISS>
 
+### Principe de moindre surprise
+
+_Toute fonction ou classe doit implémenter les comportements auquels un autre programmeur peut raisonnablement s'attendre._
+
+**Exemples :**
+
+* Le code doit être placé là où le lecteur s'attend naturellement à la trouver.
+* Les noms des fonctions doivent indiquer leur rôle, s'il faut examiner la documentation ou l'implémentation de la fonction pour connaître son rôle cela signifie qu'un meilleur nom doit être trouvé ou que la fonctionnalité doit être déplacée dans des fonctions ayant des noms appropriés.
+
+<https://fr.wikipedia.org/wiki/Principe_de_moindre_surprise>
+
 ### Loi de "LeBlanc" 
 
 _"Plus tard signifie jamais"_
+
+Exemples : 
+
+* Commenter ou ignorer un test qui échoue et se dire que l'on fera en sorte qu'il réussisse plus tard
 
 ### Règle du Boy-Scout
 
@@ -49,6 +65,8 @@ _"Laisser le code plus propre qu'on ne l'a trouvé"_
 ### Loi de Déméter
 
 _"Un module ne doit pas connaître les détails internes des objets qu'il manipule"_
+
+<https://fr.wikipedia.org/wiki/Loi_de_D%C3%A9m%C3%A9ter>
 
 Les objets cachent leurs données et exposent des opérations.
 
@@ -65,6 +83,8 @@ Lorsqu'un système est suffisamment découplé il est également plus souple et 
 
 En réduisant le couplage nos classes adhèrent à un autre principe de conception appelé principe d'inversion des dépendances (Dependency Inversion Principle).
 
+Un couplage artificiel correspond souvent à un couplage entre deux modules qui n'ont aucun rapport direct. Il résulte du placement d'une variable, d'une constante  ou du'une fonction dans un endroit commode sur le moment, mais finalement inadapté.
+
 ### Principe de séparation des préoccupations
 
 > Les systèmes logiciels doivent séparer le processus de d"marrage, lorsque les objets de l'application sont construits et les dépendances sont établies, de la logique d'exécution qui vient ensuite.
@@ -73,7 +93,7 @@ En réduisant le couplage nos classes adhèrent à un autre principe de concepti
 
 Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque chaque variable d'une classe est employée par chacune de ses méthodes la cohésion est maximale.
 
-## Bonnes pratiques
+## C- Bonnes pratiques
 
 ### Envelopper les API tierces
 
@@ -99,15 +119,46 @@ Les commentaires suivants ne devraient pas exister :
 * commentaire trivial ou redondant
 * commentaire faux ou obsolète
 
+### Conception
+
+* Il ne doit pas y avoir plus d'une instruction `switch` pour un type donné de sélection. Les cas de cette instruction `switch` doivent crééer des objets polymorphes qui prennent la place d'autres instructions `switch` dans le reste du système.
+* Il est contre-indiqué d'employer directement des nombres (ou chaînes) dans le code. Ils doivent être cachés derrière des constantes aux noms parfaitement évocateurs. Voir notion de [**magic number**](https://fr.wikipedia.org/wiki/Nombre_magique_(programmation)).
+* Extrayer des fonctions qui expliques les intentions d'une expression conditionnelle.
+* Les expressions conditionnelles doivent être données sous une forme positive (plus facile à lire).
+* Interdir le couplage temporel : `fonc1` doit être appelée avant `fonc2` qui elle doit être appelée avant `fonc3` : les arguments de ces fonctions doivent être structurés de manière que leur ordre dans les appels soit évident.
+
+### Classes
+
+* Les classes de base ne doivent roen connaître de leurs classes dérivées.
+* En déployant séparément les classes dérivées et les classes de base nous pouvons déployer nos systèmes sous forme de composants autonomes et indépendants : réduction de l'impact d'une modification et de la maintenance.
+
+### Fonctions / Méthodes
+
+* Le nombre d'arguments d'une fonction doit être aussi réduit que possible.
+* Les arguments de sortie (entrée-sortie) sont tout sauf intuitifs. Si la fonction doit modifier un état ce doit être celui de l'objet sur lequel elle est invoquée.
+* Les arguments bolléens mettent clairement en évidence que la fonction fait plusieurs choses. Ils sont déroutants et doivent être éliminés. Solution : faire plusieurs méthodes nommées correctement.
+* Les méthodes qui ne sont jamais appelées doivent être retirées. La concervation du code mort coûte cher.
+* Pour qu'une fonction soit lisible l'une des solutions les plus performantes consiste à décomposer les calculs en valeurs intermédiaires représentées par des variables aux noms significatifs.
+
 ### Rangement vertical
 
-Une fonction appelée doit se trouver en dessous d'une fonction qui l'appelle.
+* Une fonction appelée doit se trouver en dessous d'une fonction qui l'appelle.
+* Les variables et les fonctions doivent être définies au plus prês de leur utilisation.
 
 ### Style de formatage
 
 Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter
 
-## Tests
+## D- Projets
+
+Les projets doivent pouvoir :
+
+* être extraits rapidement et simplement (ex: `git clone http://....`)
+* être construits rapidement et simplement (ex: `mvn clean install`)
+* être testés rapidement et simplement
+
+
+## E- Tests
 
 ### 3 lois du TDD : _Tests Driven Development_
 
@@ -131,6 +182,7 @@ Les développeurs de l'équipe doivent se mettre d'accord sur un même style de 
 * Plus les tests sont négligés plus il est difficile de les modifier
 * Plus le code de test est embrouillé plus le temps nécessaire à l'ajout de nouveaux tests dépassera celui nécessaire à écrire le nouveau code de production.
 * La lisibilité est sans doute encore plus importante dans les tests unitaires qu'elle ne l'est dans le code de production.
+* Rechercher chaque condition limite et écrivez le test correspondant.
 
 ### Tests d'apprentissage
 
