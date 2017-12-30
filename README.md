@@ -1,18 +1,40 @@
 # Vude d'ensemble des principes _Clean Code_
 
+_Synthèse des notions de Clean Code de **Robert C. MARTIN**.
+
 ## SOLID
 
 ### SRP : _Single Responsability Principle_
 
+_Il ne doit exister qu'une et une seule riason de modifier eune classe ou un module._
+
 ### OCP : _Open-Closed Principle_
+
+_Les classes doivent être ouvertes à l'extension mais fermées à la modification._
+
+Dans un système idéal nous incorporons de nouvelles fdonctionnalités en étendant le système, non en modifiant le code existant.
+
+### Liskov Principle
 
 ### ISP : _Interface Segregation Principle_
 
 ### DIP : _Dependency Inversion Principle_
 
-### Liskov Principle
+L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et reespecte ainsi le principe de responsabilité unique.
 
 ## Lois, règles et autres principes
+
+### DRY : _Don't Repeat Yourself_
+
+_Principe qui consiste à éviter la redondance de code au travers de l’ensemble d’une application afin de faciliter la maintenance, le test, le débogage et les évolutions de cette dernière._
+
+<https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas>
+
+### KISS : _Keep It Simple, Stupid_
+
+_Principe dont la ligne directrice de conception qui préconise la simplicité dans la conception et que toute complexité non indispensable devrait être évitée dans toute la mesure du possible._
+
+<https://fr.wikipedia.org/wiki/Principe_KISS>
 
 ### Loi de "LeBlanc" 
 
@@ -30,10 +52,24 @@ Les objets cachent leurs données et exposent des opérations.
 
 Une méthode `f` d'une classe `C` ne doit appeler que les méthodes des éléments suivants : 
 
-* C
-* un objet créé par f
-* un objet passé en argument à f
-* un objet contenu dans une variable d'instance de C
+* `C`
+* un objet créé par `f`
+* un objet passé en argument à `f`
+* un objet contenu dans une variable d'instance de `C`
+
+### Principe du couplage faible
+
+Lorsqu'un système est suffisamment découplé il est également plus souple et favorise la réutilisation. L'absence de couplage signifie que les éléments du sytème sont mieux isolés les uns des autres et du changement.
+
+En réduisant le couplage nos classes adhèrent à un autre principe de conception appelé principe d'inversion des dépendances (Dependency Inversion Principle).
+
+### Principe de séparation des préoccupations
+
+> Les systèmes logiciels doivent séparer le processus de d"marrage, lorsque les objets de l'application sont construits et les dépendances sont établies, de la logique d'exécution qui vient ensuite.
+
+### Principe de cohésion
+
+Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque lchaque variable d'une classe est employée par chaucune de ses méthodes la cohésion est maximale.
 
 ## Bonnes pratiques
 
@@ -45,9 +81,11 @@ Lorsque nous enveloppons une API tierce nous minimisons dos dépendances avec ce
 
 Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
 
+Voir aussi BDUF : _Big Design Up Front_ pratique qui consiste à tout concevoir à l'avance avant d'implémenter quoi que ce soit : empêche de d'adapter aux changements en raison d'une résistance psycologique à la mise auu rebut d'un travail antérieur et de la manière dont les choix architecturaux infuencent les réflexions ultérieures sur la conception.
+
 ## Nommage / Formatage
 
-### Rangement vertical
+### Rangement vertical
 
 _"Une fonction appelée doit se trouver en dessous d'une fonction qui l'appelle"_
 
@@ -88,5 +126,5 @@ Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur 
 ### Structure d'un test : Build-Operate-Check
 
 1. Constuire les données du test
-1. Exploiter les données du tests
+1. Exploiter les données du test
 1. Vérifier que l'opération a produit les résultats escomptés
