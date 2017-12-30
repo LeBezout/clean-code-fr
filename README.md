@@ -70,12 +70,12 @@ Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le n
 
 > Toute fonction ou classe doit implémenter les comportements auquels un autre programmeur peut raisonnablement s'attendre.
 
+:link: <https://fr.wikipedia.org/wiki/Principe_de_moindre_surprise>
+
 **Exemples :**
 
 * Le code doit être placé là où le lecteur s'attend naturellement à la trouver.
 * Les noms des fonctions doivent indiquer leur rôle, s'il faut examiner la documentation ou l'implémentation de la fonction pour connaître son rôle cela signifie qu'un meilleur nom doit être trouvé ou que la fonctionnalité doit être déplacée dans des fonctions ayant des noms appropriés.
-
-:link: <https://fr.wikipedia.org/wiki/Principe_de_moindre_surprise>
 
 ### Loi de "LeBlanc" 
 
@@ -110,9 +110,11 @@ Une méthode `f` d'une classe `C` ne doit appeler que les méthodes des élémen
 
 ### Principe du couplage faible
 
+> On parle de couplage faible, couplage léger ou couplage lâche si les composants échangent peu d'information.
+
 Lorsqu'un système est suffisamment découplé il est également plus souple et favorise la réutilisation. L'absence de couplage signifie que les éléments du sytème sont mieux isolés les uns des autres et du changement.
 
-En réduisant le couplage nos classes adhèrent à un autre principe de conception appelé principe d'inversion des dépendances (Dependency Inversion Principle).
+En réduisant le couplage nos classes adhèrent à un autre principe de conception appelé principe d'inversion des dépendances (_Dependency Inversion Principle_).
 
 Un couplage artificiel correspond souvent à un couplage entre deux modules qui n'ont aucun rapport direct. Il résulte du placement d'une variable, d'une constante  ou du'une fonction dans un endroit commode sur le moment, mais finalement inadapté.
 
@@ -125,10 +127,6 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 > Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque chaque variable d'une classe est employée par chacune de ses méthodes la cohésion est maximale.
 
 ## C- Bonnes pratiques
-
-### Envelopper les API tierces
-
-Lorsque nous enveloppons une API tierce nous minimisons nos dépendances avec cette API : nous pouvons décider de changer de bibliothèque sans avoir à payer le prix fort. Par ailleurs, il est également plus facile de simuler les invocations d'une API ou d'un logiciel tiers lorsque nous testons notre propre code.
 
 ### Nommage
 
@@ -187,6 +185,10 @@ Les commentaires suivants ne devraient pas exister :
 
 Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter. Idéalement il est documenté et cette documentation facilement accessible. Par exemple : fichier `README.md`à la racine du dépôt GIT.
 
+### Envelopper les API tierces
+
+Lorsque nous enveloppons une API tierce nous minimisons nos dépendances avec cette API : nous pouvons décider de changer de bibliothèque sans avoir à payer le prix fort. Par ailleurs, il est également plus facile de simuler les invocations d'une API ou d'un logiciel tiers lorsque nous testons notre propre code.
+
 ## D- Projets
 
 Les projets doivent pouvoir :
@@ -215,7 +217,7 @@ Les projets doivent pouvoir :
 
 * Le code de test est aussi important que le code de production.
 * Ce sont les tests unitaires qui permettent d'obtenir un code flexible, maintenable et réutilisable.
-* Sans les tests chaque modification est un bogue potentiel : les tests permettent le changement. Les systèmes non testables ne sont pas vérifiables. Un système non vérifiable ne doit jamais êter déployé.
+* Sans les tests chaque modification est un bogue potentiel : les tests permettent le changement. Les systèmes non testables ne sont pas vérifiables. Un système non vérifiable ne doit jamais être déployé.
 * Plus les tests sont négligés plus il est difficile de les modifier
 * Plus le code de test est embrouillé plus le temps nécessaire à l'ajout de nouveaux tests dépassera celui nécessaire à écrire le nouveau code de production.
 * La lisibilité est sans doute encore plus importante dans les tests unitaires qu'elle ne l'est dans le code de production.
