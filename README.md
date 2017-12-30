@@ -1,8 +1,8 @@
 # Vue d'ensemble des principes _Clean Code_
 
-_Synthèse des notions de Clean Code de [**Robert C. MARTIN**](https://fr.slideshare.net/MarwenMhamdi/coder-proprement)._
+_Synthèse des notions de Clean Code de [**Robert C. MARTIN**](https://fr.slideshare.net/MarwenMhamdi/coder-proprement) et autres recommandations._
 
-## A- SOLID
+## A- Principes S.O.L.I.D.
 
 ### SRP : _Single Responsability Principle_
 
@@ -56,7 +56,9 @@ Dans un système idéal nous incorporons de nouvelles fonctionnalités en étend
 
 Exemples : 
 
-* Commenter ou ignorer un test qui échoue et se dire que l'on fera en sorte qu'il réussisse plus tard
+* Commenter ou ignorer un test qui échoue et se dire que l'on fera en sorte qu'il réussisse plus tard.
+* Remettre à plus tard l'écriture d'un test
+* Remettre à plus tard l'écriture de la documentation
 
 ### Loi de "Déméter"
 
@@ -89,7 +91,7 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 ### Principe de séparation des préoccupations
 
-> Les systèmes logiciels doivent séparer le processus de d"marrage, lorsque les objets de l'application sont construits et les dépendances sont établies, de la logique d'exécution qui vient ensuite.
+> Les systèmes logiciels doivent séparer le processus de démarrage, lorsque les objets de l'application sont construits et les dépendances sont établies, de la logique d'exécution qui vient ensuite.
 
 ### Principe de cohésion
 
@@ -112,6 +114,7 @@ Voir aussi BDUF : _Big Design Up Front_. Pratique qui consiste à tout concevoir
 * Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code.
 * Les noms bien choisis doivent indiquer de manière non ambiguë le rôle d'une fonction ou d'une variable.
 * Les noms bien choisis ont le pouvoir d'ajouter une description à la structure du code.
+* Les noms doivent décrire les effets secondaires.
 * Les noms sont plus faciles à comprendre lorsqu'ils se fondent sur une convention ou un usage établi. Par exemple un _Design Pattern_.
 * La longeur d'un nom doit être lié à sa portée. Les variables et les fonctions dont les noms sont courts perdent leur signification avec l'éloignement. Par conséquent plus la portée d'un nom est étendue plus ce nom doit être long et précis.
 * Eviter la codification ou notification hongroise (préfixes par exemple).
@@ -177,9 +180,9 @@ Les projets doivent pouvoir :
 1. Vous devez uniquement écrire le test unitaire suffisant pour échouer : l'impossibilité de compiler est un échec
 1. Vous devez uniquement écrire le code de production suffisant pour réussir le test d'échec courant
 
-### Principes FIRST
+### Principes F.I.R.S.T.
 
-1. **F**AST : (Rapide) : les tests doivent être rapides.
+1. **F**AST : (Rapide) : les tests doivent être rapides. Un test lent est un test qui risque de ne plus être exécuté.
 1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
 1. **R**EPEATABLE (Reproductible) : les tests doivent pouvoir être reproduits dans n'importe quel environnement.
 1. **S**ELF-VALIDATING (Auto-validant) : les tests doivent avoir un résultat binaire : ils réussisent ou ils échouent. Vous ne devez pas avoir à consulter un fichier de journalisation ou comparer manuellement 2 fichiers.
@@ -194,10 +197,11 @@ Les projets doivent pouvoir :
 * Plus le code de test est embrouillé plus le temps nécessaire à l'ajout de nouveaux tests dépassera celui nécessaire à écrire le nouveau code de production.
 * La lisibilité est sans doute encore plus importante dans les tests unitaires qu'elle ne l'est dans le code de production.
 * Rechercher chaque condition limite et écrivez le test correspondant.
+* Les tests restent insuffisant tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
 
 ### Tests d'apprentissage
 
-Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers sont publiées nous éx"cutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
+Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers sont publiées nous éxécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
 
 ### Structure d'un test : Build-Operate-Check
 
