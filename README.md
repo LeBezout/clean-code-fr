@@ -106,7 +106,7 @@ Une méthode `f` d'une classe `C` ne doit appeler que les méthodes des élémen
 
 ### Règle du Boy-Scout
 
-> Laisser le code plus propre qu'on ne l'a trouvé
+> Laisser le code plus propre qu'on ne l'a trouvé.
 
 ### Principe du couplage faible
 
@@ -132,13 +132,14 @@ Lorsque nous enveloppons une API tierce nous minimisons nos dépendances avec ce
 
 ### Nommage
 
-* Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code.
+* Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code. Les noms doivent révèler les intentions
 * Les noms bien choisis doivent indiquer de manière non ambiguë le rôle d'une fonction ou d'une variable.
 * Les noms bien choisis ont le pouvoir d'ajouter une description à la structure du code.
 * Les noms doivent décrire les effets secondaires.
 * Les noms sont plus faciles à comprendre lorsqu'ils se fondent sur une convention ou un usage établi. Par exemple un _Design Pattern_.
 * La longeur d'un nom doit être lié à sa portée. Les variables et les fonctions dont les noms sont courts perdent leur signification avec l'éloignement. Par conséquent plus la portée d'un nom est étendue plus ce nom doit être long et précis.
 * Eviter la codification ou notification hongroise (préfixes par exemple).
+* Choisir un mot par concept : établir un lexique et s’y tenir pour conserver une cohérence sur l'ensemble de application
 
 ### Commentaires
 
@@ -167,7 +168,7 @@ Les commentaires suivants ne devraient pas exister :
 
 * Les classes de base ne doivent rien connaître de leurs classes dérivées.
 * En déployant séparément les classes dérivées et les classes de base nous pouvons déployer nos systèmes sous forme de composants autonomes et indépendants : réduction de l'impact d'une modification et de la maintenance.
-* Les classes ne doivent pas hériter des constantes
+* Les classes ne doivent pas hériter des constantes.
 
 ### Fonctions / Méthodes
 
@@ -220,12 +221,13 @@ Les projets doivent pouvoir :
 * La lisibilité est sans doute encore plus importante dans les tests unitaires qu'elle ne l'est dans le code de production.
 * Rechercher chaque condition limite et écrivez le test correspondant.
 * Les tests restent insuffisant tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
+* Chaque test doit se contenter de valider une et une seule fonctionnalité.
 
 ### Tests d'apprentissage
 
 Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers sont publiées nous éxécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
 
-### Structure d'un test : Build-Operate-Check
+### Structure d'un test : Build-Operate-Check (ou Given-When-Then)
 
 1. Constuire les données du test
 1. Exploiter les données du test
