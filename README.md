@@ -1,18 +1,18 @@
-# Vude d'ensemble des principes _Clean Code_
+# Vue d'ensemble des principes _Clean Code_
 
-_Synthèse des notions de Clean Code de **Robert C. MARTIN**._
+_Synthèse des notions de Clean Code de [**Robert C. MARTIN**](https://fr.slideshare.net/MarwenMhamdi/coder-proprement)._
 
 ## A- SOLID
 
 ### SRP : _Single Responsability Principle_
 
-_Il ne doit exister qu'une et une seule raison de modifier une classe ou un module._
+> Il ne doit exister qu'une et une seule raison de modifier une classe ou un module.
 
 ### OCP : _Open-Closed Principle_
 
-_Les classes doivent être ouvertes à l'extension mais fermées à la modification._
+> Les classes doivent être ouvertes à l'extension mais fermées à la modification.
 
-Dans un système idéal nous incorporons de nouvelles fdonctionnalités en étendant le système, non en modifiant le code existant.
+Dans un système idéal nous incorporons de nouvelles fonctionnalités en étendant le système, non en modifiant le code existant.
 
 ### Liskov Principle
 
@@ -20,53 +20,51 @@ Dans un système idéal nous incorporons de nouvelles fdonctionnalités en éten
 
 ### DIP : _Dependency Inversion Principle_
 
-L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et respecte ainsi le principe de responsabilité unique.
+> L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et respecte ainsi le principe de responsabilité unique.
 
 ## B- Lois, règles et autres principes
 
 ### DRY : _Don't Repeat Yourself_
 
-_Principe qui consiste à éviter la redondance de code au travers de l’ensemble d’une application afin de faciliter la maintenance, le test, le débogage et les évolutions de cette dernière._
+> Principe qui consiste à éviter la redondance de code au travers de l’ensemble d’une application afin de faciliter la maintenance, le test, le débogage et les évolutions de cette dernière.
 
 * **La redondance est le principal ennemi d'un système bien conçu.**
-* **Une redondance représente en réalité une opportunité d'abstraction maqnuée.**
+* **Une redondance représente en réalité une opportunité d'abstraction manquée.**
 
-<https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas>
+:link: <https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas>
 
 ### KISS : _Keep It Simple, Stupid_
 
-_Principe dont la ligne directrice de conception qui préconise la simplicité dans la conception et que toute complexité non indispensable devrait être évitée dans toute la mesure du possible._
+> Principe dont la ligne directrice de conception qui préconise la simplicité dans la conception et que toute complexité non indispensable devrait être évitée dans toute la mesure du possible.
 
-<https://fr.wikipedia.org/wiki/Principe_KISS>
+:link: <https://fr.wikipedia.org/wiki/Principe_KISS>
 
 ### Principe de moindre surprise
 
-_Toute fonction ou classe doit implémenter les comportements auquels un autre programmeur peut raisonnablement s'attendre._
+> Toute fonction ou classe doit implémenter les comportements auquels un autre programmeur peut raisonnablement s'attendre.
 
 **Exemples :**
 
 * Le code doit être placé là où le lecteur s'attend naturellement à la trouver.
 * Les noms des fonctions doivent indiquer leur rôle, s'il faut examiner la documentation ou l'implémentation de la fonction pour connaître son rôle cela signifie qu'un meilleur nom doit être trouvé ou que la fonctionnalité doit être déplacée dans des fonctions ayant des noms appropriés.
 
-<https://fr.wikipedia.org/wiki/Principe_de_moindre_surprise>
+:link: <https://fr.wikipedia.org/wiki/Principe_de_moindre_surprise>
 
 ### Loi de "LeBlanc" 
 
-_"Plus tard signifie jamais"_
+> Plus tard signifie jamais.
 
 Exemples : 
 
 * Commenter ou ignorer un test qui échoue et se dire que l'on fera en sorte qu'il réussisse plus tard
 
-### Règle du Boy-Scout
+### Loi de "Déméter"
 
-_"Laisser le code plus propre qu'on ne l'a trouvé"_
+> Un module ne doit pas connaître les détails internes des objets qu'il manipule.
 
-### Loi de Déméter
+> Les modules ne connaissent que leurs collaborateurs immédiats et ne peuvent pas parcourir l'intégralité du système ou d'un graphe d'objets.
 
-_"Un module ne doit pas connaître les détails internes des objets qu'il manipule"_
-
-<https://fr.wikipedia.org/wiki/Loi_de_D%C3%A9m%C3%A9ter>
+:link: <https://fr.wikipedia.org/wiki/Loi_de_D%C3%A9m%C3%A9ter>
 
 Les objets cachent leurs données et exposent des opérations.
 
@@ -76,6 +74,10 @@ Une méthode `f` d'une classe `C` ne doit appeler que les méthodes des élémen
 * un objet créé par `f`
 * un objet passé en argument à `f`
 * un objet contenu dans une variable d'instance de `C`
+
+### Règle du Boy-Scout
+
+> Laisser le code plus propre qu'on ne l'a trouvé
 
 ### Principe du couplage faible
 
@@ -91,7 +93,7 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 ### Principe de cohésion
 
-Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque chaque variable d'une classe est employée par chacune de ses méthodes la cohésion est maximale.
+> Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque chaque variable d'une classe est employée par chacune de ses méthodes la cohésion est maximale.
 
 ## C- Bonnes pratiques
 
@@ -104,6 +106,15 @@ Lorsque nous enveloppons une API tierce nous minimisons nos dépendances avec ce
 Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
 
 Voir aussi BDUF : _Big Design Up Front_. Pratique qui consiste à tout concevoir à l'avance avant d'implémenter quoi que ce soit : empêche de s'adapter aux changements en raison d'une résistance psychologique à la mise au rebut d'un travail antérieur et de la manière dont les choix architecturaux infuencent les réflexions ultérieures sur la conception.
+
+### Nommage
+
+* Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code.
+* Les noms bien choisis doivent indiquer de manière non ambiguë le rôle d'une fonction ou d'une variable.
+* Les noms bien choisis ont le pouvoir d'ajouter une description à la structure du code.
+* Les noms sont plus faciles à comprendre lorsqu'ils se fondent sur une convention ou un usage établi. Par exemple un _Design Pattern_.
+* La longeur d'un nom doit être lié à sa portée. Les variables et les fonctions dont les noms sont courts perdent leur signification avec l'éloignement. Par conséquent plus la portée d'un nom est étendue plus ce nom doit être long et précis.
+* Eviter la codification ou notification hongroise (préfixes par exemple).
 
 ### Commentaires
 
@@ -123,20 +134,21 @@ Les commentaires suivants ne devraient pas exister :
 
 * Il ne doit pas y avoir plus d'une instruction `switch` pour un type donné de sélection. Les cas de cette instruction `switch` doivent crééer des objets polymorphes qui prennent la place d'autres instructions `switch` dans le reste du système.
 * Il est contre-indiqué d'employer directement des nombres (ou chaînes) dans le code. Ils doivent être cachés derrière des constantes aux noms parfaitement évocateurs. Voir notion de [**magic number**](https://fr.wikipedia.org/wiki/Nombre_magique_(programmation)).
-* Extrayer des fonctions qui expliques les intentions d'une expression conditionnelle.
+* Extrayer des fonctions qui expliquent les intentions d'une expression conditionnelle.
 * Les expressions conditionnelles doivent être données sous une forme positive (plus facile à lire).
 * Interdir le couplage temporel : `fonc1` doit être appelée avant `fonc2` qui elle doit être appelée avant `fonc3` : les arguments de ces fonctions doivent être structurés de manière que leur ordre dans les appels soit évident.
 
 ### Classes
 
-* Les classes de base ne doivent roen connaître de leurs classes dérivées.
+* Les classes de base ne doivent rien connaître de leurs classes dérivées.
 * En déployant séparément les classes dérivées et les classes de base nous pouvons déployer nos systèmes sous forme de composants autonomes et indépendants : réduction de l'impact d'une modification et de la maintenance.
+* Les classes ne doivent pas hériter des constantes
 
 ### Fonctions / Méthodes
 
 * Le nombre d'arguments d'une fonction doit être aussi réduit que possible.
 * Les arguments de sortie (entrée-sortie) sont tout sauf intuitifs. Si la fonction doit modifier un état ce doit être celui de l'objet sur lequel elle est invoquée.
-* Les arguments bolléens mettent clairement en évidence que la fonction fait plusieurs choses. Ils sont déroutants et doivent être éliminés. Solution : faire plusieurs méthodes nommées correctement.
+* Les arguments booléens mettent clairement en évidence que la fonction fait plusieurs choses. Ils sont déroutants et doivent être éliminés. Solution : faire plusieurs méthodes nommées correctement.
 * Les méthodes qui ne sont jamais appelées doivent être retirées. La concervation du code mort coûte cher.
 * Pour qu'une fonction soit lisible l'une des solutions les plus performantes consiste à décomposer les calculs en valeurs intermédiaires représentées par des variables aux noms significatifs.
 
@@ -147,7 +159,7 @@ Les commentaires suivants ne devraient pas exister :
 
 ### Style de formatage
 
-Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter
+Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter. Idéalement il est documenté et cette documentation facilement accessible. Par exemple : fichier `README.md`à la racine du dépôt GIT.
 
 ## D- Projets
 
@@ -156,7 +168,6 @@ Les projets doivent pouvoir :
 * être extraits rapidement et simplement (ex: `git clone http://....`)
 * être construits rapidement et simplement (ex: `mvn clean install`)
 * être testés rapidement et simplement
-
 
 ## E- Tests
 
