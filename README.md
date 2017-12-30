@@ -4,23 +4,42 @@ _Synthèse des notions de Clean Code de [**Robert C. MARTIN**](https://fr.slides
 
 ## A- Principes S.O.L.I.D.
 
-### SRP : _Single Responsability Principle_
+### SRP : _Single Responsibility Principle_
 
 > Il ne doit exister qu'une et une seule raison de modifier une classe ou un module.
+
+:link: <https://fr.wikipedia.org/wiki/Principe_de_responsabilit%C3%A9_unique>
 
 ### OCP : _Open-Closed Principle_
 
 > Les classes doivent être ouvertes à l'extension mais fermées à la modification.
 
+:link: <https://fr.wikipedia.org/wiki/Principe_ouvert/ferm%C3%A9>
+
 Dans un système idéal nous incorporons de nouvelles fonctionnalités en étendant le système, non en modifiant le code existant.
 
-### Liskov Principle
+### LSP : _Liskov Substitution Principle_
+
+> Si **S** est un sous-type de **T**, alors tout objet de type **T** peut être remplacé par un objet de type **S** sans altérer les propriétés désirables du programme concerné.
+
+:link: <https://fr.wikipedia.org/wiki/Principe_de_substitution_de_Liskov>
 
 ### ISP : _Interface Segregation Principle_
+
+> Ne pas dépendre de fonctionnalités dont on n’a pas l’utilité.
+
+:link: <https://en.wikipedia.org/wiki/Interface_segregation_principle>
+
+Respecter ce principe permet de réduire efficacement le couplage des classes entre elles.
 
 ### DIP : _Dependency Inversion Principle_
 
 > L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et respecte ainsi le principe de responsabilité unique.
+
+:link: <https://fr.wikipedia.org/wiki/Inversion_des_d%C3%A9pendances>
+
+* Les modules de haut niveau ne doivent pas dépendre des modules de bas niveau. Les deux doivent dépendre d'abstractions.
+* Les abstractions ne doivent pas dépendre des détails. Les détails doivent dépendre des abstractions.
 
 ## B- Lois, règles et autres principes
 
