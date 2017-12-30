@@ -69,6 +69,14 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 :link: <https://fr.wikipedia.org/wiki/Principe_de_moindre_surprise>
 
+### Pincipe YAGNI : _You Ain't Gonna Need It_
+
+> Ce principe indique de ne pas se baser sur d'hypothétiques évolutions futures pour faire les choix du présent.
+
+:link: <https://fr.wikipedia.org/wiki/YAGNI>
+
+Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
+
 ### Loi de "LeBlanc" 
 
 > Plus tard signifie jamais.
@@ -122,12 +130,6 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 Lorsque nous enveloppons une API tierce nous minimisons nos dépendances avec cette API : nous pouvons décider de changer de bibliothèque sans avoir à payer le prix fort. Par ailleurs, il est également plus facile de simuler les invocations d'une API ou d'un logiciel tiers lorsque nous testons notre propre code.
 
-### Ne pas spéculer sur l'avenir
-
-Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
-
-Voir aussi BDUF : _Big Design Up Front_. Pratique qui consiste à tout concevoir à l'avance avant d'implémenter quoi que ce soit : empêche de s'adapter aux changements en raison d'une résistance psychologique à la mise au rebut d'un travail antérieur et de la manière dont les choix architecturaux infuencent les réflexions ultérieures sur la conception.
-
 ### Nommage
 
 * Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code.
@@ -159,6 +161,7 @@ Les commentaires suivants ne devraient pas exister :
 * Extrayer des fonctions qui expliquent les intentions d'une expression conditionnelle.
 * Les expressions conditionnelles doivent être données sous une forme positive (plus facile à lire).
 * Interdir le couplage temporel : `fonc1` doit être appelée avant `fonc2` qui elle doit être appelée avant `fonc3` : les arguments de ces fonctions doivent être structurés de manière que leur ordre dans les appels soit évident.
+* _Big Design Up Front_. Pratique à éviter qui consiste à tout concevoir à l'avance avant d'implémenter quoi que ce soit : empêche de s'adapter aux changements en raison d'une résistance psychologique à la mise au rebut d'un travail antérieur et de la manière dont les choix architecturaux infuencent les réflexions ultérieures sur la conception.
 
 ### Classes
 
