@@ -224,6 +224,7 @@ Les projets doivent pouvoir :
 * Rechercher chaque condition limite et écrivez le test correspondant.
 * Les tests restent insuffisant tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
 * Chaque test doit se contenter de valider une et une seule fonctionnalité.
+* Un test qui ne peut pas échouer est un test qui ne sert à rien.
 
 ### Tests d'apprentissage
 
