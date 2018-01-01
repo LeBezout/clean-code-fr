@@ -68,11 +68,11 @@ Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le n
 
 ### Principe de moindre surprise
 
-> Toute fonction ou classe doit implémenter les comportements auquels un autre programmeur peut raisonnablement s'attendre.
+> Toute fonction ou classe doit implémenter les comportements auxquels un autre programmeur peut raisonnablement s'attendre.
 
 :link: <https://fr.wikipedia.org/wiki/Principe_de_moindre_surprise>
 
-**Exemples :**
+Exemples :
 
 * Le code doit être placé là où le lecteur s'attend naturellement à la trouver.
 * Les noms des fonctions doivent indiquer leur rôle, s'il faut examiner la documentation ou l'implémentation de la fonction pour connaître son rôle cela signifie qu'un meilleur nom doit être trouvé ou que la fonctionnalité doit être déplacée dans des fonctions ayant des noms appropriés.
@@ -111,7 +111,7 @@ Une méthode `f` d'une classe `C` ne doit appeler que les méthodes des élémen
 Exemples :
 
 * Refactoring complet
-* Renommage simple d'une variable peut explicite
+* Renommage simple d'une variable peu explicite
 * Amélioration d'un commentaire
 * Suppression d'un code mort ou commenté
 * ...
@@ -120,13 +120,15 @@ Exemples :
 
 > On parle de couplage faible, couplage léger ou couplage lâche si les composants échangent peu d'information.
 
-Lorsqu'un système est suffisamment découplé il est également plus souple et favorise la réutilisation. L'absence de couplage signifie que les éléments du sytème sont mieux isolés les uns des autres et du changement.
+Lorsqu'un système est suffisamment découplé il est également plus souple et favorise la réutilisation. L'absence de couplage signifie que les éléments du système sont mieux isolés les uns des autres et du changement.
 
 En réduisant le couplage nos classes adhèrent à un autre principe de conception appelé principe d'inversion des dépendances (_Dependency Inversion Principle_).
 
-Un couplage artificiel correspond souvent à un couplage entre deux modules qui n'ont aucun rapport direct. Il résulte du placement d'une variable, d'une constante  ou du'une fonction dans un endroit commode sur le moment, mais finalement inadapté.
+Un couplage artificiel correspond souvent à un couplage entre deux modules qui n'ont aucun rapport direct. Il résulte du placement d'une variable, d'une constante  ou d'une fonction dans un endroit commode sur le moment, mais finalement inadapté.
 
-### Principe de séparation des préoccupations
+### Principe de séparation des préoccupations (_Separation Of Concerns_)
+
+> Des éléments n'ayant aucune relation conceptuelle dans un système n'ont pas à être modifiés en même temps.
 
 > Les systèmes logiciels doivent séparer le processus de démarrage, lorsque les objets de l'application sont construits et les dépendances sont établies, de la logique d'exécution qui vient ensuite.
 
@@ -134,17 +136,19 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 > Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque chaque variable d'une classe est employée par chacune de ses méthodes la cohésion est maximale.
 
+:link: <https://fr.wikipedia.org/wiki/Coh%C3%A9sion_(informatique)>
+
 ## C- Bonnes pratiques
 
 ### Nommage
 
-* Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code. Les noms doivent révèler les intentions
+* Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code. Les noms doivent révéler les intentions
 * Les noms bien choisis doivent indiquer de manière non ambiguë le rôle d'une fonction ou d'une variable.
 * Les noms bien choisis ont le pouvoir d'ajouter une description à la structure du code.
 * Les noms doivent décrire les effets secondaires.
 * Les noms sont plus faciles à comprendre lorsqu'ils se fondent sur une convention ou un usage établi. Par exemple un _Design Pattern_.
-* La longeur d'un nom doit être lié à sa portée. Les variables et les fonctions dont les noms sont courts perdent leur signification avec l'éloignement. Par conséquent plus la portée d'un nom est étendue plus ce nom doit être long et précis.
-* Eviter la codification ou notification hongroise (préfixes par exemple).
+* La longueur d'un nom doit être liée à sa portée. Les variables et les fonctions dont les noms sont courts perdent leur signification avec l'éloignement. Par conséquent plus la portée d'un nom est étendue plus ce nom doit être long et précis.
+* Eviter la codification ou notification hongroise (utilisation de préfixes par exemple).
 * Choisir un mot par concept : établir un lexique et s’y tenir pour conserver une cohérence sur l'ensemble de application
 
 ### Commentaires
@@ -160,38 +164,39 @@ Les commentaires suivants ne devraient pas exister :
 * ancien code
 * commentaire trivial ou redondant
 * commentaire faux ou obsolète
+* commentaire mal placé (déplacement avec le temps et donc n'ayant plus aucun sens la où il se trouve)
 
 ### Conception
 
-* Il ne doit pas y avoir plus d'une instruction `switch` pour un type donné de sélection. Les cas de cette instruction `switch` doivent crééer des objets polymorphes qui prennent la place d'autres instructions `switch` dans le reste du système.
+* Il ne doit pas y avoir plus d'une instruction `switch` pour un type donné de sélection. Les cas de cette instruction `switch` doivent créer des objets polymorphes qui prennent la place d'autres instructions `switch` dans le reste du système.
 * Il est contre-indiqué d'employer directement des nombres (ou chaînes) dans le code. Ils doivent être cachés derrière des constantes aux noms parfaitement évocateurs. Voir notion de [**magic number**](https://fr.wikipedia.org/wiki/Nombre_magique_(programmation)).
-* Extrayer des fonctions qui expliquent les intentions d'une expression conditionnelle.
+* Extrayez des fonctions qui expliquent les intentions d'une expression conditionnelle.
 * Les expressions conditionnelles doivent être données sous une forme positive (plus facile à lire).
 * Interdir le couplage temporel : `fonc1` doit être appelée avant `fonc2` qui elle doit être appelée avant `fonc3` : les arguments de ces fonctions doivent être structurés de manière que leur ordre dans les appels soit évident.
-* _Big Design Up Front_. Pratique à éviter qui consiste à tout concevoir à l'avance avant d'implémenter quoi que ce soit : empêche de s'adapter aux changements en raison d'une résistance psychologique à la mise au rebut d'un travail antérieur et de la manière dont les choix architecturaux infuencent les réflexions ultérieures sur la conception.
+* _Big Design Up Front_. Pratique à éviter qui consiste à tout concevoir à l'avance avant d'implémenter quoi que ce soit : empêche de s'adapter aux changements en raison d'une résistance psychologique à la mise au rebut d'un travail antérieur et de la manière dont les choix architecturaux influencent les réflexions ultérieures sur la conception.
 
 ### Classes
 
 * Les classes de base ne doivent rien connaître de leurs classes dérivées.
 * En déployant séparément les classes dérivées et les classes de base nous pouvons déployer nos systèmes sous forme de composants autonomes et indépendants : réduction de l'impact d'une modification et de la maintenance.
-* Les classes ne doivent pas hériter des constantes.
+* Les classes ne doivent pas hériter des constantes (Interface regroupant des constantes).
 
 ### Fonctions / Méthodes
 
 * Le nombre d'arguments d'une fonction doit être aussi réduit que possible.
 * Les arguments de sortie (entrée-sortie) sont tout sauf intuitifs. Si la fonction doit modifier un état ce doit être celui de l'objet sur lequel elle est invoquée.
 * Les arguments booléens mettent clairement en évidence que la fonction fait plusieurs choses. Ils sont déroutants et doivent être éliminés. Solution : faire plusieurs méthodes nommées correctement.
-* Les méthodes qui ne sont jamais appelées doivent être retirées. La concervation du code mort coûte cher.
+* Les méthodes qui ne sont jamais appelées doivent être retirées. La conservation du code mort coûte cher.
 * Pour qu'une fonction soit lisible l'une des solutions les plus performantes consiste à décomposer les calculs en valeurs intermédiaires représentées par des variables aux noms significatifs.
 
 ### Rangement vertical
 
 * Une fonction appelée doit se trouver en dessous d'une fonction qui l'appelle.
-* Les variables et les fonctions doivent être définies au plus prês de leur utilisation.
+* Les variables et les fonctions doivent être définies au plus près de leur utilisation.
 
 ### Style de formatage
 
-Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter. Idéalement il est documenté et cette documentation facilement accessible. Par exemple : fichier `README.md`à la racine du dépôt GIT.
+Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter. Idéalement il est documenté et cette documentation facilement accessible. Par exemple : fichier `README.md` à la racine du dépôt GIT.
 
 ### Envelopper les API tierces
 
@@ -216,7 +221,7 @@ Les projets doivent pouvoir :
 ### Principes F.I.R.S.T.
 
 1. **F**AST : (Rapide) : les tests doivent être rapides. Un test lent est un test qui risque de ne plus être exécuté.
-1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
+1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
 1. **R**EPEATABLE (Reproductible) : les tests doivent pouvoir être reproduits dans n'importe quel environnement.
 1. **S**ELF-VALIDATING (Auto-validant) : les tests doivent avoir un résultat binaire : ils réussisent ou ils échouent. Vous ne devez pas avoir à consulter un fichier de journalisation ou comparer manuellement 2 fichiers.
 1. **T**IMELY (au moment opportun) : les tests doivent être écrits au moment opportun : juste avant le code de production qui permet de les réussir.
@@ -236,10 +241,10 @@ Les projets doivent pouvoir :
 
 ### Tests d'apprentissage
 
-Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers sont publiées nous éxécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
+Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers sont publiées nous exécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
 
 ### Structure d'un test : Build-Operate-Check (ou Given-When-Then)
 
-1. Constuire les données du test
+1. Construire les données du test
 1. Exploiter les données du test
 1. Vérifier que l'opération a produit les résultats escomptés
