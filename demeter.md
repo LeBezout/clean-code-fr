@@ -1,0 +1,3 @@
+# Loi de "Déméter"
+
+TODO
