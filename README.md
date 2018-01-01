@@ -108,6 +108,14 @@ Une méthode `f` d'une classe `C` ne doit appeler que les méthodes des élémen
 
 > Laisser le code plus propre qu'on ne l'a trouvé.
 
+Exemples :
+
+* Refactoring complet
+* Renommage simple d'une variable peut explicite
+* Amélioration d'un commentaire
+* Suppression d'un code mort ou commenté
+* ...
+
 ### Principe du couplage faible
 
 > On parle de couplage faible, couplage léger ou couplage lâche si les composants échangent peu d'information.
