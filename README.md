@@ -66,6 +66,18 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
 
+### Principe _Fail-Fast_
+
+> Un système "Fail-Fast" a pour propriété de signaler le plus rapidement possible une erreur : s'il faut échouer, autant le faire le plus vite possible.
+
+:link: <https://en.wikipedia.org/wiki/Fail-fast>
+
+Avantages :
+
+* Erreur d'origine non masquée ou perdue au milieu d'autres et permet la mise en évidence du responsable
+* Facilite l'analyse du problème
+* Evite les effets de bord
+
 ### Principe de moindre surprise
 
 > Toute fonction ou classe doit implémenter les comportements auxquels un autre programmeur peut raisonnablement s'attendre.
