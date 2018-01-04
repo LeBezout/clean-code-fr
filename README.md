@@ -76,7 +76,7 @@ Avantages :
 
 * Erreur d'origine non masquée ou perdue au milieu d'autres et permet la mise en évidence du responsable
 * Facilite l'analyse du problème
-* Evite les effets de bord
+* Evite les effets de bord et les problèmes d'incohérence
 
 ### Principe de moindre surprise
 
@@ -168,6 +168,8 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 _Les commentaires doivent expliquer des choses que le code est incapable d'exprimer par lui-même._
 
 _Si vous envisagez d'ajouter un commentaire, prenez le temps de vous assurer qu'il sagit du **meilleur** commentaire que vous pouvez écrire._
+
+_Les commentaires mentent, vieillissent très mal, ne sont pas refactorables, ... : ce sont des aveux de faiblesses, à utiliser un bon nom correct, à faire un découpage, etc ..._
 
 Les commentaires suivants ne devraient pas exister :
 
