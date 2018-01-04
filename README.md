@@ -152,6 +152,15 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 ## C- Bonnes pratiques
 
+### Rangement vertical
+
+* Une fonction appelée doit se trouver en dessous d'une fonction qui l'appelle.
+* Les variables et les fonctions doivent être définies au plus près de leur utilisation.
+
+### Style de formatage
+
+Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter. Idéalement il est documenté et cette documentation facilement accessible. Par exemple : fichier `README.md` à la racine du dépôt GIT.
+
 ### Nommage
 
 * Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code. Les noms doivent révéler les intentions
@@ -203,14 +212,13 @@ Les commentaires suivants ne devraient pas exister :
 * Les méthodes qui ne sont jamais appelées doivent être retirées. La conservation du code mort coûte cher.
 * Pour qu'une fonction soit lisible l'une des solutions les plus performantes consiste à décomposer les calculs en valeurs intermédiaires représentées par des variables aux noms significatifs.
 
-### Rangement vertical
+### Exceptions
 
-* Une fonction appelée doit se trouver en dessous d'une fonction qui l'appelle.
-* Les variables et les fonctions doivent être définies au plus près de leur utilisation.
-
-### Style de formatage
-
-Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter. Idéalement il est documenté et cette documentation facilement accessible. Par exemple : fichier `README.md` à la racine du dépôt GIT.
+* Bien sur les fonctions ne doivent pas utilsier de codes retour, mais des exceptions typées en cas d'erreur.
+* Les exceptions doivent être traitées au niveau de la couche la plus haute.
+* Eviter de retourner `null`.
+* Log : on ne trace pas à la création de l'exception, ni en plein milieu du code.
+* Sécurité : ne pas afficher de contexte ou de stacktrace à un utilisateur final.
 
 ### Envelopper les API tierces
 
@@ -245,12 +253,12 @@ Les projets doivent pouvoir :
 * Le code de test est aussi important que le code de production.
 * Ce sont les tests unitaires qui permettent d'obtenir un code flexible, maintenable et réutilisable.
 * Sans les tests chaque modification est un bogue potentiel : les tests permettent le changement. Les systèmes non testables ne sont pas vérifiables. Un système non vérifiable ne doit jamais être déployé.
-* Plus les tests sont négligés plus il est difficile de les modifier
+* Plus les tests sont négligés plus il est difficile de les modifier.
 * Plus le code de test est embrouillé plus le temps nécessaire à l'ajout de nouveaux tests dépassera celui nécessaire à écrire le nouveau code de production.
 * La lisibilité est sans doute encore plus importante dans les tests unitaires qu'elle ne l'est dans le code de production.
 * Rechercher chaque condition limite et écrivez le test correspondant.
 * Les tests restent insuffisant tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
-* Chaque test doit se contenter de valider une et une seule fonctionnalité.
+* Chaque test doit se contenter de valider une et une seule fonctionnalité : un concept par test.
 * Un test qui ne peut pas échouer est un test qui ne sert à rien.
 
 ### Tests d'apprentissage
