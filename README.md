@@ -8,13 +8,13 @@ _Synthèse des notions de Clean Code de [**Robert C. MARTIN**](https://fr.slides
 
 > Il ne doit exister qu'une et une seule raison de modifier une classe ou un module.
 
-:link: <https://fr.wikipedia.org/wiki/Principe_de_responsabilit%C3%A9_unique>
+:link: <SRP.md>
 
 ### OCP : _Open-Closed Principle_
 
 > Les classes doivent être ouvertes à l'extension mais fermées à la modification.
 
-:link: <https://fr.wikipedia.org/wiki/Principe_ouvert/ferm%C3%A9>
+:link: <OCP.md>
 
 Dans un système idéal nous incorporons de nouvelles fonctionnalités en étendant le système, non en modifiant le code existant.
 
@@ -22,13 +22,13 @@ Dans un système idéal nous incorporons de nouvelles fonctionnalités en étend
 
 > Si **S** est un sous-type de **T**, alors tout objet de type **T** peut être remplacé par un objet de type **S** sans altérer les propriétés désirables du programme concerné.
 
-:link: <https://fr.wikipedia.org/wiki/Principe_de_substitution_de_Liskov>
+:link: <LSP.md>
 
 ### ISP : _Interface Segregation Principle_
 
 > Ne pas dépendre de fonctionnalités dont on n’a pas l’utilité.
 
-:link: <https://en.wikipedia.org/wiki/Interface_segregation_principle>
+:link: <ISP.md>
 
 Respecter ce principe permet de réduire efficacement le couplage des classes entre elles.
 
@@ -36,10 +36,7 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 > L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et respecte ainsi le principe de responsabilité unique.
 
-:link: <https://fr.wikipedia.org/wiki/Inversion_des_d%C3%A9pendances>
-
-* Les modules de haut niveau ne doivent pas dépendre des modules de bas niveau. Les deux doivent dépendre d'abstractions.
-* Les abstractions ne doivent pas dépendre des détails. Les détails doivent dépendre des abstractions.
+:link: <DIP.md>
 
 ## B- Lois, règles et autres principes
 
@@ -144,11 +141,15 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 > Les systèmes logiciels doivent séparer le processus de démarrage, lorsque les objets de l'application sont construits et les dépendances sont établies, de la logique d'exécution qui vient ensuite.
 
-### Principe de cohésion
+### Principe de forte cohésion
 
 > Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque chaque variable d'une classe est employée par chacune de ses méthodes la cohésion est maximale.
 
 :link: <https://fr.wikipedia.org/wiki/Coh%C3%A9sion_(informatique)>
+
+Une classe fortement cohésive a un nombre de méthodes relativement limitées, fortement liées d'un point de vue fonctionnel.
+
+Une classe faiblement cohésive a un grand nombre de responsabilités dans différents domaines fonctionnels (voir ausi SRP).
 
 ## C- Bonnes pratiques
 
@@ -170,7 +171,8 @@ Les développeurs de l'équipe doivent se mettre d'accord sur un même style de 
 * Les noms sont plus faciles à comprendre lorsqu'ils se fondent sur une convention ou un usage établi. Par exemple un _Design Pattern_.
 * La longueur d'un nom doit être liée à sa portée. Les variables et les fonctions dont les noms sont courts perdent leur signification avec l'éloignement. Par conséquent plus la portée d'un nom est étendue plus ce nom doit être long et précis.
 * Eviter la codification ou notification hongroise (utilisation de préfixes par exemple).
-* Choisir un mot par concept : établir un lexique et s’y tenir pour conserver une cohérence sur l'ensemble de application
+* Choisir un mot par concept : établir un lexique et s’y tenir pour conserver une cohérence sur l'ensemble de application.
+* Eviter de mélanger différentes langues dans le même nom de classe, méthode ou variable. Exemples : readFichier, countLignes.
 
 ### Commentaires
 
