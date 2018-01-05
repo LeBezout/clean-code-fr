@@ -16,3 +16,6 @@
 * [dotnetdojo](https://www.dotnetdojo.com/concevoir-des-applications-solid-avec-dip/)
 * [Le méchant blog](http://www.mechantblog.com/2014/05/solid-d-dependency-inversion/)
 * [Blog Emmanuel Deloget](http://blog.emmanueldeloget.com/index.php?post/2006/11/30/19-le-principe-d-inversion-de-dependance)
+
+---
+:point_left: [Retour à l'accueil](README.md)
