@@ -14,3 +14,6 @@ Principe édicté par Barbara Liskov en 1988
 * [Article Vincent PENANDO](http://www.supinfo.com/articles/single/373-principe-substitution-liskov-lsp)
 * [Blog Emmanuel Deloget](http://blog.emmanueldeloget.com/index.php?post/2006/10/12/18-le-principe-de-substitution-de-liskov)
 * [dotnetdojo](http://www.dotnetdojo.com/concevoir-des-applications-solid-lsp/)
+
+---
+:point_left: [Retour à l'accueil](README.md)
