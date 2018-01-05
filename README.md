@@ -8,13 +8,13 @@ _Synthèse des notions de Clean Code de [**Robert C. MARTIN**](https://fr.slides
 
 > Il ne doit exister qu'une et une seule raison de modifier une classe ou un module.
 
-:link: <SRP.md>
+:link: [SRP](SRP.md)
 
 ### OCP : _Open-Closed Principle_
 
 > Les classes doivent être ouvertes à l'extension mais fermées à la modification.
 
-:link: <OCP.md>
+:link: [OCP](OCP.md)
 
 Dans un système idéal nous incorporons de nouvelles fonctionnalités en étendant le système, non en modifiant le code existant.
 
@@ -22,13 +22,13 @@ Dans un système idéal nous incorporons de nouvelles fonctionnalités en étend
 
 > Si **S** est un sous-type de **T**, alors tout objet de type **T** peut être remplacé par un objet de type **S** sans altérer les propriétés désirables du programme concerné.
 
-:link: <LSP.md>
+:link: [LSP](LSP.md)
 
 ### ISP : _Interface Segregation Principle_
 
 > Ne pas dépendre de fonctionnalités dont on n’a pas l’utilité.
 
-:link: <ISP.md>
+:link: [ISP](ISP.md)
 
 Respecter ce principe permet de réduire efficacement le couplage des classes entre elles.
 
@@ -36,7 +36,7 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 > L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et respecte ainsi le principe de responsabilité unique.
 
-:link: <DIP.md>
+:link: [DIP](DIP.md)
 
 ## B- Lois, règles et autres principes
 
