@@ -1,3 +1,13 @@
-€ KISS : Keep It Simple, Stupid
+# KISS : Keep It Simple, Stupid
+
+## Définition
+
+> TODO
+
+## Détails
 
 TODO
+
+## Références
+
+* [Wikipédia](TODO)
