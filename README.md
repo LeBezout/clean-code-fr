@@ -191,6 +191,10 @@ Les commentaires suivants ne devraient pas exister :
 * commentaire faux ou obsolète
 * commentaire mal placé (déplacement avec le temps et donc n'ayant plus aucun sens la où il se trouve)
 
+### Documentation
+
+La documentation doit vivre avec le produit. La première documentation, et de fait toujours à jour, est les tests.
+
 ### Conception
 
 * Il ne doit pas y avoir plus d'une instruction `switch` pour un type donné de sélection. Les cas de cette instruction `switch` doivent créer des objets polymorphes qui prennent la place d'autres instructions `switch` dans le reste du système.
