@@ -42,6 +42,7 @@ La détection de cette dette se fait par les constats suivants :
 
 ### Risques identifiés
 
+* Baisse de vélocité avec l'augmentation de la taille de la base de code
 * La dette s'accroît tout au long de la vie du projet
 * Des temps de développement de plus en plus long, une augmentation des régressions et des bugs de plus en plus fréquents
 * Le coût de la dette augmente jusqu'à un point où il n'est plus possible de la rembourser intégralement
