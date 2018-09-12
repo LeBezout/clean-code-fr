@@ -94,8 +94,9 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 * [Blog Octo](https://blog.octo.com/software-craftsmanship-une-culture-a-transmettre/)
 * [Blog Le Touilleur Express](http://www.touilleur-express.fr/2011/01/20/craftsmanship/)
 * [Le Software Craftsmanship, pour la professionnalisation du métier de développeur](http://www.arolla.fr/blog/2014/12/le-software-craftsmanship-pour-la-professionnalisation-du-metier-de-developpeur/)
+* [Être Craftsman, c’est un état d’esprit](https://www.novencia.com/craftsman-presentation/)
 
 ## Livres
 
 * Uncle Bob - The Clean Coder
-* Sandro Mancuso - The Software Craftsman
+* [Sandro Mancuso - The Software Craftsman](https://blog.cellenza.com/software-craftsmanship/analyse-the-software-craftsman-sandro-mancuso/)
