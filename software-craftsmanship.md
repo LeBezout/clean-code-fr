@@ -4,13 +4,13 @@
 
 :pushpin: [Le Manifeste](http://manifesto.softwarecraftsmanship.org/#/fr-fr)
 
-:information_source: 2009 : mise en place du "Manifesto for Software Craftsmanship" très fortement inspiré du Manifeste Agile et par le livre "The Pragmatic Programmer" publié en 1999 par Andrew Hunt et David Thomas. (avec pour base l’eXtreme Programming)
+:information_source: 2009 : mise en place du "Manifesto for Software Craftsmanship" très fortement inspiré du Manifeste Agile et par le livre "The Pragmatic Programmer" publié en 1999 par Andrew Hunt et David Thomas. (avec pour base l’eXtreme Programming).
 
 Synthèse :
 
-* Avec l’orienté objet et DDD, nous pouvons modéliser le métier de nos clients
-* Avec l’agile, nous pouvons faire le minimum de logiciel suffisant pour les satisfaire
-* Avec les pratiques XP, nous garantissons que le logiciel est maintenable et qu’il fonctionne dans tous les cas prévus
+* Avec l’orienté objet et DDD, nous pouvons modéliser le métier de nos clients.
+* Avec l’agile, nous pouvons faire le minimum de logiciel suffisant pour les satisfaire.
+* Avec les pratiques XP, nous garantissons que le logiciel est maintenable et qu’il fonctionne dans tous les cas prévus.
 
 ## La culture
 
@@ -18,29 +18,33 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 
 * Le Software Craftsmanship est donc plutôt considéré comme une culture qu’une méthode à proprement parler, une culture de la qualité logicielle.
 * La non qualité a un coût stratégique, mais aussi financier : une application truffée de défauts sera toujours plus coûteuse à faire évoluer, et les clients qui n’ont plus confiance risquent de ne plus vouloir payer. Il faut donc réduire le périmètre mais pas la qualité.
-* Diffuser la culture de la qualité : binômage, Kata, Coding Dojo, Brown Bag Lunch, revues de code, ...  essentiellement tirées de XP (eXtreme Programming)
-* Insuffler un état d’esprit dans l’équipe
+* Diffuser la culture de la qualité : binômage, Kata, Coding Dojo, Brown Bag Lunch, revues de code, ...  essentiellement tirées de XP (eXtreme Programming).
+* Insuffler un état d’esprit dans l’équipe.
+
+##  Concepts
+
+* Une solution doit être bien conçue techniquement mais également doit pouvoir d’évoluer rapidement.
+* Remettre l'accent sur les pratiques d’ingénierie logicielle et d’excellence technique.
 * Tout comme connaître une langue ne fait pas de vous un écrivain à succès, connaître un langage informatique ne fait pas automatiquement de vous un bon développeur.
-* remettre l’accent sur les pratiques d’ingénierie logicielle et d’excellence technique
 
 ## L'humain
 
-* La non qualité a un coût humain : travailler dans ce cadre devient vite démotivant, notamment pour les développeurs, au risque de voir les meilleurs partir dans une autre entreprise
+* La non qualité a un coût humain : travailler dans ce cadre devient vite démotivant, notamment pour les développeurs, au risque de voir les meilleurs partir dans une autre entreprise.
 * Certains ont adopté ces valeurs, sont souvent passionnés par leur métier : coder n’est pas qu’un moyen de gagner sa vie mais un moyen de transmettre sa vision, de donner du sens à son métier (envisager son métier comme une passion ou un art).
 * Beaucoup d’autres développeurs n’ont que peu ou pas conscience qu’on peut réaliser des logiciels autrement.
 * Développeur est une carrière à part entière, à opposer à un changement de carrière en devenant par exemple manager, architecte ou chef de projet.
 * Les qualités les plus fréquentes et appréciées étant le savoir-faire, l’engagement et le pragmatisme.
 * Le mouvement souhaite que tous les acteurs du métier deviennent professionnels et que cela deviennent la norme.
-* Il faut s’appuyer sur un Tech Lead qui va aider l’équipe à progresser jusqu’à ce qu’elle devienne autonome
+* Il faut s’appuyer sur un Tech Lead qui va aider l’équipe à progresser jusqu’à ce qu’elle devienne autonome.
 
 ## Les valeurs
 
-* Professionnalisme : mettre en œuvre toutes les pratiques connues pour être les meilleures chacune dans leur contexte, pour écrire et entretenir du code
-* Favoriser la collaboration et la communication entre les différents acteurs afin d’assurer la cohérence du projet, c’est une communauté qui partage, s’accompagne, s’entraide
-* Pragmatisme : on ne cherche pas absolument la perfection, on cherche à faire au mieux en tenant compte du contexte
-* Chercher à apprendre, encore et toujours (démarche d’amélioration continue)
+* Professionnalisme : mettre en œuvre toutes les pratiques connues pour être les meilleures chacune dans leur contexte, pour écrire et entretenir du code.
+* Favoriser la collaboration et la communication entre les différents acteurs afin d’assurer la cohérence du projet, c’est une communauté qui partage, s’accompagne, s’entraide.
+* Pragmatisme : on ne cherche pas absolument la perfection, on cherche à faire au mieux en tenant compte du contexte.
+* Chercher à apprendre, encore et toujours (démarche d’amélioration continue).
 * Le logiciel doit être simple, économique et efficace avant tout. Ensuite on peut faire beau bien écrit et bien architecturé.
-* Toutes ces valeurs doivent être partagées
+* Toutes ces valeurs doivent être partagées.
 
 ## Les moyens
 
