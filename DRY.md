@@ -11,6 +11,12 @@
 * **La redondance est le principal ennemi d'un système bien conçu.**
 * **Une redondance représente en réalité une opportunité d'abstraction manquée.**
 
+## Avantages
+
+* Gain de productivité
+* Gain de robustesse
+* Gain de maintenabilité
+
 ## Références
 
 * [Wikipédia](https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas)
