@@ -13,7 +13,7 @@
 ## Avantages
 
 * Gain de temps
-* Moins de complexité
+* Gain de maintenabilité : moins de complexité
 
 ## Références
 
