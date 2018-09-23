@@ -10,6 +10,11 @@
 * Simple
 * Direct
 
+## Avantages
+
+* Gain de temps
+* Moins de complexité
+
 ## Références
 
 * [Wikipédia](https://fr.wikipedia.org/wiki/Principe_KISS)
