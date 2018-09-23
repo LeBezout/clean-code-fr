@@ -44,24 +44,19 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 > Principe qui consiste à éviter la redondance de code au travers de l’ensemble d’une application afin de faciliter la maintenance, le test, le débogage et les évolutions de cette dernière.
 
-* **La redondance est le principal ennemi d'un système bien conçu.**
-* **Une redondance représente en réalité une opportunité d'abstraction manquée.**
-
-:link: <https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas>
+:link: [DRY](DRY.md]
 
 ### KISS : _Keep It Simple, Stupid_
 
 > Principe dont la ligne directrice de conception qui préconise la simplicité dans la conception et que toute complexité non indispensable devrait être évitée dans toute la mesure du possible.
 
-:link: <https://fr.wikipedia.org/wiki/Principe_KISS>
+:link: [KISS](KISS.md]
 
 ### YAGNI : _You Ain't Gonna Need It_
 
 > Ce principe indique de ne pas se baser sur d'hypothétiques évolutions futures pour faire les choix du présent.
 
-:link: <https://fr.wikipedia.org/wiki/YAGNI>
-
-Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
+:link: [YAGNI](YAGNI.md]
 
 ### Principe _Fail-Fast_
 
@@ -100,18 +95,7 @@ Exemples :
 
 > Un module ne doit pas connaître les détails internes des objets qu'il manipule.
 
-> Les modules ne connaissent que leurs collaborateurs immédiats et ne peuvent pas parcourir l'intégralité du système ou d'un graphe d'objets.
-
-:link: <https://fr.wikipedia.org/wiki/Loi_de_D%C3%A9m%C3%A9ter>
-
-Les objets cachent leurs données et exposent des opérations.
-
-Une méthode `f` d'une classe `C` ne doit appeler que les méthodes des éléments suivants : 
-
-* `C`
-* un objet créé par `f`
-* un objet passé en argument à `f`
-* un objet contenu dans une variable d'instance de `C`
+:link: [demeter](demeter.md]
 
 ### Règle du Boy-Scout
 
