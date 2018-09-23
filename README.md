@@ -44,19 +44,19 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 > Principe qui consiste à éviter la redondance de code au travers de l’ensemble d’une application afin de faciliter la maintenance, le test, le débogage et les évolutions de cette dernière.
 
-:link: [DRY](DRY.md]
+:link: [DRY](DRY.md)
 
 ### KISS : _Keep It Simple, Stupid_
 
 > Principe dont la ligne directrice de conception qui préconise la simplicité dans la conception et que toute complexité non indispensable devrait être évitée dans toute la mesure du possible.
 
-:link: [KISS](KISS.md]
+:link: [KISS](KISS.md)
 
 ### YAGNI : _You Ain't Gonna Need It_
 
 > Ce principe indique de ne pas se baser sur d'hypothétiques évolutions futures pour faire les choix du présent.
 
-:link: [YAGNI](YAGNI.md]
+:link: [YAGNI](YAGNI.md)
 
 ### Principe _Fail-Fast_
 
@@ -95,7 +95,7 @@ Exemples :
 
 > Un module ne doit pas connaître les détails internes des objets qu'il manipule.
 
-:link: [demeter](demeter.md]
+:link: [demeter](demeter.md)
 
 ### Règle du Boy-Scout
 
