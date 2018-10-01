@@ -102,6 +102,6 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 
 ## Livres
 
-* Uncle Bob - The Clean Coder
-* [Sandro Mancuso - The Software Craftsman](https://blog.cellenza.com/software-craftsmanship/analyse-the-software-craftsman-sandro-mancuso/)
-* [Andrew Hunt et David Thomas - The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) 
+* :gb: Uncle Bob - The Clean Coder
+* :gb: [Sandro Mancuso - The Software Craftsman](https://blog.cellenza.com/software-craftsmanship/analyse-the-software-craftsman-sandro-mancuso/)
+* :gb: [Andrew Hunt et David Thomas - The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) 
