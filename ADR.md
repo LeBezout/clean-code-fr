@@ -21,7 +21,7 @@ Celles-ci doivent donc y être toutes listées et **justifiées**.
   * **Context** : _What is the issue we're seeing that is motivating this decision or change_
   * **Decision** : _What is the change that we're actually doing_
   * **Consequences** : _What becomes easier or more difficult to do because of this change_
-* Optionellement rajouter la date et les personnes ayant prises la décision
+* Optionnellement rajouter la date et les personnes ayant prises la décision
 
 ## Ressources
 
