@@ -125,15 +125,17 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 > Les systèmes logiciels doivent séparer le processus de démarrage, lorsque les objets de l'application sont construits et les dépendances sont établies, de la logique d'exécution qui vient ensuite.
 
+:link: [SOC](SOC.md)
+
 ### Principe de forte cohésion
 
 > Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque chaque variable d'une classe est employée par chacune de ses méthodes la cohésion est maximale.
 
 :link: <https://fr.wikipedia.org/wiki/Coh%C3%A9sion_(informatique)>
 
-Une classe fortement cohésive a un nombre de méthodes relativement limitées, fortement liées d'un point de vue fonctionnel.
+:thumbsup: Une classe fortement cohésive a un nombre de méthodes relativement limitées, fortement liées d'un point de vue fonctionnel.
 
-Une classe faiblement cohésive a un grand nombre de responsabilités dans différents domaines fonctionnels (voir ausi SRP).
+:thumbsdown: Une classe faiblement cohésive a un grand nombre de responsabilités dans différents domaines fonctionnels (voir ausi SRP).
 
 ## C- Bonnes pratiques
 
