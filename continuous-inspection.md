@@ -23,5 +23,5 @@ L'inspection continue (donc outillée) permet :
 
 ## Ressources
 
-* [SonarSource White Paper](https://www.sonarsource.com/resources/white-papers/continuous-inspection.html)
-* [SonarQube](https://www.sonarqube.org/features/clean-code/)
+* :gb: [SonarSource White Paper](https://www.sonarsource.com/resources/white-papers/continuous-inspection.html)
+* :gb: [SonarQube](https://www.sonarqube.org/features/clean-code/)
