@@ -4,7 +4,7 @@
 
 L'idée est de créer **au plus proche** du code source un dossier contenant les décisions prises concernant l'architecture du projet (architecture applicative ou plus générale).
 
-C'est une sorte de journal de toutes les décisions architecturales prisent durant la vie du projet.
+C'est une sorte de journal de toutes les décisions architecturales prises durant la vie du projet.
 
 Celles-ci doivent donc y être toutes listées et **justifiées**.
 
@@ -25,6 +25,6 @@ Celles-ci doivent donc y être toutes listées et **justifiées**.
 
 ## Ressources
 
-* [Homepage of the ADR GitHub organization](https://adr.github.io/)
-* [Command-line tools for working with ADR](https://github.com/npryce/adr-tools)
-* [Blog : Managing Architecture Decision Records with ADR-Tools](https://www.hascode.com/2018/05/managing-architecture-decision-records-with-adr-tools/)
+* :gb: [Homepage of the ADR GitHub organization](https://adr.github.io/)
+* :gb: [Command-line tools for working with ADR](https://github.com/npryce/adr-tools)
+* :gb: [Blog : Managing Architecture Decision Records with ADR-Tools](https://www.hascode.com/2018/05/managing-architecture-decision-records-with-adr-tools/)
