@@ -2,7 +2,7 @@
 
 ## Définition
 
-> TODO
+> Il ne doit exister qu'une et une seule raison de modifier une classe ou un module.
 
 ## Détails
 
