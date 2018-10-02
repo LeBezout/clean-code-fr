@@ -66,9 +66,9 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 Avantages :
 
-* Erreur d'origine non masquée ou perdue au milieu d'autres et permet la mise en évidence du responsable
-* Facilite l'analyse du problème
-* Evite les effets de bord et les problèmes d'incohérence
+* Erreur d'origine non masquée ou perdue au milieu d'autres et permet la mise en évidence du responsable.
+* Facilite l'analyse du problème.
+* Evite les effets de bord et les problèmes d'incohérence.
 
 ### Principe de moindre surprise
 
@@ -88,8 +88,8 @@ Exemples :
 Exemples : 
 
 * Commenter ou ignorer un test qui échoue et se dire que l'on fera en sorte qu'il réussisse plus tard.
-* Remettre à plus tard l'écriture d'un test
-* Remettre à plus tard l'écriture de la documentation
+* Remettre à plus tard l'écriture d'un test.
+* Remettre à plus tard l'écriture de la documentation.
 
 ### Loi de "Déméter"
 
@@ -103,10 +103,10 @@ Exemples :
 
 Exemples :
 
-* Refactoring complet
-* Renommage simple d'une variable peu explicite
-* Amélioration d'un commentaire
-* Suppression d'un code mort ou commenté
+* Refactoring complet.
+* Renommage simple d'une variable peu explicite.
+* Amélioration d'un commentaire.
+* Suppression d'un code mort ou commenté.
 * ...
 
 ### Principe du couplage faible
@@ -150,7 +150,7 @@ Les développeurs de l'équipe doivent se mettre d'accord sur un même style de 
 
 ### Nommage
 
-* Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code. Les noms doivent révéler les intentions
+* Choisir des noms descriptifs : les noms représentent 90% de la lisibilité du code. Les noms doivent révéler les intentions.
 * Les noms bien choisis doivent indiquer de manière non ambiguë le rôle d'une fonction ou d'une variable.
 * Les noms bien choisis ont le pouvoir d'ajouter une description à la structure du code.
 * Les noms doivent décrire les effets secondaires.
@@ -228,9 +228,9 @@ Les projets doivent pouvoir :
 
 ### 3 lois du TDD : _Tests Driven Development_
 
-1. Vous ne devez pas écrire un code de production tant que vous n'avez pas écrit un test unitaire d'échec
-1. Vous devez uniquement écrire le test unitaire suffisant pour échouer : l'impossibilité de compiler est un échec
-1. Vous devez uniquement écrire le code de production suffisant pour réussir le test d'échec courant
+1. Vous ne devez pas écrire un code de production tant que vous n'avez pas écrit un test unitaire d'échec.
+1. Vous devez uniquement écrire le test unitaire suffisant pour échouer : l'impossibilité de compiler est un échec.
+1. Vous devez uniquement écrire le code de production suffisant pour réussir le test d'échec courant.
 
 ### Principes F.I.R.S.T.
 
@@ -259,6 +259,6 @@ Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur 
 
 ### Structure d'un test : Build-Operate-Check (ou Given-When-Then)
 
-1. Construire les données du test
-1. Exploiter les données du test
-1. Vérifier que l'opération a produit les résultats escomptés
+1. Construire les données du test.
+1. Exploiter les données du test.
+1. Vérifier que l'opération a produit les résultats escomptés.
