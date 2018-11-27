@@ -98,6 +98,6 @@ Ou **principe de simplicité**, **principe d'économie** ou **principe de parcim
 
 :link: [Wikipédia](https://fr.wikipedia.org/wiki/Rasoir_d%27Hanlon)
 
-> :en: _Never attribute to malice that which is adequately explained by stupidity._
+> :uk: _Never attribute to malice that which is adequately explained by stupidity._
 
 > :fr: Ne jamais attribuer à la malveillance ce que la bêtise suffit à expliquer.
