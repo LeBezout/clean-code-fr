@@ -12,7 +12,7 @@
 
 :link: [Wikipédia](https://fr.wikipedia.org/wiki/Loi_de_Parkinson)
 
-> :en: _Work expands so as to fill the time available for its completion. General recognition of this fact is shown in the proverbial phrase: It is the busiest man who has time to spare)_
+> :uk: _Work expands so as to fill the time available for its completion. General recognition of this fact is shown in the proverbial phrase: It is the busiest man who has time to spare)_
 
 > :fr: Tout travail au sein d'une administration augmente jusqu’à occuper entièrement le temps qui lui est affecté.
 
