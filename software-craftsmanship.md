@@ -48,7 +48,7 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 
 ## Les moyens
 
-### Techniques
+### Les techniques
 
 * **Test First** : Ecriture d’un test unitaire avant l’implémentation
 * **Test-Driven Development (TDD)** : basé sur _Test First_ mais ajoute la notion de cycle _Red/Green/Refactor_
@@ -71,7 +71,9 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
   * On utilise généralement le langage _Guerkin_ (exemple avec l'outil _Cucumber_)
 * **Domain Driven Design (DDD)** : L'ensemble du code doit être conçu, organisé et écrit, en vue de refléter le domaine pour lequel il existe
 
-### Formation
+### Recevoir
+
+#### Formation
 
 * **Veille technologique**
   * participation à des événements
@@ -82,8 +84,9 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
   * accompagnement par des personnes expérimentées
   * partage des connaissances
 * **e-Learning, MOOC (Massive Open Online Courses)**
+* **Lecture d'ouvrages**
 
-### Evénements
+#### Evénements
 
 * Coding games, quizzes
 * Hackathon : challenge d’innovation proposant de développer un logiciel en équipe, dans un délai imparti
@@ -93,8 +96,15 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 * Meetups
 * Conférences (Devoxx,  Mix-IT,  Breizh Camp, ...)
 
+### Partager
+
+* Rédaction d'articles
+* Mentorat, tutorat
+* Proposer et animer des formations, des Kata ou Coding Dojo
+
 ## Liens
 
+* [Blog et Podcast Artisant développeur](http://artisandeveloppeur.fr/)
 * [Blog Octo](https://blog.octo.com/software-craftsmanship-une-culture-a-transmettre/)
 * [Blog Le Touilleur Express](http://www.touilleur-express.fr/2011/01/20/craftsmanship/)
 * [Le Software Craftsmanship, pour la professionnalisation du métier de développeur](http://www.arolla.fr/blog/2014/12/le-software-craftsmanship-pour-la-professionnalisation-du-metier-de-developpeur/)
