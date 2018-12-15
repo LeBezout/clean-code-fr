@@ -30,7 +30,7 @@ La rédaction de ces fiches doit être la plus simple et la plus rapide possible
   * un statut : accepté, remplacé, ...
   * les alternatives non retenues
 
-## Quand rédiger une ADR
+## Quand rédiger une ADR
 
 Quelques exemples :
 
