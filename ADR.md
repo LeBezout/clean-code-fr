@@ -38,6 +38,45 @@ Quelques exemples :
 * Lors de la modification d'un contrat d'interface
 * Lors du choix d'une dette technique volontaire
 
+## Un template personnel
+
+```markdown
+# DATE : TITRE
+
+## Qui(s)
+
+> Personne(s) en charge de la modification
+
+QUI ?
+
+## Origine
+
+> Origine de la demande / du besoin
+
+* [ ] Issue
+* [ ] Ticket Jira
+* [ ] Initiative personnelle
+* [ ] Autre (détailler)
+
+## Contexte
+
+> Description du besoin impliquant le changement
+
+QUOI ?
+
+## Décision
+
+> Description de ce qui a été mis en place
+
+COMMENT ?
+
+## Conséquences
+
+> Description des impacts que ce changement a impliqués
+
+TODO
+```
+
 ## Ressources
 
 * :uk: [Homepage of the ADR GitHub organization](https://adr.github.io/)
