@@ -22,6 +22,10 @@
 
 > :fr: Les organisations donnent une importance disproportionnée à des questions futiles : les éléments les plus basiques et inutiles d'un projet seraient discutés longuement, car compris par tous et donc faciles à traiter, au détriment des éléments plus importants et complexes.
 
+### Loi de Brooks
+
+> :fr: Ajouter des ressources humaines à un projet en retard sur les prévisions ne fait qu'accentuer ce retard.
+
 ### Loi de Hofstadter
 
 :link: [Wikipédia](https://fr.wikipedia.org/wiki/Loi_de_Hofstadter)
@@ -76,9 +80,9 @@ Ou **Loi du moindre effort.**
 
 :link: [Wikipédia](https://fr.wikipedia.org/wiki/Principe_de_Dilbert)
 
-> :fr: Tout employé tend à s'élever à son niveau d'incompétence.
+> :fr: Les gens les moins compétents sont systématiquement affectés aux postes où ils risquent de causer le moins de dégâts : ceux de managers.
 
-> :fr: **Nouveau principe :** Les gens les moins compétents sont systématiquement affectés aux postes où ils risquent de causer le moins de dégâts : ceux de managers.
+Version aggravée et humoristique du principe de Peter
 
 ### Principe de Pareto
 
