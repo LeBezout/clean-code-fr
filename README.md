@@ -131,11 +131,19 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 > Les classes doivent contenir un nombre réduit de variables d'instance. Lorsque chaque variable d'une classe est employée par chacune de ses méthodes la cohésion est maximale.
 
-:link: <https://fr.wikipedia.org/wiki/Coh%C3%A9sion_(informatique)>
+:link: [Wikipédia](https://fr.wikipedia.org/wiki/Coh%C3%A9sion_(informatique))
 
 :thumbsup: Une classe fortement cohésive a un nombre de méthodes relativement limitées, fortement liées d'un point de vue fonctionnel.
 
 :thumbsdown: Une classe faiblement cohésive a un grand nombre de responsabilités dans différents domaines fonctionnels (voir ausi SRP).
+
+### Principe d'accès uniforme (_Uniform Access Principle_)
+
+> Tous les services offerts par un module doivent être disponibles via une notation uniforme, ce qui ne permet pas de savoir s'ils sont implémentés via le stockage ou par le calcul.
+
+Ce principe édicté par _Bertrand Meyer_ dans son livre _Object-Oriented Software Construction_ nous indique que le client ou l'utilisateur d'un service n'a pas à savoir ou à se préocupper si un élément qu'il récupère via ce service est un élément calculé ou stocké.
+
+:bulb: Dans les cas particuliers où les calculs pourraient être coûteux il convient bien sûr d'en avertir les clients ou d'implémenter un mécanisme de cache.
 
 ## C- Bonnes pratiques
 
