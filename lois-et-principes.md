@@ -24,6 +24,8 @@
 
 ### Loi de Brooks
 
+:link: [Wikipédia](https://fr.wikipedia.org/wiki/Le_Mythe_du_mois-homme)
+
 > :fr: Ajouter des ressources humaines à un projet en retard sur les prévisions ne fait qu'accentuer ce retard.
 
 ### Loi de Hofstadter
