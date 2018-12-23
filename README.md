@@ -141,7 +141,7 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 > Tous les services offerts par un module doivent être disponibles via une notation uniforme, ce qui ne permet pas de savoir s'ils sont implémentés via le stockage ou par le calcul.
 
-Ce principe édicté par _Bertrand Meyer_ dans son livre _Object-Oriented Software Construction_ nous indique que le client ou l'utilisateur d'un service n'a pas à savoir ou à se préocupper si un élément qu'il récupère via ce service est un élément calculé ou stocké.
+Ce principe édicté par _Bertrand Meyer_ dans son livre _Object-Oriented Software Construction_ nous indique que le client ou l'utilisateur d'un service n'a pas à savoir ou à se préoccuper si un élément qu'il récupère via ce service est un élément calculé ou stocké.
 
 :bulb: Dans les cas particuliers où les calculs pourraient être coûteux il convient bien sûr d'en avertir les clients ou d'implémenter un mécanisme de cache.
 
