@@ -107,3 +107,11 @@ Ou **principe de simplicité**, **principe d'économie** ou **principe de parcim
 > :uk: _Never attribute to malice that which is adequately explained by stupidity._
 
 > :fr: Ne jamais attribuer à la malveillance ce que la bêtise suffit à expliquer.
+
+## Autres
+
+### La courbe d'Allen
+
+La courbe de Thomas J. Allen décrit une décroissance exponentielle de la communication entre 2 personnes en fonction de la distance qui les sépare. Autrement dit la probabilité de communication entre deux individus baisse extrêmement rapidement en fonction de la distance les séparant.
+
+Etre à plus de 30m a les mêmes effets que d'être à plusieurs kilomètres.
