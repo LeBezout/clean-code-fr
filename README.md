@@ -145,6 +145,14 @@ Ce principe édicté par _Bertrand Meyer_ dans son livre _Object-Oriented Softwa
 
 :bulb: Dans les cas particuliers où les calculs pourraient être coûteux il convient bien sûr d'en avertir les clients ou d'implémenter un mécanisme de cache.
 
+### Théorie de la fenêtre cassé
+
+:link: [Wikipédia](https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_de_la_vitre_bris%C3%A9e)
+
+C'est une analogie avec les détériorations que l'on constate dans l'espace public. Il ne faut jamais laisser la moindre petite faille ou petite brèche dans le code. Il faut corriger immédiatement sous peine d'entraîner des dégradations progressives jusqu'à atteindre à terme un délabrement général.
+
+Laisser ce genre de petits problèmes peut entrainer une 
+
 ## C- Bonnes pratiques
 
 ### Processus continu
