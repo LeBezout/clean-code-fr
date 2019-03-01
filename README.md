@@ -147,6 +147,10 @@ Ce principe édicté par _Bertrand Meyer_ dans son livre _Object-Oriented Softwa
 
 ## C- Bonnes pratiques
 
+### Processus continu
+
+C'est un processus continu d'améliorations (aussi petites soient-elles, cf règle du Boy Scout). On procèdera par petites étapes, petits-pas (_Baby Step_).
+
 ### Rangement vertical
 
 * Une fonction appelée doit se trouver en dessous d'une fonction qui l'appelle.
