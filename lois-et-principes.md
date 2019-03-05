@@ -72,6 +72,12 @@ Ou **Loi du moindre effort.**
 
 > :fr: N'importe quel code que vous n'avez pas examiné depuis six mois ou plus aurait tout aussi bien pu être écrit par quelqu'un d'autre.
 
+### Loi de Godwin
+
+:link: [Wikipédia](https://fr.wikipedia.org/wiki/Loi_de_Godwin)
+
+> :fr:  Plus une discussion en ligne dure longtemps, plus la probabilité d'y trouver une comparaison impliquant les nazis ou Adolf Hitler s’approche de 1.
+
 ## Principes
 
 ### Principe de Peter
