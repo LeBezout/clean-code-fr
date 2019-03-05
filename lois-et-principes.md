@@ -68,6 +68,10 @@ Ou **Loi du moindre effort.**
 
 > :fr: Lorsqu'une mesure devient un objectif, elle cesse d'être une mesure pertinente.
 
+### Loi d'Eagleson
+
+> :fr: N'importe quel code que vous n'avez pas examiné depuis six mois ou plus aurait tout aussi bien pu être écrit par quelqu'un d'autre.
+
 ## Principes
 
 ### Principe de Peter
