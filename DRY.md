@@ -10,12 +10,17 @@
 
 * **La redondance est le principal ennemi d'un système bien conçu.**
 * **Une redondance représente en réalité une opportunité d'abstraction manquée.**
+* La duplication va à terme être oubliée, on pensera à faire une modification/évolution d'un côté mais on en oubliera forcément, tôt ou tard, d'autres.
 
 ## Avantages
 
 * Gain de productivité
 * Gain de robustesse
 * Gain de maintenabilité
+
+## Inconvénients
+
+* Couplage fort ? Il faut mesurer entre le gain et l'intérêt entre la mutualisation et le couplage
 
 ## Références
 
