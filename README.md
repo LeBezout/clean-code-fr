@@ -151,8 +151,6 @@ Ce principe édicté par _Bertrand Meyer_ dans son livre _Object-Oriented Softwa
 
 C'est une analogie avec les détériorations que l'on constate dans l'espace public. Il ne faut jamais laisser la moindre petite faille ou petite brèche dans le code. Il faut corriger immédiatement sous peine d'entraîner des dégradations progressives jusqu'à atteindre à terme un délabrement général.
 
-Laisser ce genre de petits problèmes peut entrainer une 
-
 ## C- Bonnes pratiques
 
 ### Processus continu
