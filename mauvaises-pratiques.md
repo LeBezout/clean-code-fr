@@ -11,7 +11,7 @@ Liste de pratiques reconnues comme étant mauvaises voire néfastes.
 
 * Over-design ou design complexe
 * Optimisation prématurée
-* Implémentation de fonctionnalités non désirées ou _au cas où_
+* Implémentation de fonctionnalités non désirées ou _au cas où_ (principe YAGNI _You Ain't Gonna Need It_)
 
 ## Refactoring
 
