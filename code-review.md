@@ -1,6 +1,26 @@
 # Les revues de code
 
+## Les avantages des revues de code
+
+_La pratique de la revue de code a un coût mais qui est largement armorti plus tard. C'est un investissement rentable._
+
+### Renforcer la propriété collective
+
+* Le code _n'appartient_ plus qu'à une personne et est maintenable par plusieurs développeurs
+* Implication de tous les développeurs
+* Partage de la connaissance du sujet
+* Facilite l'apprentissage (nouveau dans l'équipe, nouveau sur la technologie, etc ...)
+* Renforce la cohérence et la cohésion (de l'équipe et du code)
+
+### Assurer une meilleure qualité et moins de bugs
+
+* Détection des défauts au plus tôt
+* Apporter un regard nouveau, critique
+* Provoquer des échanges, des débats, des analyses
+
 ## Les techniques
+
+_Différents types de revues peuvent être utilisés_
 
 * Le binômage (_pair-programming_) : _feed-back_ immédiat
 * Les _Merge Requests_ ou _Pull Requests_
@@ -10,6 +30,8 @@
 :bulb: Ces techniques peuvent être complémentaires.
 
 ## Les clefs pour réussir les revues de code
+
+_Les revues de code se préparent et doivent respecter quelques pré-requis pour être réellement efficaces._
 
 ### Côté relecteur : être bienveillant
 
@@ -29,7 +51,7 @@
 
 * Ne pas prendre les remarques pour soi
 * Considérer les remarques comme des moyens d'amélioration continue
-* Considérer que la personne qui a commenté le code a pris de son temps pour çà
+* Se rapeller que la personne qui a commenté le code a pris de son temps pour ça
 * Répondre à TOUS les commentaires
 
 ### Impliquer l'équipe
@@ -49,21 +71,3 @@
 * Inspection continue avec des outils comme _Sonarqube_
 * Revue collectives : partage de la connaissance
 * Revue par des pairs : regard nouveau
-
-## Les avantages des revues de code
-
-_La pratique de la revue de code a un coût mais qui est largement armorti plus tard. C'est un investissement rentable._
-
-### Renforcer la propriété collective
-
-* Le code _n'appartient_ plus qu'à une personne et est maintenable par plusieurs développeurs
-* Implication de tous les développeurs
-* Partage de la connaissance du sujet
-* Facilite l'apprentissage (nouveau dans l'équipe, nouveau sur la technologie, etc ...)
-* Renforce la cohérence et la cohésion (de l'équipe et du code)
-
-### Assurer une meilleure qualité et moins de bugs
-
-* Détection des défauts au plus tôt
-* Apporter un regard nouveau, critique
-* Provoquer des échanges, des débats, des analyses
