@@ -2,13 +2,13 @@
 
 ## Les avantages des revues de code
 
-_La pratique de la revue de code a un coût mais qui est largement armorti plus tard. C'est un investissement rentable._
+_La pratique de la revue de code a un coût mais qui est largement amorti plus tard. C'est un investissement rentable._
 
 ### Renforcer la propriété collective
 
 * Le code _n'appartient_ plus qu'à une personne et est maintenable par plusieurs développeurs
 * Implication de tous les développeurs
-* Partage de la connaissance du sujet
+* Partager / transmettre la connaissance du sujet
 * Facilite l'apprentissage (nouveau dans l'équipe, nouveau sur la technologie, etc ...)
 * Renforce la cohérence et la cohésion (de l'équipe et du code)
 
@@ -17,6 +17,7 @@ _La pratique de la revue de code a un coût mais qui est largement armorti plus 
 * Détection des défauts au plus tôt
 * Apporter un regard nouveau, critique
 * Provoquer des échanges, des débats, des analyses
+* Evite la dégradation progressive du code
 
 ## Les techniques
 
@@ -37,33 +38,37 @@ _Les revues de code se préparent et doivent respecter quelques pré-requis pour
 
 * Critiquer le code, pas le développeur
 * Employer "je" ou "on" et pas "tu"
-* Valoriser les bons points constatés
+* Valoriser les bons points constatés (montrer les points positifs)
 
 ### Côté relecteur : apporter des critiques constructives
 
 * Critiquer le fond, pas la forme (pour çà il y a des outils pour automatiser). Attention, la forme n'inclue pas le respect des normes, la lisibilité ou la maintenabilité
 * Etre le plus clair, précis et explicite possible (pas d'ironie, d'ambiguïté)
 * N'apporter que des commentaires constructifs en proposant des solutions ou des alternatives
-* Ne pas aller trop vite, il faut prendre le temps d'analyser, utiliser une _checklist_
+* Ne pas aller trop vite, il faut prendre le temps d'analyser, utiliser une _checklist_ par exemple
 * Favoriser également, en plus des commentaires, les échanges de vive voix
 
 ### Côté relu : être reconnaissant
 
 * Ne pas prendre les remarques pour soi
-* Considérer les remarques comme des moyens d'amélioration continue
-* Se rapeller que la personne qui a commenté le code a pris de son temps pour ça
+* Considérer les remarques comme des moyens d'amélioration continue, d'apprentissage
+* Se rappeler que la personne qui a commenté le code a pris de son temps dans le but d'améliorer le produit développé
 * Répondre à TOUS les commentaires
+* Expliquer ces choix d'implémentation "à priori" pour orienter le relecteur
+* Ne soumettre à la revue que du code finalisé et fonctionnel
 
 ### Impliquer l'équipe
 
 * Initier la pratique dès le début du projet, ne pas attendre
 * Rendre les revues systématiques (présente dans les _Definition of Done_ / votre _WorkFlow_)
-* Les standards / normes / ... doivent être partagés, **validés** et connus de tous et maintenus par tous
 * Ne pas corriger / modifier à la place du développeur initial
 
 ### Optimiser les revues
 
-* Limiter la taille des _Merge Requests_ ou _Pull Requests_ ou du code à revoir : trop de code à revoir = risque de louper des choses (découragement, passer trop vite, ...). Petite revue = meilleure efficacité
+* Limiter la taille des _Merge Requests_ ou _Pull Requests_ ou du code à revoir : trop de code à revoir = risque de louper des choses (découragement, passer trop vite, ...). Petite revue = meilleure efficacité, plus de pertinence
+* Les standards / normes / ... doivent être partagés, **validés** et connus de tous et maintenus par tous. Ce qui permet :
+  * d'éviter de se répéter et donc gagner du temps (de revue et de développement)
+  * d'éviter les conflits
 
 ### Combiner les techniques
 
