@@ -7,7 +7,7 @@
 * Les revues par un pair
 * Les revues collectives
 
-:bul: Ces techniques peuvent être complémentaires.
+:bulb: Ces techniques peuvent être complémentaires.
 
 ## Les clefs pour réussir les revues de code
 
@@ -23,7 +23,7 @@
 * Ne pas aller trop vite, il faut prendre le temps d'analyser, utiliser une _checklist_
 * Favoriser également, en plus des commentaires, les échanges de vive voix
 
-### TODO
+### Impliquer l'équipe
 
 * Initier la pratique dès le début du projet, ne pas attendre
 * Rendre les revues systématiques (présente dans les _Definition of Done_ / votre _WorkFlow_)
