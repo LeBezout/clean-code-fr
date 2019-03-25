@@ -60,8 +60,9 @@ _Les revues de code se préparent et doivent respecter quelques pré-requis pour
 ### Impliquer l'équipe
 
 * Initier la pratique dès le début du projet, ne pas attendre
-* Rendre les revues systématiques (présente dans les _Definition of Done_ / votre _WorkFlow_)
+* Rendre les revues systématiques (présente dans les _Definition of Done_ / votre _WorkFlow_ / votre processus de développement)
 * Ne pas corriger / modifier à la place du développeur initial
+* Il faut éviter que cela soit toujours les mêmes personnes qui effectuent les revues
 
 ### Optimiser les revues
 
@@ -69,6 +70,7 @@ _Les revues de code se préparent et doivent respecter quelques pré-requis pour
 * Les standards / normes / ... doivent être partagés, **validés** et connus de tous et maintenus par tous. Ce qui permet :
   * d'éviter de se répéter et donc gagner du temps (de revue et de développement)
   * d'éviter les conflits
+* Consacrer les revues à la détection des défauts, pas à leur correction ni à la génération de débats, qui doivent avoir lieu séparément
 
 ### Combiner les techniques
 
@@ -84,3 +86,12 @@ L'audit de code est généralement réalisé par une personne externe à l'équi
 De plus généralement ce type d’audit intervient souvent trop tard dans le cycle de vie du projet/produit ne permettant pas une remontée rapide et donc une prise en compte rapide des informations par les différents acteurs.
 
 Enfin l'auditeur ne dispose bien souvent que de très peu d’éléments historiques ou de contexte ou des contraintes liés au projet/produit/entreprise pour pouvoir juger des choix techniques ou méthodologiques rencontrés. L'avis exprimé est donc subjectif et basé sur l'expérience et l'avis personnel de l'auteur de la revue.
+
+:bulb: Le classement par efficacité est donc :
+
+1. Revue collective
+1. Pair-Programming
+1. Revue par un pair
+1. Revue externe (audit)
+
+... d'ou l'intérêt de combiner les méthodes.
