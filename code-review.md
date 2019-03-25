@@ -21,14 +21,14 @@
 
 ## B- Les techniques
 
-:pushpin: _Différents types de revues peuvent être utilisés_
+:pushpin: _Différents types de revues peuvent être utilisés._
 
 * Le binômage (_pair-programming_) : _feed-back_ immédiat
 * Les _Merge Requests_ ou _Pull Requests_
 * Les revues par un pair
 * Les revues collectives
 
-:bulb: Ces techniques peuvent être complémentaires.
+:bulb: Ces techniques peuvent (doivent) être complémentaires.
 
 ## C- Les clefs pour réussir les revues de code
 
@@ -56,7 +56,7 @@
 * Se rappeler que la personne qui a commenté le code a pris de son temps dans le but d'améliorer le produit développé
 * Répondre à TOUS les commentaires
 * Expliquer ses choix d'implémentation "à priori" pour orienter le relecteur
-* Ne soumettre à la revue que du code finalisé et fonctionnel ... mais pas forcément complet (pas forcément attendre la fin du développement de la fonctionnalité)
+* Ne soumettre à la revue que du code finalisé et fonctionnel ... mais pas forcément complet (ne pas forcément attendre la fin du développement de la fonctionnalité)
 
 ### Avoir un soutien fort de son management
 
@@ -70,11 +70,11 @@
 * Rendre les revues systématiques (présente dans les _Definition of Done_ / votre _WorkFlow_ / votre processus de développement)
 * Ne pas corriger / modifier à la place du développeur initial (c'est l'auteur qui corrige les défauts relevés, via _pair-programming_ si besoin, permet de le responsabiliser)
 * Il faut éviter que cela soit toujours les mêmes personnes qui effectuent les revues (par exemple les _tech lead_ ou les plus expérimentés)
-* S'alerter si régulièrement les revues ne débouchent sur la détection d'aucun défaut : manque d'implication ? de temps ? de confiance ?
+* S'alerter si régulièrement les revues débouchent sur la détection d'aucun défaut : manque d'implication ? de temps ? de confiance ?
 
 ## D- Les clefs pour optimiser les revues
 
-### Limiter le périmètre
+### Limiter le périmètre et le champ d'action
 
 * Pour les revues collectives limiter la durée et désigner un modérateur et un gardien du temps
 * Limiter la taille des _Merge Requests_ ou _Pull Requests_ ou du code à revoir : trop de code à revoir = risque de louper des choses (découragement, passer trop vite, ...). Petite revue = meilleure efficacité, plus de pertinence
@@ -103,6 +103,12 @@ L'audit de code est généralement réalisé par une personne externe à l'équi
 De plus généralement ce type d'audit intervient souvent trop tard dans le cycle de vie du projet/produit ne permettant pas une remontée rapide et donc une prise en compte rapide des informations par les différents acteurs.
 
 Enfin l'auditeur ne dispose bien souvent que de très peu d'éléments historiques ou de contexte ou des contraintes liés au projet/produit/entreprise pour pouvoir juger des choix techniques ou méthodologiques rencontrés. L'avis exprimé est donc subjectif et basé sur l'expérience et l'avis personnel de l'auteur de la revue.
+
+Cette méthode peut être utiliser dans des cas spécifiques ou des compétences pourraient à manquer :
+
+* audit de sécurité
+* tests de performance
+* validation d'un solution technique
 
 :bulb: Le classement par efficacité peut ressembler à :
 
