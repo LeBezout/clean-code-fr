@@ -1,8 +1,8 @@
 # Les revues de code
 
-## Les avantages des revues de code
+## A- Les avantages des revues de code
 
-:pushpin: _La pratique de la revue de code a un coût mais qui est largement amorti plus tard. C'est un investissement rentable._
+:pushpin: _La pratique de la revue de code a un coût mais qui est largement amorti plus tard. C'est un investissement rentable et une pratique essentielle à la bonne qualité et à la durabilité du produit développé._
 
 ### Renforcer la propriété collective
 
@@ -14,12 +14,12 @@
 
 ### Assurer une meilleure qualité et moins de bugs
 
-* Détection des défauts au plus tôt
+* Détection des défauts au plus tôt (et donc à moindre coût)
 * Apporter un regard nouveau, critique
-* Provoquer des échanges, des débats, des analyses
-* Évite la dégradation progressive du code
+* Provoquer des échanges, des débats, des analyses (émulation dans l'équipe)
+* Éviter la dégradation progressive du code
 
-## Les techniques
+## B- Les techniques
 
 :pushpin: _Différents types de revues peuvent être utilisés_
 
@@ -30,13 +30,13 @@
 
 :bulb: Ces techniques peuvent être complémentaires.
 
-## Les clefs pour réussir les revues de code
+## C- Les clefs pour réussir les revues de code
 
-_Les revues de code se préparent et doivent respecter quelques pré-requis pour être réellement efficaces._
+:pushpin: _Les revues de code se préparent et doivent respecter quelques pré-requis pour être réellement efficaces. De plus comme toute technique c'est en la pratiquant régulièrement qu'on l'optimise et que l'on s'améliore individuellement et collectivement._
 
 ### Côté relecteur : être bienveillant
 
-* Critiquer le code, pas le développeur
+* Critiquer le code, pas le développeur (dissocier le code de la personne)
 * Employer "je" ou "on" et pas "tu"
 * Valoriser les bons points constatés (montrer les points positifs)
 
@@ -46,6 +46,7 @@ _Les revues de code se préparent et doivent respecter quelques pré-requis pour
 * Être le plus clair, précis et explicite possible (pas d'ironie, d'ambiguïté)
 * N'apporter que des commentaires constructifs en proposant des solutions ou des alternatives
 * Ne pas aller trop vite, il faut prendre le temps d'analyser, utiliser une _checklist_ par exemple
+* Ne pas penser que l'on est pas forcément légitime, chaque point de vue est bon à prendre et à considérer
 * Favoriser également, en plus des commentaires, les échanges de vive voix
 
 ### Côté relu : être reconnaissant
@@ -54,40 +55,56 @@ _Les revues de code se préparent et doivent respecter quelques pré-requis pour
 * Considérer les remarques comme des moyens d'amélioration continue, d'apprentissage
 * Se rappeler que la personne qui a commenté le code a pris de son temps dans le but d'améliorer le produit développé
 * Répondre à TOUS les commentaires
-* Expliquer ces choix d'implémentation "à priori" pour orienter le relecteur
-* Ne soumettre à la revue que du code finalisé et fonctionnel
+* Expliquer ses choix d'implémentation "à priori" pour orienter le relecteur
+* Ne soumettre à la revue que du code finalisé et fonctionnel ... mais pas forcément complet (pas forcément attendre la fin du développement de la fonctionnalité)
+
+### Avoir un soutien fort de son management
+
+* Le management doit être convaincu des apports et bénéfices des revues, il doit soutenir et encourager cette pratique
+* Le management ne doit pas intervenir ou participer aux revues, c'est uniquement réservé aux sachants _techniques_
+* Le management ne doit pas utiliser les revues à des fins de _reporting_ ou de contrôle (rappel : on ne s'occupe que du code pas des personnes)
 
 ### Impliquer l'équipe
 
 * Initier la pratique dès le début du projet, ne pas attendre
 * Rendre les revues systématiques (présente dans les _Definition of Done_ / votre _WorkFlow_ / votre processus de développement)
-* Ne pas corriger / modifier à la place du développeur initial
-* Il faut éviter que cela soit toujours les mêmes personnes qui effectuent les revues
+* Ne pas corriger / modifier à la place du développeur initial (c'est l'auteur qui corrige les défauts relevés, via _pair-programming_ si besoin, permet de le responsabiliser)
+* Il faut éviter que cela soit toujours les mêmes personnes qui effectuent les revues (par exemple les _tech lead_ ou les plus expérimentés)
+* S'alerter si régulièrement les revues ne débouchent sur la détection d'aucun défaut : manque d'implication ? de temps ? de confiance ?
 
-### Optimiser les revues
+## D- Les clefs pour optimiser les revues
 
+### Limiter le périmètre
+
+* Pour les revues collectives limiter la durée et désigner un modérateur et un gardien du temps
 * Limiter la taille des _Merge Requests_ ou _Pull Requests_ ou du code à revoir : trop de code à revoir = risque de louper des choses (découragement, passer trop vite, ...). Petite revue = meilleure efficacité, plus de pertinence
-* Les standards / normes / ... doivent être partagés, **validés** et connus de tous et maintenus par tous. Ce qui permet :
+* Les standards / normes / ... doivent être partagés, **validés**, accessibles et connus de tous et maintenus par tous. Ce qui permet :
   * d'éviter de se répéter et donc gagner du temps (de revue et de développement)
   * d'éviter les conflits
 * Consacrer les revues à la détection des défauts, pas à leur correction ni à la génération de débats, qui doivent avoir lieu séparément
 
+### Contrôler / outiller
+
+* Faire un suivi des défauts constatés pour éviter de les retrouver de revue en revue
+* S'appuyer également sur les rapports des revues outillées (couverture, résultats des tests, ...)
+
 ### Combiner les techniques
 
-* Tests automatisés
+* Binômage : retour immédiat
+* Tests automatisés, TDD, ...
 * Inspection continue avec des outils comme _Sonarqube_
 * Revue collectives : partage de la connaissance
 * Revue par des pairs : regard nouveau
 
-## Revue de code VS Audit de code
+## E- Revue de code _versus_ Audit de code
 
 L'audit de code est généralement réalisé par une personne externe à l'équipe voir parfois externe à l'entreprise.
 
-De plus généralement ce type d’audit intervient souvent trop tard dans le cycle de vie du projet/produit ne permettant pas une remontée rapide et donc une prise en compte rapide des informations par les différents acteurs.
+De plus généralement ce type d'audit intervient souvent trop tard dans le cycle de vie du projet/produit ne permettant pas une remontée rapide et donc une prise en compte rapide des informations par les différents acteurs.
 
-Enfin l'auditeur ne dispose bien souvent que de très peu d’éléments historiques ou de contexte ou des contraintes liés au projet/produit/entreprise pour pouvoir juger des choix techniques ou méthodologiques rencontrés. L'avis exprimé est donc subjectif et basé sur l'expérience et l'avis personnel de l'auteur de la revue.
+Enfin l'auditeur ne dispose bien souvent que de très peu d'éléments historiques ou de contexte ou des contraintes liés au projet/produit/entreprise pour pouvoir juger des choix techniques ou méthodologiques rencontrés. L'avis exprimé est donc subjectif et basé sur l'expérience et l'avis personnel de l'auteur de la revue.
 
-:bulb: Le classement par efficacité est donc :
+:bulb: Le classement par efficacité peut ressembler à :
 
 1. Revue collective
 1. Pair-Programming

@@ -21,6 +21,8 @@ L'inspection continue (donc outillée) permet :
 
 :bulb: L'inspection continue est donc à mettre en place **dès le début d'un projet**, ce qui est très facile avec des outils comme _GitLab-CI_.
 
+:warning: Il est également évidemment dangereux de considérer que l'on peut se reposer uniquement sur cette pratique. Il faut bien sur la compléter avec les techniques de revue de code "humaines" :  collectives et par des pairs.
+
 ## Ressources
 
 * :gb: [SonarSource White Paper](https://www.sonarsource.com/resources/white-papers/continuous-inspection.html)
