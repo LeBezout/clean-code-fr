@@ -76,3 +76,11 @@ _Les revues de code se préparent et doivent respecter quelques pré-requis pour
 * Inspection continue avec des outils comme _Sonarqube_
 * Revue collectives : partage de la connaissance
 * Revue par des pairs : regard nouveau
+
+## Revue de code VS Audit de code
+
+L'audit de code est généralement réalisé par une personne externe à l'équipe voir parfois externe à l'entreprise.
+
+De plus généralement ce type d’audit intervient souvent trop tard dans le cycle de vie du projet/produit ne permettant pas une remontée rapide et donc une prise en compte rapide des informations par les différents acteurs.
+
+Enfin l'auditeur ne dispose bien souvent que de très peu d’éléments historiques ou de contexte ou des contraintes liés au projet/produit/entreprise pour pouvoir juger des choix techniques ou méthodologiques rencontrés. L'avis exprimé est donc subjectif et basé sur l'expérience et l'avis personnel de l'auteur de la revue.
