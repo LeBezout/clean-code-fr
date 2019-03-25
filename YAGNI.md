@@ -8,7 +8,7 @@
 
 * Notre code doit être pragmatique, non spéculatif. Il ne doit contenir que le nécessaire.
 * On ne prévoit pas des fonctionnalités et surtout on ne les développe que lorsqu'on en a réellement besoin.
-* Il est préférable de faire du refactoring uniquement qaund on ajoute une fonctionnalité plutôt que de prévoir la future mise en place de celle-ci.
+* Il est préférable de faire du refactoring uniquement quand on ajoute une fonctionnalité plutôt que de prévoir la future mise en place de celle-ci.
 
 ## Avantages
 

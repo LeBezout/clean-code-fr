@@ -68,7 +68,7 @@ Avantages :
 
 * Erreur d'origine non masquée ou perdue au milieu d'autres et permet la mise en évidence du responsable.
 * Facilite l'analyse du problème.
-* Evite les effets de bord et les problèmes d'incohérence.
+* Évite les effets de bord et les problèmes d'incohérence.
 
 ### Principe de moindre surprise
 
@@ -81,11 +81,11 @@ Exemples :
 * Le code doit être placé là où le lecteur s'attend naturellement à la trouver.
 * Les noms des fonctions doivent indiquer leur rôle, s'il faut examiner la documentation ou l'implémentation de la fonction pour connaître son rôle cela signifie qu'un meilleur nom doit être trouvé ou que la fonctionnalité doit être déplacée dans des fonctions ayant des noms appropriés.
 
-### Loi de "LeBlanc" 
+### Loi de "LeBlanc"
 
 > Plus tard signifie jamais.
 
-Exemples : 
+Exemples :
 
 * Commenter ou ignorer un test qui échoue et se dire que l'on fera en sorte qu'il réussisse plus tard.
 * Remettre à plus tard l'écriture d'un test.
@@ -135,7 +135,7 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 :thumbsup: Une classe fortement cohésive a un nombre de méthodes relativement limitées, fortement liées d'un point de vue fonctionnel.
 
-:thumbsdown: Une classe faiblement cohésive a un grand nombre de responsabilités dans différents domaines fonctionnels (voir ausi SRP).
+:thumbsdown: Une classe faiblement cohésive a un grand nombre de responsabilités dans différents domaines fonctionnels (voir aussi SRP).
 
 ### Principe d'accès uniforme (_Uniform Access Principle_)
 
@@ -159,7 +159,7 @@ C'est une analogie avec les détériorations que l'on constate dans l'espace pub
 
 ### Processus continu
 
-C'est un processus continu d'améliorations (aussi petites soient-elles, cf règle du Boy Scout). On procèdera par petites étapes, petits-pas (_Baby Step_).
+C'est un processus continu d'améliorations (aussi petites soient-elles, cf règle du Boy Scout). On procédera par petites étapes, petits-pas (_Baby Step_).
 
 ### Rangement vertical
 
@@ -178,15 +178,15 @@ Les développeurs de l'équipe doivent se mettre d'accord sur un même style de 
 * Les noms doivent décrire les effets secondaires.
 * Les noms sont plus faciles à comprendre lorsqu'ils se fondent sur une convention ou un usage établi. Par exemple un _Design Pattern_.
 * La longueur d'un nom doit être liée à sa portée. Les variables et les fonctions dont les noms sont courts perdent leur signification avec l'éloignement. Par conséquent plus la portée d'un nom est étendue plus ce nom doit être long et précis.
-* Eviter la codification ou notification hongroise (utilisation de préfixes par exemple).
+* Éviter la codification ou notification hongroise (utilisation de préfixes par exemple).
 * Choisir un mot par concept : établir un lexique et s’y tenir pour conserver une cohérence sur l'ensemble de application.
-* Eviter de mélanger différentes langues dans le même nom de classe, méthode ou variable. Exemples : readFichier, countLignes.
+* Éviter de mélanger différentes langues dans le même nom de classe, méthode ou variable. Exemples : readFichier, countLignes.
 
 ### Commentaires
 
 _Les commentaires doivent expliquer des choses que le code est incapable d'exprimer par lui-même._
 
-_Si vous envisagez d'ajouter un commentaire, prenez le temps de vous assurer qu'il sagit du **meilleur** commentaire que vous pouvez écrire._
+_Si vous envisagez d'ajouter un commentaire, prenez le temps de vous assurer qu'il s'agit du **meilleur** commentaire que vous pouvez écrire._
 
 _Les commentaires mentent, vieillissent très mal, ne sont pas refactorables, ... : ce sont des aveux de faiblesses, à utiliser un bon nom correct, à faire un découpage, etc ..._
 
@@ -209,7 +209,7 @@ La documentation doit vivre avec le produit. La première documentation, et de f
 * Il est contre-indiqué d'employer directement des nombres (ou chaînes) dans le code. Ils doivent être cachés derrière des constantes aux noms parfaitement évocateurs. Voir notion de [**magic number**](https://fr.wikipedia.org/wiki/Nombre_magique_(programmation)).
 * Extrayez des fonctions qui expliquent les intentions d'une expression conditionnelle.
 * Les expressions conditionnelles doivent être données sous une forme positive (plus facile à lire).
-* Interdir le couplage temporel : `fonc1` doit être appelée avant `fonc2` qui elle doit être appelée avant `fonc3` : les arguments de ces fonctions doivent être structurés de manière que leur ordre dans les appels soit évident.
+* Interdire le couplage temporel : `fonc1` doit être appelée avant `fonc2` qui elle doit être appelée avant `fonc3` : les arguments de ces fonctions doivent être structurés de manière que leur ordre dans les appels soit évident.
 * _Big Design Up Front_. Pratique à éviter qui consiste à tout concevoir à l'avance avant d'implémenter quoi que ce soit : empêche de s'adapter aux changements en raison d'une résistance psychologique à la mise au rebut d'un travail antérieur et de la manière dont les choix architecturaux influencent les réflexions ultérieures sur la conception.
 
 ### Classes
@@ -228,9 +228,9 @@ La documentation doit vivre avec le produit. La première documentation, et de f
 
 ### Exceptions
 
-* Bien sur les fonctions ne doivent pas utilsier de codes retour, mais des exceptions typées en cas d'erreur.
+* Bien sur les fonctions ne doivent pas utiliser de codes retour, mais des exceptions typées en cas d'erreur.
 * Les exceptions doivent être traitées au niveau de la couche la plus haute.
-* Eviter de retourner `null`.
+* Éviter de retourner `null`.
 * Log : on ne trace pas à la création de l'exception, ni en plein milieu du code.
 * Sécurité : ne pas afficher de contexte ou de stacktrace à un utilisateur final.
 
@@ -259,7 +259,7 @@ Les projets doivent pouvoir :
 1. **F**AST : (Rapide) : les tests doivent être rapides. Un test lent est un test qui risque de ne plus être exécuté.
 1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
 1. **R**EPEATABLE (Reproductible) : les tests doivent pouvoir être reproduits dans n'importe quel environnement.
-1. **S**ELF-VALIDATING (Auto-validant) : les tests doivent avoir un résultat binaire : ils réussisent ou ils échouent. Vous ne devez pas avoir à consulter un fichier de journalisation ou comparer manuellement 2 fichiers.
+1. **S**ELF-VALIDATING (Auto-validant) : les tests doivent avoir un résultat binaire : ils réussissent ou ils échouent. Vous ne devez pas avoir à consulter un fichier de journalisation ou comparer manuellement 2 fichiers.
 1. **T**IMELY (au moment opportun) : les tests doivent être écrits au moment opportun : juste avant le code de production qui permet de les réussir.
 
 ### Autres grands principes

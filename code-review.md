@@ -2,7 +2,7 @@
 
 ## Les avantages des revues de code
 
-_La pratique de la revue de code a un coût mais qui est largement amorti plus tard. C'est un investissement rentable._
+:pushpin: _La pratique de la revue de code a un coût mais qui est largement amorti plus tard. C'est un investissement rentable._
 
 ### Renforcer la propriété collective
 
@@ -17,11 +17,11 @@ _La pratique de la revue de code a un coût mais qui est largement amorti plus t
 * Détection des défauts au plus tôt
 * Apporter un regard nouveau, critique
 * Provoquer des échanges, des débats, des analyses
-* Evite la dégradation progressive du code
+* Évite la dégradation progressive du code
 
 ## Les techniques
 
-_Différents types de revues peuvent être utilisés_
+:pushpin: _Différents types de revues peuvent être utilisés_
 
 * Le binômage (_pair-programming_) : _feed-back_ immédiat
 * Les _Merge Requests_ ou _Pull Requests_
@@ -43,7 +43,7 @@ _Les revues de code se préparent et doivent respecter quelques pré-requis pour
 ### Côté relecteur : apporter des critiques constructives
 
 * Critiquer le fond, pas la forme (pour çà il y a des outils pour automatiser). Attention, la forme n'inclue pas le respect des normes, la lisibilité ou la maintenabilité
-* Etre le plus clair, précis et explicite possible (pas d'ironie, d'ambiguïté)
+* Être le plus clair, précis et explicite possible (pas d'ironie, d'ambiguïté)
 * N'apporter que des commentaires constructifs en proposant des solutions ou des alternatives
 * Ne pas aller trop vite, il faut prendre le temps d'analyser, utiliser une _checklist_ par exemple
 * Favoriser également, en plus des commentaires, les échanges de vive voix

@@ -2,8 +2,7 @@
 
 ## Définition
 
-Appliqué au domaine du développement logiciel le concept de dette technique est l'accumulation de risques impliqués
-par les choix techniques effectués tout au long de la vie d'un projet. 
+Appliqué au domaine du développement logiciel le concept de dette technique est l'accumulation de risques impliqués par les choix techniques effectués tout au long de la vie d'un projet.
 Autrement dit c'est l'ensemble des choix que l'on fait et qui provoqueront des **contraintes** et des **coûts** ultérieurs.
 
 C'est une menace omniprésente qui peut à tout moment mettre en péril un projet, par exemple l'accumulation de risques ou l'absence de respect des bonnes pratiques de conception et de développement.
@@ -26,7 +25,7 @@ Cette dette technique peut être :
 
 La détection de cette dette se fait par les constats suivants :
 
-* Peur de modifier une partie du code 
+* Peur de modifier une partie du code
 * Difficultés pour ajouter de nouvelles fonctionnalités
 * Duplication de fonctionnalités d'un composant dans un autre ou tout autres duplications
 * Chiffrages évolutifs anormalement élevés pour une partie du code

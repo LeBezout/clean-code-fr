@@ -1,4 +1,4 @@
-# Notions de compléxité
+# Notions de complexité
 
 On distinguera essentiellement 2 notions de complexité :
 
@@ -17,7 +17,7 @@ C'est sensé être uniquement la complexité du métier sous-jacent. **Celle-ci 
 
 ## Maîtriser la complexité
 
-Cette compléxité doit être réduite et **à défaut il faut la maîtriser** car très couteuse sur le long terme, par exemple via :
+Cette complexité doit être réduite et **à défaut il faut la maîtriser** car très coûteuse sur le long terme, par exemple via :
 
 * Décomposition
 * Abstractions

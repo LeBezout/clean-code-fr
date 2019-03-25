@@ -16,6 +16,6 @@ Liste de pratiques reconnues comme étant mauvaises voire néfastes.
 ## Refactoring
 
 * Faire du _refactoring_ sans test
-* Faire du _refactoring_ sans une bonne courverture de code
+* Faire du _refactoring_ sans une bonne couverture de code
 * Mélanger du _refactoring_ avec l'ajout de fonctionnalités ou d'autres modifications non liées
 * Faire du _refactoring_ de masse (au lieu de petites étapes avec validation)

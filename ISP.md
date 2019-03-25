@@ -6,8 +6,8 @@
 
 ## Détails
 
-* Le risque apparait que des fonctions inutiles soient disponibles.
-* L'intérêt est également de réduire au maxium le couplage.
+* Le risque apparaît que des fonctions inutiles soient disponibles.
+* L'intérêt est également de réduire au maximum le couplage.
 
 ## Références
 
