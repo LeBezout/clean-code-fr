@@ -4,7 +4,7 @@
 
 :pushpin: _La pratique de la revue de code a un coût mais qui est largement amorti plus tard. C'est un investissement rentable et une pratique essentielle à la bonne qualité et à la durabilité du produit développé._
 
-### Renforcer la propriété collective
+### L'équipe : renforcer la propriété collective
 
 * Le code _n'appartient_ plus qu'à une personne et est maintenable par plusieurs développeurs
 * Implication de tous les développeurs
@@ -12,7 +12,7 @@
 * Facilite l'apprentissage (nouveau dans l'équipe, nouveau sur la technologie, etc ...)
 * Renforce la cohérence et la cohésion (de l'équipe et du code)
 
-### Assurer une meilleure qualité et moins de bugs
+### Le produit : assurer une meilleure qualité et moins de bugs
 
 * Détection des défauts au plus tôt (et donc à moindre coût)
 * Apporter un regard nouveau, critique
@@ -34,13 +34,13 @@
 
 :pushpin: _Les revues de code se préparent et doivent respecter quelques pré-requis pour être réellement efficaces. De plus comme toute technique c'est en la pratiquant régulièrement qu'on l'optimise et que l'on s'améliore individuellement et collectivement._
 
-### Côté relecteur : être bienveillant
+### Le relecteur : être bienveillant
 
 * Critiquer le code, pas le développeur (dissocier le code de la personne)
 * Employer "je" ou "on" et pas "tu"
 * Valoriser les bons points constatés (montrer les points positifs)
 
-### Côté relecteur : apporter des critiques constructives
+### Le relecteur : apporter des critiques constructives
 
 * Critiquer le fond, pas la forme (pour çà il y a des outils pour automatiser). Attention, la forme n'inclue pas le respect des normes, la lisibilité ou la maintenabilité
 * Être le plus clair, précis et explicite possible (pas d'ironie, d'ambiguïté)
@@ -49,7 +49,7 @@
 * Ne pas penser que l'on est pas forcément légitime, chaque point de vue est bon à prendre et à considérer
 * Favoriser également, en plus des commentaires, les échanges de vive voix
 
-### Côté relu : être reconnaissant
+### Le relu : être reconnaissant
 
 * Ne pas prendre les remarques pour soi
 * Considérer les remarques comme des moyens d'amélioration continue, d'apprentissage
@@ -58,13 +58,13 @@
 * Expliquer ses choix d'implémentation "à priori" pour orienter le relecteur
 * Ne soumettre à la revue que du code finalisé et fonctionnel ... mais pas forcément complet (ne pas forcément attendre la fin du développement de la fonctionnalité)
 
-### Avoir un soutien fort de son management
+### L'équipe : avoir un soutien fort de son management
 
 * Le management doit être convaincu des apports et bénéfices des revues, il doit soutenir et encourager cette pratique
 * Le management ne doit pas intervenir ou participer aux revues, c'est uniquement réservé aux sachants _techniques_
 * Le management ne doit pas utiliser les revues à des fins de _reporting_ ou de contrôle (rappel : on ne s'occupe que du code pas des personnes)
 
-### Impliquer l'équipe
+### L'équipe : impliquer tout le monde
 
 * Initier la pratique dès le début du projet, ne pas attendre
 * Rendre les revues systématiques (présente dans les _Definition of Done_ / votre _WorkFlow_ / votre processus de développement)
