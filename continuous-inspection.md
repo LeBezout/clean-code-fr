@@ -63,14 +63,14 @@ _SonarLint_ du même éditeur est un _plugin_ disponible pour différents IDE (E
 
 #### Tableau comparatif
 
-| Langage | Feedback immédiat dans l'IDE | Feedback asynchrone via l'inspection continue |
-| ------- | ---------------------------- | --------------------------------------------- |
-| Java | SonarLint (Eclipse,  IntelliJ, VS Code) | SonarQube |
-| Java | EclEmma (Eclipse) | JaCoco |
-| Java | Snyk Vulnerabilities Scanning (InteliJ) | OWASP Dependency Check |
-| Shell | ShellCheck (extension VS Code) | ShellCheck + SonarQube |
-| Javascript | JSHint (extension VS Code) | SonarQube |
-| Typescript | TSLint (extension VS Code) | ? |
+| Langage | Objectif | Feedback immédiat dans l'IDE | Feedback asynchrone via l'inspection continue |
+| ------- | -------- | ---------------------------- | --------------------------------------------- |
+| Java | Mesurer la qualité du code source | SonarLint (Eclipse,  IntelliJ, VS Code) | SonarQube |
+| Java | Déterminer la couverture de code par les tests | EclEmma (Eclipse) | JaCoco |
+| Java | Analyser les vulénrabilités dans les dépendances tierce partie | Snyk Vulnerabilities Scanning (InteliJ) | OWASP Dependency Check |
+| Shell | Analyse statique de code script shell | ShellCheck (extension VS Code) | ShellCheck + SonarQube |
+| JavaScript | Analyse statique de code JavaScript | JSHint (extension VS Code) | SonarQube |
+| TypeScript | Analyse statique de code TypeScript | TSLint (extension VS Code) | ? |
 
 ## Ressources
 
