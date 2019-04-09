@@ -65,12 +65,14 @@ _SonarLint_ du même éditeur est un _plugin_ disponible pour différents IDE (E
 
 | Langage | Objectif | Feedback immédiat dans l'IDE | Feedback asynchrone via l'inspection continue |
 | ------- | -------- | ---------------------------- | --------------------------------------------- |
-| Java | Mesurer la qualité du code source | SonarLint (Eclipse,  IntelliJ, VS Code) | SonarQube |
-| Java | Déterminer la couverture de code par les tests | EclEmma (Eclipse), Run with Coverage (IntelliJ) | JaCoco, Cobertura |
-| Java | Analyser les vulénrabilités dans les dépendances tierce partie | Snyk Vulnerabilities Scanning (IntelliJ) | OWASP Dependency Check |
-| Shell | Analyse statique de code script shell | ShellCheck (extension VS Code) | ShellCheck + SonarQube |
-| JavaScript | Analyse statique de code JavaScript | JSHint (extension VS Code) | SonarQube |
-| TypeScript | Analyse statique de code TypeScript | TSLint (extension VS Code) | ? |
+| Java | Mesurer la qualité du code source | [SonarLint (Eclipse,  IntelliJ, VS Code)](https://www.sonarlint.org/) | [SonarQube](https://www.sonarqube.org/) |
+| Java | Déterminer la couverture de code par les tests | [EclEmma (Eclipse)](https://www.eclemma.org/), Run with Coverage (IntelliJ) | [JaCoco](https://www.jacoco.org/jacoco/trunk/doc/), [Cobertura](http://cobertura.github.io/cobertura/) |
+| Java | Analyser les vulnérabilités dans les dépendances tierce partie | [Snyk Vulnerabilities Scanning (IntelliJ)](https://blog.jetbrains.com/idea/2019/03/catching-vulnerabilities-instantly-in-your-intellij-idea-environment/) | [Snyk CLI](https://snyk.io/docs/using-snyk/) |
+| Java | Analyser les vulnérabilités dans les dépendances tierce partie | [OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/index.html) | [OWASP Dependency Track](https://dependencytrack.org/) |
+| Shell | Analyse statique de code script shell | [ShellCheck (extension VS Code)](https://github.com/timonwong/vscode-shellcheck) | [ShellCheck](https://www.shellcheck.net/) + SonarQube |
+| JavaScript | Analyser les vulnérabilités dans les dépendances tierce partie | [Snyk CLI](https://snyk.io/docs/snyk-for-nodejs/) | [Snyk CLI](https://snyk.io/docs/continuous-integration/) |
+| JavaScript | Analyse statique de code JavaScript | [JSHint](https://jshint.com/) (extension VS Code) | SonarQube |
+| TypeScript | Analyse statique de code TypeScript | [TSLint](https://palantir.github.io/tslint/) (extension VS Code) | ? |
 
 ## Ressources
 
