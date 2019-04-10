@@ -55,13 +55,15 @@ _SonarQube_ définit également pour chaque anomalie relevée un niveau de criti
 
 Enfin l'outil peut même amender automatiquement les _merge request_ (via [un plugin](https://github.com/gabrie-allaigre/sonar-gitlab-plugin)), les violations étant visibles dès lors directement dans GitLab.
 
-#### Sonarlint
+#### SonarLint
 
 _SonarLint_ du même éditeur est un _plugin_ disponible pour différents IDE (Eclipse, IntelliJ IDEA, VS Code, ...) permettant d'avoir un retour immédiat (_Fix issues before they exist_) lors de l'écriture du code (donc avant le commit) sans devoir attendre de lancer une analyse _SonarQube_.
 
 :warning: Comme tout outil, ils peuvent produire des faux-positifs, il conviendra d'analyser les rapports et anomalies relevées avec un esprit critique et ne pas se _jeter_ forcément sur tout. Dans le doute vous pouvez solliciter les équipes support.
 
-#### Tableau comparatif
+### Tableau comparatif
+
+Quelques outils utilisables pour de l'inspection continue "au poste" (feedback immédiat) ou automatisée (feedback asynchrone) :
 
 | Langage | Objectif | Feedback immédiat dans l'IDE | Feedback asynchrone via l'inspection continue |
 | ------- | -------- | ---------------------------- | --------------------------------------------- |
