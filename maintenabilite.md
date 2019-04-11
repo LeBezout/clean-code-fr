@@ -46,3 +46,11 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
   * Classe de gestion : `*Helper`, `*Manager`, `*Handler`, ...
   * Outils : `*Tool`, `*Tools`, `*Util`, `*Utils`, ...
   * pire parfois on peut mélanger les concepts : `*Client`, `*Proxy`, `*Stub`, `*Mock`, `*Fake`
+
+### L'importance de la documentation
+
+* Elle permet de poser les normes et lever les ambiguïtés.
+* Elle permet d'accompagner les nouveaux arrivants.
+* Elle permet de rafraîchir la mémoire des différents acteurs.
+* Elle renforce l'autonomie.
+* Elle force le développeur à expliquer son programme, ses choix et donc à se poser des questions, et se parfois se remettre en question.
