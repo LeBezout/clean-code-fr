@@ -18,3 +18,12 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
 * [ ] les moyens de suivre la qualité de son code (IDE, inspection continue, ...)
 * [ ] les moyens d'accompagnement et de montée en compétence sur le métier et les techniques
 * [ ] du support technique sur les technologies utilisées
+
+## Indicateurs de maintenabilité
+
+* [ ] organisation, lisibilité, indentation et mise en forme générale
+* [ ] nommage et uniformisation via le respect des conventions de codage
+* [ ] couplage minimum (modules indépendants)
+* [ ] complexité cyclomatique minimale
+* [ ] présence de documentation, commentaires
+* [ ] dette technique maîtrisée
