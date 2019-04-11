@@ -5,7 +5,7 @@ On peut parler aussi d'évolutivité. On pourra également rajouter la capacité
 
 :warning: **C'est le critère sur lequel il faut mettre l'accent en priorité**.
 
-## Checklist d'évaluation
+## Indicateurs de maintenabilité générale
 
 Imaginons la situation suivante, un nouveau développeur arrive sur le projet pouvons-nous lui apporter :
 
@@ -19,10 +19,10 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
 * [ ] les moyens d'accompagnement et de montée en compétence sur le métier et les techniques
 * [ ] du support technique sur les technologies utilisées
 
-## Indicateurs de maintenabilité
+## Indicateurs de maintenabilité du code
 
-* [ ] organisation, lisibilité, indentation et mise en forme générale
-* [ ] nommage et uniformisation via le respect des conventions de codage
+* [ ] lisibilité : organisation, indentation et mise en forme générale
+* [ ] homogénéité : nommage et uniformisation via le respect des conventions de codage
 * [ ] couplage minimum (modules indépendants)
 * [ ] complexité cyclomatique minimale
 * [ ] présence de documentation, commentaires
