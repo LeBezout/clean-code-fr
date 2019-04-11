@@ -27,3 +27,5 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
 * [ ] complexité cyclomatique minimale
 * [ ] présence de documentation, commentaires
 * [ ] dette technique maîtrisée
+
+:information_source: Le développeur passe plus de temps à lire du code qu'à en écrire. Il est donc important de rendre celui-ci le plus **lisible** possible, notamment en exprimant clairement les intentions.
