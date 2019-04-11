@@ -29,3 +29,20 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
 * [ ] dette technique maîtrisée
 
 :information_source: Le développeur passe plus de temps à lire du code qu'à en écrire. Il est donc important de rendre celui-ci le plus **lisible** possible, notamment en exprimant clairement les intentions.
+
+## Bonnes pratiques
+
+### L'importance du nommage
+
+* Choisir des noms qui **révèlent les intentions**.
+* Évidemment les noms de classes représentent des concepts : on utilise des noms, groupes nominaux.
+* Évidemment les noms de méthodes représentent des actions : on utilsie des verbes, ou groupes verbaux.
+* Évidemment ne pas de mélanger différentes langues dans le même nom.
+* Adapter le nommage des variables : plus le _scope_ d'une variable est large plus son nom doit être long et informatif.
+* Utiliser plutôt des suffixes (`*DAO` que `DAO*`). Dans tous les respecter le choix et ne pas mélanger.
+* **Choisir un mot par concept :** statuer et documenter (document de normes, lexique) sur les termes à employer et ne pas employer différents termes pour exprimer la même chose. Exemples :
+  * Lire : `query`, `find`, `select`, `fetch`, `retrieve`, ...
+  * Mettre à jour : `update`, `modifiy`, `merge`, `replace`, ...
+  * Classe de gestion : `*Helper`, `*Manager`, `*Handler`, ...
+  * Outils : `*Tool`, `*Tools`, `*Util`, `*Util`
+  * pire parfois employées à tord : `*Client`,  `*Proxy`, `*Stub`
