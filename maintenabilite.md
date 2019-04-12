@@ -53,4 +53,4 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
 * Elle permet d'accompagner les nouveaux arrivants.
 * Elle permet de rafraîchir la mémoire des différents acteurs.
 * Elle renforce l'autonomie.
-* Elle force le développeur à expliquer son programme, ses choix et donc à se poser des questions, et se parfois se remettre en question.
+* Elle force le développeur à expliquer son programme, ses choix et donc à se poser des questions, et parfois à se remettre en question en levant des par exemple des manques ou des incohérences.
