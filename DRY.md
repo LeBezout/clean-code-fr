@@ -20,7 +20,9 @@
 
 ## Inconvénients
 
-* Couplage fort ? Il faut mesurer entre le gain et l'intérêt entre la mutualisation et le couplage
+* Couplage fort ? Il faut mesurer entre le gain et l'intérêt entre la mutualisation et le couplage.
+* 2 éléments de même nom peuvent représenter des intentions différentes dans des contextes différents.
+* En essayant de rassembler ces 2 intentions on va complexifier et coupler 2 codes qui n'ont rien à voir.
 
 ## Références
 
