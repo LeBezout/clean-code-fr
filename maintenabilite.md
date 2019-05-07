@@ -34,6 +34,7 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
 
 ### L'importance du nommage
 
+* Favoriser toujours le confort de lecture par rapport au confort d'écriture.
 * Choisir des noms qui **révèlent les intentions**.
 * Évidemment les noms de classes représentent des concepts : on utilise des noms, groupes nominaux.
 * Évidemment les noms de méthodes représentent des actions : on utilise des verbes, ou groupes verbaux.
