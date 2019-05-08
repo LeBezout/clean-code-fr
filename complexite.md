@@ -27,3 +27,6 @@ Cette complexité doit être réduite et **à défaut il faut la maîtriser** ca
 * Application du principe d'orthogonalité
 * Pas d'_over-engineering_, d'optimisation prématurée, de fonctionnalités "au cas où"
 * _Refactoring_ régulier
+
+---
+:point_left: [Retour à l'accueil](README.md)

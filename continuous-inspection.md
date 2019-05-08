@@ -80,3 +80,6 @@ Quelques outils utilisables pour de l'inspection continue "au poste" (feedback i
 
 * :gb: [SonarSource White Paper](https://www.sonarsource.com/resources/white-papers/continuous-inspection.html)
 * :gb: [SonarQube](https://www.sonarqube.org/features/clean-code/)
+
+---
+:point_left: [Retour à l'accueil](README.md)

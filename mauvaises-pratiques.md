@@ -9,8 +9,8 @@ Liste de pratiques reconnues comme étant mauvaises voire néfastes.
 
 ## Développements inutiles
 
-* Over-design ou design complexe.
-* Optimisation prématurée.
+* Design complexe (_Over Design_).
+* Optimisation prématurée (_Over Engineering_).
 * Implémentation de fonctionnalités non désirées ou _au cas où_ (principe YAGNI _You Ain't Gonna Need It_).
 
 ## Refactoring
@@ -26,3 +26,6 @@ Liste de pratiques reconnues comme étant mauvaises voire néfastes.
 * Détournement des principes ou méthodes Agiles pour les calquer tant bien que mal sur le fonctionnement historique de l'entreprise.
 * Manque de confiance envers l'équipe.
 * Manque de responsabilisation de l'équipe.
+
+---
+:point_left: [Retour à l'accueil](README.md)

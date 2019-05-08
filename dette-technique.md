@@ -17,7 +17,7 @@ Une partie du temps de développement doit donc être accordé au remboursement 
 
 Cette dette technique peut être :
 
-* **volontaire** ou *intentionnelle* pour une période déterminée (son _remboursement_ est déjà planifié)
+* **volontaire** ou **intentionnelle** pour une période déterminée (son _remboursement_ est déjà planifié)
 * **assumée** sans intention de la rembourser (surendettement)
 * **inconsciente** dans le pire des cas ou les intervenants ne mesurent même pas son ampleur
 
@@ -61,6 +61,9 @@ Quelques exemples :
 Quelques exemples :
 
 * Pas de ligne d’intégration continue
-* Pas ou peu de contrôles qualité (Sonarqube, selenium, ...)
+* Pas ou peu de contrôles qualité (SonarQube, selenium, ...)
 * Pas ou peu de tests unitaires
 * Pas ou peu de revue
+
+---
+:point_left: [Retour à l'accueil](README.md)

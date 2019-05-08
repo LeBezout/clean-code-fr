@@ -248,39 +248,26 @@ Les projets doivent pouvoir :
 
 ## E- Tests
 
+:link: [Les tests en détail](tests.md)
+
 ### 3 lois du TDD : _Tests Driven Development_
 
 1. Vous ne devez pas écrire un code de production tant que vous n'avez pas écrit un test unitaire d'échec.
 1. Vous devez uniquement écrire le test unitaire suffisant pour échouer : l'impossibilité de compiler est un échec.
 1. Vous devez uniquement écrire le code de production suffisant pour réussir le test d'échec courant.
 
-### Principes F.I.R.S.T.
-
-1. **F**AST : (Rapide) : les tests doivent être rapides. Un test lent est un test qui risque de ne plus être exécuté.
-1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
-1. **R**EPEATABLE (Reproductible) : les tests doivent pouvoir être reproduits dans n'importe quel environnement.
-1. **S**ELF-VALIDATING (Auto-validant) : les tests doivent avoir un résultat binaire : ils réussissent ou ils échouent. Vous ne devez pas avoir à consulter un fichier de journalisation ou comparer manuellement 2 fichiers.
-1. **T**IMELY (au moment opportun) : les tests doivent être écrits au moment opportun : juste avant le code de production qui permet de les réussir.
-
-### Autres grands principes
-
-* Le code de test est aussi important que le code de production.
-* Ce sont les tests unitaires qui permettent d'obtenir un code flexible, maintenable et réutilisable.
-* Sans les tests chaque modification est un bogue potentiel : les tests permettent le changement. Les systèmes non testables ne sont pas vérifiables. Un système non vérifiable ne doit jamais être déployé.
-* Plus les tests sont négligés plus il est difficile de les modifier.
-* Plus le code de test est embrouillé plus le temps nécessaire à l'ajout de nouveaux tests dépassera celui nécessaire à écrire le nouveau code de production.
-* La lisibilité est sans doute encore plus importante dans les tests unitaires qu'elle ne l'est dans le code de production.
-* Rechercher chaque condition limite et écrivez le test correspondant.
-* Les tests restent insuffisant tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
-* Chaque test doit se contenter de valider une et une seule fonctionnalité : un concept par test.
-* Un test qui ne peut pas échouer est un test qui ne sert à rien.
-
-### Tests d'apprentissage
+### Les tests d'apprentissage
 
 Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers sont publiées nous exécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
 
-### Structure d'un test : Build-Operate-Check (ou Given-When-Then)
+## F- Annexes
 
-1. Construire les données du test.
-1. Exploiter les données du test.
-1. Vérifier que l'opération a produit les résultats escomptés.
+* [Zoom sur le _Software Craftsmanship_](software-craftsmanship.md)
+* [Zoom sur la maintenabilité](maintenabilite.md)
+* [Zoom sur les notions de complexité](complexite.md)
+* [Zoom sur la notion de dette technique](dette-technique.md)
+* [Zoom sur l'inspection continue](continuous-inspection.md)
+* [Zoom sur les mauvaises pratiques](mauvaises-pratiques.md)
+* [Zoom sur les revues de code](code-review.md)
+* [Zoom sur les _Architectural Decision Records_](ADR.md)
+* [Synthèse de différentes lois et principes](lois-et-principes.md)

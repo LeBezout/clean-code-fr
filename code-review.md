@@ -76,6 +76,7 @@
 
 ### Limiter le périmètre et le champ d'action
 
+* La revue ne doit pas se substituer aux contrôles outillés. On se concentre alors uniquement sur les vérifications qui nécessite une intervention humaine que l'on pourrait difficilement automatiser.
 * Pour les revues collectives limiter la durée et désigner un modérateur et un gardien du temps.
 * Limiter la taille des _Merge Requests_ ou _Pull Requests_ ou du code à revoir : trop de code à revoir = risque de louper des choses (découragement, passer trop vite, ...). Petite revue = meilleure efficacité, plus de pertinence.
 * Les standards / normes / ... doivent être partagés, **validés**, accessibles et connus de tous et maintenus par tous. Ce qui permet :
@@ -96,7 +97,24 @@
 * Revue collectives : partage de la connaissance.
 * Revue par des pairs : regard nouveau.
 
-## E- Revue de code _versus_ Audit de code
+## E- Les pistes à explorer lors de la revue
+
+* [ ] Le bon nommage (clair, explicite, approprié, ...).
+* [ ] Taille des classes et méthodes et nombres de paramètres.
+* [ ] Respect des principes SOLID et autres principes _clean code_.
+* [ ] Pas d'_Over Design_, _Over Engineering_ et respect du principe YAGNI.
+* [ ] Pas de redondance, de copier-coller.
+* [ ] Code eau bon endroit, où on est sensé s'attendre à le trouver.
+* [ ] Présence et pertinence des tests.
+* [ ] Présence et pertinence des commentaires et de la Javadoc.
+* [ ] Un niveau et des traces de log adaptés et pertinents.
+* [ ] Gestion des erreurs et des exceptions.
+* [ ] Pas de `switch` ou de blocs `if-elseif ...` abusifs (souvent signe d'un mauvais _design_ où l'héritage et le polymorphisme devraient plutôt être utilisés).
+* [ ] Le paramétrage (tout ce qui peut changer : soit en fonction des besoins, soit en fonction des environnements) doit être externalisé.
+* [ ] Adaptation au domaine métier (vocabulaire, contexte borné, ...).
+* [ ] Les structures de données utilisées sont adaptées au besoin (Ex : pas de `LinkedList` pour des accès direct à un indice donné).
+
+## F- Revue de code _versus_ Audit de code
 
 L'audit de code est généralement réalisé par une personne externe à l'équipe voir parfois externe à l'entreprise.
 
@@ -104,13 +122,13 @@ De plus généralement ce type d'audit intervient souvent trop tard dans le cycl
 
 Enfin l'auditeur ne dispose bien souvent que de très peu d'éléments historiques ou de contexte ou des contraintes liés au projet/produit/entreprise pour pouvoir juger des choix techniques ou méthodologiques rencontrés. L'avis exprimé est donc subjectif et basé sur l'expérience et l'avis personnel de l'auteur de la revue.
 
-Cette méthode peut être utiliser dans des cas spécifiques ou des compétences pourraient à manquer :
+Cette méthode peut être utilisée dans des cas spécifiques ou des compétences pourraient à manquer :
 
 * audit de sécurité
 * tests de performance
-* validation d'un solution technique
+* validation d'une solution ou d'un choix technique
 
-:bulb: Le classement par efficacité peut ressembler à :
+:bulb: Le classement par efficacité pourrait ressembler à :
 
 1. Revue collective
 1. Pair-Programming
@@ -118,3 +136,6 @@ Cette méthode peut être utiliser dans des cas spécifiques ou des compétences
 1. Revue externe (audit)
 
 ... d'ou l'intérêt de combiner les méthodes.
+
+---
+:point_left: [Retour à l'accueil](README.md)
