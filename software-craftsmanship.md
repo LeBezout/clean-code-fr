@@ -90,11 +90,10 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 
 * Coding games, quizzes
 * Hackathon : challenge d'innovation proposant de développer un logiciel en équipe, dans un délai imparti
-* Kata
-* Coding Dojo
+* [Coding Dojos](coding-dojos.md) (Kata, Randori)
 * Brown Bag Lunch
 * Meetups
-* Conférences (Devoxx,  Mix-IT,  Breizh Camp, DevFest, ...)
+* Conférences (Devoxx, Mix-IT, Breizh Camp, DevFest, ...)
 
 ### Partager
 

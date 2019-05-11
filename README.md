@@ -269,5 +269,6 @@ Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur 
 * [Zoom sur l'inspection continue](continuous-inspection.md)
 * [Zoom sur les mauvaises pratiques](mauvaises-pratiques.md)
 * [Zoom sur les revues de code](code-review.md)
+* [Zoom sur les _Coding Dojos_](coding-dojos.md)
 * [Zoom sur les _Architectural Decision Records_](ADR.md)
-* [Synthèse de différentes lois et principes](lois-et-principes.md)
+* [HS : Énumération de différentes lois et principes](lois-et-principes.md)

@@ -22,7 +22,9 @@ Les tests offrent également :
 * un aspect documentaire (c’est une documentation vivante et toujours à jour)
 * un gain de temps (pas besoin de redéployer entièrement l’application)
 
-## Structure d'un test : Build-Operate-Check (ou Given-When-Then)
+## Structure d'un test : Build-Operate-Check
+
+... ou _Given-When-Then_ ... ou _Arrange-Act-Assert_
 
 1. _Build : Construire les données du test.
 1. _Operate_ : Exploiter les données du test.
