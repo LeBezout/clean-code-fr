@@ -265,7 +265,7 @@ Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur 
 * [Zoom sur le _Software Craftsmanship_](software-craftsmanship.md)
 * [Zoom sur la maintenabilité](maintenabilite.md)
 * [Zoom sur les notions de complexité](complexite.md)
-* [Zoom sur la notion de dette technique](dette-technique.md)
+* [Zoom sur la notion de dette technique et de pourriture](dette-technique.md)
 * [Zoom sur l'inspection continue](continuous-inspection.md)
 * [Zoom sur les mauvaises pratiques](mauvaises-pratiques.md)
 * [Zoom sur les revues de code](code-review.md)
