@@ -99,20 +99,20 @@
 
 ## E- Les pistes à explorer lors de la revue
 
-* [ ] Le bon nommage (clair, explicite, approprié, ...).
-* [ ] Taille des classes et méthodes et nombres de paramètres.
+* [ ] Le bon nommage (clair, explicite, approprié, ...).
+* [ ] Taille des classes et méthodes et nombres de paramètres.
 * [ ] Respect des principes SOLID et autres principes _clean code_.
-* [ ] Pas d'_Over Design_, _Over Engineering_ et respect du principe YAGNI.
-* [ ] Pas de redondance, de copier-coller.
-* [ ] Code eau bon endroit, où on est sensé s'attendre à le trouver.
-* [ ] Présence et pertinence des tests.
-* [ ] Présence et pertinence des commentaires et de la Javadoc.
-* [ ] Un niveau et des traces de log adaptés et pertinents.
-* [ ] Gestion des erreurs et des exceptions.
-* [ ] Pas de `switch` ou de blocs `if-elseif ...` abusifs (souvent signe d'un mauvais _design_ où l'héritage et le polymorphisme devraient plutôt être utilisés).
-* [ ] Le paramétrage (tout ce qui peut changer : soit en fonction des besoins, soit en fonction des environnements) doit être externalisé.
-* [ ] Adaptation au domaine métier (vocabulaire, contexte borné, ...).
-* [ ] Les structures de données utilisées sont adaptées au besoin (Ex : pas de `LinkedList` pour des accès direct à un indice donné).
+* [ ] Pas d'_Over Design_, _Over Engineering_ et respect du principe YAGNI.
+* [ ] Pas de redondance, de copier-coller.
+* [ ] Code eau bon endroit, où on est sensé s'attendre à le trouver.
+* [ ] Présence et pertinence des tests.
+* [ ] Présence et pertinence des commentaires et de la Javadoc.
+* [ ] Un niveau et des traces de log adaptés et pertinents.
+* [ ] Gestion des erreurs et des exceptions.
+* [ ] Pas de `switch` ou de blocs `if-elseif ...` abusifs (souvent signe d'un mauvais _design_ où l'héritage et le polymorphisme devraient plutôt être utilisés).
+* [ ] Le paramétrage (tout ce qui peut changer : soit en fonction des besoins, soit en fonction des environnements) doit être externalisé.
+* [ ] Adaptation au domaine métier (vocabulaire, contexte borné, ...).
+* [ ] Les structures de données utilisées sont adaptées au besoin (Ex : pas de `LinkedList` pour des accès direct à un indice donné).
 
 ## F- Revue de code _versus_ Audit de code
 
