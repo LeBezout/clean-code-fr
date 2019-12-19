@@ -3,10 +3,10 @@
 ## Règles fondamentales
 
 * :warning: **Tester le plus tôt, le plus possible et le plus souvent possible.**
-* :warning:  **Les tests sont un pré-requis obligatoire au refactoring car ils permettent de savoir si l’on a cassé ou non des fonctionnalités.**
-* :warning:  **Le moindre échec dans les tests unitaires / d'intégration doit bloquer obligatoirement la construction de l’application.**
-* :warning:  **Ce sont les tests unitaires qui permettent d'obtenir un code flexible, maintenable et réutilisable.**
-* :warning:  **Aucune dépendance externe ne doit être sollicitée : base de données, serveur SMTP, accès réseau (HTTP, NAS, ...) ou bien encore de la date système par exemple.**
+* :warning: **Les tests sont un pré-requis obligatoire au refactoring car ils permettent de savoir si l’on a cassé ou non des fonctionnalités.**
+* :warning: **Le moindre échec dans les tests unitaires / d'intégration doit bloquer obligatoirement la construction de l’application.**
+* :warning: **Ce sont les tests unitaires qui permettent d'obtenir un code flexible, maintenable et réutilisable.**
+* :warning: **Aucune dépendance externe ne doit être sollicitée : base de données, serveur SMTP, accès réseau (HTTP, NAS, ...) ou bien encore de la date système par exemple.**
 
 ## Pourquoi faire des tests
 
@@ -54,6 +54,56 @@ Les tests offrent également :
 * Sans les tests chaque modification est un bogue potentiel : les tests permettent le changement. Les systèmes non testables ne sont pas vérifiables. Un système non vérifiable ne doit jamais être déployé.
 * Rechercher chaque condition limite et écrivez le test correspondant.
 * Les tests restent insuffisant tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
+
+## Test First & Test Driven Development
+
+Le principe du _développements pilotés par les tests_ est d'écrire les tests avant le code de production. Test-First est issu des pratiques de l'_eXtreme Programming_, TDD rajoute la notion d'itération et de remise en forme (_refactoring_ : Red->Green->Refactor).
+
+### 3 lois du TDD
+
+1. Vous ne devez pas écrire un code de production tant que vous n'avez pas écrit un test unitaire d'échec.
+1. Vous devez uniquement écrire le test unitaire suffisant pour échouer : l'impossibilité de compiler est un échec.
+1. Vous devez uniquement écrire le code de production suffisant pour réussir le test d'échec courant.
+
+### Avantages du TDD
+
+* Réduction du nombre d'anomalies et des régressions.
+* Évite la sur-ingénierie.
+* C'est une bonne documentation associée au code et toujours à jour.
+
+## Les tests d'apprentissage
+
+Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers (dépendances) sont publiées nous exécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
+
+## Fake, Stubs, Mocks, bouchons
+
+Dans tous les cas ce sont des objets (classes, implémentations, ...) qui ne sont jamais utilisés dans le code de production, des outils pour le code de test. Néanmoins on peut imaginer, en production, des _fallback_ (solution alternative, solution de repli) utilisant des bouchons.
+
+* **Fake** : Faux-objets
+  * Souvent des objets au capacités limités.
+  * Peut être un _stub_ ou _mock_.
+* **Stub** : ébauche
+  * Permet de remplacer une dépendance existante et non primodiale pour le test.
+  * Peut être configuré pour les besoins du test.
+  * On ne fait aucune assertions sur ces objets.
+  * Sont utilisés dans la partie _Given_.
+* **Mock** : Objet simulé
+  * C'est un _stub_ sur lequel on va pouvoir faire des assertions.
+  * Sont utilisés dans la partie _When_ et _Then_.
+
+:gb: [Martin Fowler - Mocks Aren't Stubs](https://www.martinfowler.com/articles/mocksArentStubs.html)
+
+:fr: [Benoît Sautel - Mock ou pas mock ?](https://www.fierdecoder.fr/2015/11/mock-ou-pas-mock/)
+
+:warning: Les définitions peuvent variées il est donc conseillé de définir et de s'accorder sur une définition commune au sein de l'équipe.
+
+## Pour aller encore plus loin dans la pratique des tests
+
+* [PITest](http://pitest.org/) : _Mutation Testing System._
+* [Stan4j](http://stan4j.com/download/ide/) : _The dependency graph of packages or components should have no cycles._
+* [ArchUnit](https://www.archunit.org/) : _Unit Test your Java Architecture._
+* [jQAssistant](https://jqassistant.org/) : _Definition and validation of project specific rules on a structural level._
+* [Infinitest](https://infinitest.github.io/) : _Each time you change the code Infinitest runs the relevant tests for you!_
 
 ---
 :point_left: [Retour à l'accueil](README.md)

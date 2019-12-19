@@ -242,23 +242,9 @@ Lorsque nous enveloppons une API tierce nous minimisons nos dépendances avec ce
 
 Les projets doivent pouvoir :
 
-* être extraits rapidement et simplement (ex: `git clone http://....`)
-* être construits rapidement et simplement (ex: `mvn clean install`)
-* être testés rapidement et simplement
-
-## E- Tests
-
-:link: [Les tests en détail](tests.md)
-
-### 3 lois du TDD : _Tests Driven Development_
-
-1. Vous ne devez pas écrire un code de production tant que vous n'avez pas écrit un test unitaire d'échec.
-1. Vous devez uniquement écrire le test unitaire suffisant pour échouer : l'impossibilité de compiler est un échec.
-1. Vous devez uniquement écrire le code de production suffisant pour réussir le test d'échec courant.
-
-### Les tests d'apprentissage
-
-Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers sont publiées nous exécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
+* être extraits rapidement et simplement (ex: `git clone http://....`).
+* être construits rapidement et simplement (ex: `mvn clean install`).
+* être testés rapidement et simplement.
 
 ## F- Annexes
 
@@ -269,6 +255,7 @@ Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur 
 * [Zoom sur l'inspection continue](continuous-inspection.md)
 * [Zoom sur les mauvaises pratiques](mauvaises-pratiques.md)
 * [Zoom sur les revues de code](code-review.md)
+* [Zoom sur les tests](tests.md)
 * [Zoom sur les _Coding Dojos_](coding-dojos.md)
 * [Zoom sur les _Architectural Decision Records_](ADR.md)
 * [HS : Énumération de différentes lois et principes](lois-et-principes.md)
