@@ -12,14 +12,14 @@ La rédaction de ces fiches doit être la plus simple et la plus rapide possible
 
 ## Avantages
 
-* Comme pour un véhicule c'est en quelque sorte le carnet d'entretien de l'application permettant de connaître l'historique des choix fait sur le projet
-* Apporte des éléments historiques et de contexte dans le cadre de nouveaux arrivants sur projet (facilite le _turn-over_)
-* Apporte des éléments historiques et de contexte pour les auditeurs
-* Rédiger la documentation nous force à bien comprendre le sujet et à se poser des questions pouvant parfois remettre en cause la décision prise
+* Comme pour un véhicule c'est en quelque sorte le carnet d'entretien de l'application permettant de connaître l'historique des choix fait sur le projet.
+* Apporte des éléments historiques et de contexte dans le cadre de nouveaux arrivants sur projet (facilite le _turn-over_).
+* Apporte des éléments historiques et de contexte pour les auditeurs.
+* Rédiger la documentation nous force à bien comprendre le sujet et à se poser des questions pouvant parfois remettre en cause la décision prise.
 
 ## Quelques règles que l'on peut s'imposer
 
-* Un fichier _Markdown_ par décision, par exemple en respectant un formalisme du type `20181001_decision.md`
+* Un fichier _Markdown_ par décision, par exemple en respectant un formalisme du type `20181001_decision.md`.
 * ... et contenant à minima les sections :
   * **Context** : _What is the issue we're seeing that is motivating this decision or change_
   * **Decision** : _What is the change that we're actually doing_
@@ -34,11 +34,12 @@ La rédaction de ces fiches doit être la plus simple et la plus rapide possible
 
 Quelques exemples :
 
-* Lors de l'ajout, le remplacement ou la suppression d'une bibliothèque
-* Lors de la modification d'un contrat d'interface
-* Lors du choix d'une dette technique volontaire
+* Lors de l'ajout, le remplacement ou la suppression d'une bibliothèque.
+* Lors de la modification d'un contrat d'interface.
+* Lors du choix d'une dette technique volontaire.
+* Lors de la mise en oeuvre d'une solution corrective.
 
-## Un template personnel
+## Un exemple de modèle
 
 ```markdown
 # DATE : TITRE
