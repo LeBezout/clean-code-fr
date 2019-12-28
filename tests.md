@@ -7,6 +7,7 @@
 * :warning: **Le moindre échec dans les tests unitaires / d'intégration doit bloquer obligatoirement la construction de l’application.**
 * :warning: **Ce sont les tests unitaires qui permettent d'obtenir un code flexible, maintenable et réutilisable.**
 * :warning: **Aucune dépendance externe ne doit être sollicitée : base de données, serveur SMTP, accès réseau (HTTP, NAS, ...) ou bien encore de la date système par exemple.**
+* :warning: **S'interdire tout _refactoring_ ou tout déploiement en continu s'il n'y a pas de tests pour valider.**
 
 ## Pourquoi faire des tests
 
@@ -22,11 +23,21 @@ Les tests offrent également :
 * un aspect documentaire (c’est une documentation vivante et toujours à jour)
 * un gain de temps (pas besoin de redéployer entièrement l’application)
 
+Extraits de la publication d'Octo _Culture DevOps Vol. 3 :_
+
+* Écrire un test c’est faire un investissement en temps.
+* Coder consistant essentiellement à prendre une succession de décisions, il est impératif de travailler à avoir une boucle de feed-back la plus rapide possible. Personne ne peut décemment penser déployer en continu du code qui ne
+serait pas suffisamment testé.
+* Vous assurez également la production d’une documentation via votre code de test. Si l’on se demande quel résultat est censée produire telle ou telle partie, les tests, en utilisant des cas et des valeurs concrètes, nous
+apporterons une réponse plus fiable qu’un document Word ou PDF obsolète.
+* Un pipeline qui n’exécute (presque) aucun test perd environ 99 % de son intérêt. **Il permet juste d’envoyer plus vite des bugs en production**. Pas de tests, pas de qualité. Pas de qualité, pas de confiance. Pas de confiance, pas de prod.
+* Plus un test est rapide (à développer et à exécuter), plus il sera exécuté souvent, plus il aura de la valeur.
+
 ## Structure d'un test : Build-Operate-Check
 
 ... ou _Given-When-Then_ ... ou _Arrange-Act-Assert_
 
-1. _Build : Construire les données du test.
+1. _Build_ : Construire les données du test.
 1. _Operate_ : Exploiter les données du test.
 1. _Check_ : Vérifier que l'opération a produit les résultats escomptés.
 
@@ -54,6 +65,10 @@ Les tests offrent également :
 * Sans les tests chaque modification est un bogue potentiel : les tests permettent le changement. Les systèmes non testables ne sont pas vérifiables. Un système non vérifiable ne doit jamais être déployé.
 * Rechercher chaque condition limite et écrivez le test correspondant.
 * Les tests restent insuffisant tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
+
+## Pyramide des tests
+
+Tests unitaires -> Tests d'intégration / tests d'API -> Tests End to End -> Tests de charge, tests de sécurité.
 
 ## Test First & Test Driven Development
 
