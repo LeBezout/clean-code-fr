@@ -145,7 +145,7 @@ Ce principe édicté par _Bertrand Meyer_ dans son livre _Object-Oriented Softwa
 
 :bulb: Dans les cas particuliers où les calculs pourraient être coûteux il convient bien sûr d'en avertir les clients ou d'implémenter un mécanisme de cache.
 
-### Théorie de la fenêtre cassé (_Broken Window_)
+### Théorie de la fenêtre cassée (_Broken Window_)
 
 :link: [Wikipédia](https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_de_la_vitre_bris%C3%A9e)
 
