@@ -46,7 +46,7 @@
 * Être le plus clair, précis et explicite possible (pas d'ironie, d'ambiguïté).
 * N'apporter que des commentaires constructifs en proposant des solutions ou des alternatives.
 * Ne pas aller trop vite, il faut prendre le temps d'analyser, utiliser une _checklist_ par exemple.
-* Ne pas penser que l'on est pas forcément légitime, chaque point de vue est bon à prendre et à considérer.
+* Ne pas penser que l'on n'est pas forcément légitime, chaque point de vue est bon à prendre et à considérer.
 * Favoriser également, en plus des commentaires, les échanges de vive voix.
 
 ### Le relu : être reconnaissant
@@ -76,7 +76,7 @@
 
 ### Limiter le périmètre et le champ d'action
 
-* La revue ne doit pas se substituer aux contrôles outillés. On se concentre alors uniquement sur les vérifications qui nécessite une intervention humaine que l'on pourrait difficilement automatiser.
+* La revue ne doit pas se substituer aux contrôles outillés. On se concentre alors uniquement sur les vérifications qui nécessitent une intervention humaine que l'on pourrait difficilement automatiser.
 * Pour les revues collectives limiter la durée et désigner un modérateur et un gardien du temps.
 * Limiter la taille des _Merge Requests_ ou _Pull Requests_ ou du code à revoir : trop de code à revoir = risque de louper des choses (découragement, passer trop vite, ...). Petite revue = meilleure efficacité, plus de pertinence.
 * Les standards / normes / ... doivent être partagés, **validés**, accessibles et connus de tous et maintenus par tous. Ce qui permet :
@@ -104,7 +104,7 @@
 * [ ] Respect des principes SOLID et autres principes _clean code_.
 * [ ] Pas d'_Over Design_, _Over Engineering_ et respect du principe YAGNI.
 * [ ] Pas de redondance, de copier-coller.
-* [ ] Code eau bon endroit, où on est sensé s'attendre à le trouver.
+* [ ] Code au bon endroit, où on est sensé s'attendre à le trouver.
 * [ ] Présence et pertinence des tests.
 * [ ] Présence et pertinence des commentaires et de la Javadoc.
 * [ ] Un niveau et des traces de log adaptés et pertinents.
@@ -135,7 +135,7 @@ Cette méthode peut être utilisée dans des cas spécifiques ou des compétence
 1. Revue par un pair
 1. Revue externe (audit)
 
-... d'ou l'intérêt de combiner les méthodes.
+... d'où l'intérêt de combiner les méthodes.
 
 ---
 :point_left: [Retour à l'accueil](README.md)
