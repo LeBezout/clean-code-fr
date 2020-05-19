@@ -58,7 +58,7 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
   * construction du livrable
 * **Pair Programming**
   * partage de la connaissance métier et technique
-  * plusieurs points de vues confrontés en permanence
+  * plusieurs points de vue confrontés en permanence
   * chacun apprend des techniques et de l'expérience de l'autre
 * **Refactoring** : Revoir de manière continue la conception et la lisibilité du code en vue de son amélioration
 * **Code review** : par un équipier, par l'ensemble de l'équipe ou bien par un œil externe
@@ -108,6 +108,7 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 * [Blog Le Touilleur Express](http://www.touilleur-express.fr/2011/01/20/craftsmanship/)
 * [Le Software Craftsmanship, pour la professionnalisation du métier de développeur](http://www.arolla.fr/blog/2014/12/le-software-craftsmanship-pour-la-professionnalisation-du-metier-de-developpeur/)
 * [Être Craftsman, c'est un état d'esprit](https://www.novencia.com/craftsman-presentation/)
+* [Site d'Arnaud Lemaire / Lilobase](https://www.lilobase.me/)
 
 ## Livres
 
