@@ -3,7 +3,7 @@
 ## Règles fondamentales
 
 * :warning: **Tester le plus tôt, le plus possible et le plus souvent possible.**
-* :warning: **Les tests sont un pré-requis obligatoire au refactoring car ils permettent de savoir si l’on a cassé ou non des fonctionnalités.**
+* :warning: **Les tests sont un pré-requis obligatoire au _refactoring_ car ils permettent de savoir si l’on a cassé ou non des fonctionnalités.**
 * :warning: **Le moindre échec dans les tests unitaires / d'intégration doit bloquer obligatoirement la construction de l’application.**
 * :warning: **Ce sont les tests unitaires qui permettent d'obtenir un code flexible, maintenable et réutilisable.**
 * :warning: **Aucune dépendance externe ne doit être sollicitée : base de données, serveur SMTP, accès réseau (HTTP, NAS, ...) ou bien encore de la date système par exemple.**
@@ -28,8 +28,7 @@ Extraits de la publication d'Octo _Culture DevOps Vol. 3 :_
 * Écrire un test c’est faire un investissement en temps.
 * Coder consistant essentiellement à prendre une succession de décisions, il est impératif de travailler à avoir une boucle de feed-back la plus rapide possible. Personne ne peut décemment penser déployer en continu du code qui ne
 serait pas suffisamment testé.
-* Vous assurez également la production d’une documentation via votre code de test. Si l’on se demande quel résultat est censée produire telle ou telle partie, les tests, en utilisant des cas et des valeurs concrètes, nous
-apporterons une réponse plus fiable qu’un document Word ou PDF obsolète.
+* Vous assurez également la production d’une documentation via votre code de test. Si l’on se demande quel résultat est censée produire telle ou telle partie, les tests en utilisant des cas et des valeurs concrètes, nous apporterons une réponse plus fiable qu’un document Word ou PDF obsolète.
 * Un pipeline qui n’exécute (presque) aucun test perd environ 99 % de son intérêt. **Il permet juste d’envoyer plus vite des bugs en production**. Pas de tests, pas de qualité. Pas de qualité, pas de confiance. Pas de confiance, pas de prod.
 * Plus un test est rapide (à développer et à exécuter), plus il sera exécuté souvent, plus il aura de la valeur.
 
@@ -64,7 +63,7 @@ apporterons une réponse plus fiable qu’un document Word ou PDF obsolète.
 * Un test qui ne peut pas échouer est un test qui ne sert à rien.
 * Sans les tests chaque modification est un bogue potentiel : les tests permettent le changement. Les systèmes non testables ne sont pas vérifiables. Un système non vérifiable ne doit jamais être déployé.
 * Rechercher chaque condition limite et écrivez le test correspondant.
-* Les tests restent insuffisant tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
+* Les tests restent insuffisants tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
 
 ## Pyramide des tests
 
@@ -95,14 +94,14 @@ Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur 
 Dans tous les cas ce sont des objets (classes, implémentations, ...) qui ne sont jamais utilisés dans le code de production, des outils pour le code de test. Néanmoins on peut imaginer, en production, des _fallback_ (solution alternative, solution de repli) utilisant des bouchons.
 
 * **Fake** : Faux-objets
-  * Souvent des objets au capacités limités.
+  * Souvent des objets aux capacités limités.
   * Peut être un _stub_ ou _mock_.
 * **Stub** : ébauche
-  * Permet de remplacer une dépendance existante et non primodiale pour le test.
+  * Permet de remplacer une dépendance existante et non primordiale pour le test.
   * Peut être configuré pour les besoins du test.
-  * On ne fait aucune assertions sur ces objets.
+  * On ne fait aucune assertion sur ces objets.
   * Sont utilisés dans la partie _Given_.
-* **Mock** : Objet simulé
+* **Mock** : Objet simulé (simulacre)
   * C'est un _stub_ sur lequel on va pouvoir faire des assertions.
   * Sont utilisés dans la partie _When_ et _Then_.
 
@@ -114,7 +113,7 @@ Dans tous les cas ce sont des objets (classes, implémentations, ...) qui ne son
 
 ## Pour aller encore plus loin dans la pratique des tests
 
-* [PITest](http://pitest.org/) : _Mutation Testing System._
+* [PITest](http://pitest.org/), [Stryker Mutator](https://stryker-mutator.io/) : _Mutation Testing System._
 * [Stan4j](http://stan4j.com/download/ide/) : _The dependency graph of packages or components should have no cycles._
 * [ArchUnit](https://www.archunit.org/) : _Unit Test your Java Architecture._
 * [jQAssistant](https://jqassistant.org/) : _Definition and validation of project specific rules on a structural level._
