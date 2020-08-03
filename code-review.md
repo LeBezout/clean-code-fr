@@ -137,5 +137,9 @@ Cette méthode peut être utilisée dans des cas spécifiques ou des compétence
 
 ... d'où l'intérêt de combiner les méthodes.
 
+## G- Annexes
+
+:fr: [Playlist Youtube](https://www.youtube.com/playlist?list=PLM5oYKLr93VlE4Oq7KrZUGHObWEWV1rRX)
+
 ---
 :point_left: [Retour à l'accueil](README.md)
