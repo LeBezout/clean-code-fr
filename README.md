@@ -246,7 +246,11 @@ Les projets doivent pouvoir :
 * être construits rapidement et simplement (ex: `mvn clean install`).
 * être testés rapidement et simplement.
 
-## F- Annexes
+## E- Ressources
+
+* :fr: [Vidéos : Cours en ligne de José Paumard : _Principes SOLID et Design Patterns_](https://www.youtube.com/playlist?list=PLzzeuFUy_CngSfFq9-TJ0r8NC7Y3hSNpe)
+
+## F- Pour aller plus loin
 
 * [Zoom sur le _Software Craftsmanship_](software-craftsmanship.md)
 * [Zoom sur la maintenabilité](maintenabilite.md)
