@@ -19,7 +19,7 @@
 * Provoquer des échanges, des débats, des analyses (émulation dans l'équipe).
 * Éviter la dégradation progressive du code.
 
-## B- Les techniques
+## B- Les types de revues
 
 :pushpin: _Différents types de revues peuvent être utilisés._
 
@@ -49,6 +49,22 @@
 * Ne pas penser que l'on n'est pas forcément légitime, chaque point de vue est bon à prendre et à considérer.
 * Favoriser également, en plus des commentaires, les échanges de vive voix.
 
+### Le relu : préparer la revue
+
+Pour faire gagnert du temps au relecteur et pour l'orienter :
+
+* Revoir son code avant de soumettre : 
+  * respect des normes internes
+  * respect du style (indentation, nommage, ...)
+  * respect des principes SOLID
+  * pas de violations Sonarqube
+  * code lisible et compréhensible
+  * présence de tests...utiles
+* Commenter les choix techniques.
+* Pointer (et éventuellement décrire) les éléments fondamentaux devant être validés ou partagés 
+  * expliquer **quoi** et **pourquoi**
+  * ... et pas obligatoirement le **comment**
+
 ### Le relu : être reconnaissant
 
 * Ne pas prendre les remarques pour soi.
@@ -74,11 +90,19 @@
 
 ## D- Les clefs pour optimiser les revues
 
+### Qui
+
+Les Tech Lead mais aussi tous les développeurs. Un Tech Lead doit revoir le code d'un développeur mais l'inverse est également vrai.
+
+L'aspect partage des connaissances (appropriation collective) et des techniques (montée en compétences en maturité) est un apport majeur de la pratique des revues de code.
+
 ### Limiter le périmètre et le champ d'action
+
 
 * La revue ne doit pas se substituer aux contrôles outillés. On se concentre alors uniquement sur les vérifications qui nécessitent une intervention humaine que l'on pourrait difficilement automatiser.
 * Pour les revues collectives limiter la durée et désigner un modérateur et un gardien du temps.
 * Limiter la taille des _Merge Requests_ ou _Pull Requests_ ou du code à revoir : trop de code à revoir = risque de louper des choses (découragement, passer trop vite, ...). Petite revue = meilleure efficacité, plus de pertinence.
+* Limiter le périmètre : une _Merge Request_ ou _Pull Request_ pour une seule fonctionnalité.
 * Les standards / normes / ... doivent être partagés, **validés**, accessibles et connus de tous et maintenus par tous. Ce qui permet :
   * d'éviter de se répéter et donc gagner du temps (de revue et de développement).
   * d'éviter les conflits.
@@ -139,7 +163,8 @@ Cette méthode peut être utilisée dans des cas spécifiques ou des compétence
 
 ## G- Annexes
 
-:fr: [Playlist Youtube](https://www.youtube.com/playlist?list=PLM5oYKLr93VlE4Oq7KrZUGHObWEWV1rRX)
+:fr: Vidéos : [Playlist Youtube](https://www.youtube.com/playlist?list=PLM5oYKLr93VlE4Oq7KrZUGHObWEWV1rRX)
+:gb: Article : [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 
 ---
 :point_left: [Retour à l'accueil](README.md)
