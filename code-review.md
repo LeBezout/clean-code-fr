@@ -163,8 +163,8 @@ Cette méthode peut être utilisée dans des cas spécifiques ou des compétence
 
 ## G- Annexes
 
-:fr: Vidéos : [Playlist Youtube](https://www.youtube.com/playlist?list=PLM5oYKLr93VlE4Oq7KrZUGHObWEWV1rRX)
-:gb: Article : [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
+* :fr: Vidéos : [Playlist Youtube](https://www.youtube.com/playlist?list=PLM5oYKLr93VlE4Oq7KrZUGHObWEWV1rRX)
+* :gb: Article : [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 
 ---
 :point_left: [Retour à l'accueil](README.md)
