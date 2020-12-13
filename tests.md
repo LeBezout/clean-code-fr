@@ -13,15 +13,16 @@
 
 Seuls les tests peuvent garantir :
 
-* un bon niveau de qualité
-* un résultat conforme aux attentes
-* la non régression (refactoring, nouvelle fonctionnalité)
+* un bon niveau de qualité.
+* un résultat conforme aux attentes.
+* la non régression (refactoring, nouvelle fonctionnalité).
 
 Les tests offrent également :
 
-* un retour rapide en cas de problème
-* un aspect documentaire (c’est une documentation vivante et toujours à jour)
-* un gain de temps (pas besoin de redéployer entièrement l’application)
+* un retour rapide en cas de problème.
+* un aspect documentaire (c’est une documentation vivante et toujours à jour).
+* un gain de temps (pas besoin de redéployer entièrement l’application).
+* parfois une mise en évidence d'un mauvais design ou une remise en question.
 
 Extraits de la publication d'Octo _Culture DevOps Vol. 3 :_
 
@@ -67,7 +68,7 @@ serait pas suffisamment testé.
 
 ## Pyramide des tests
 
-Tests unitaires -> Tests d'intégration / tests d'API -> Tests End to End -> Tests de charge, tests de sécurité.
+Tests unitaires -> Tests d'intégration / tests d'API -> Tests End to End (bout en bout) -> Tests de charge, tests de sécurité.
 
 ## Test First & Test Driven Development
 
