@@ -131,4 +131,4 @@ La courbe de Thomas J. Allen décrit une décroissance exponentielle de la commu
 :link: [Wikipédia](https://fr.wikipedia.org/wiki/Le_Mythe_du_mois-homme)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

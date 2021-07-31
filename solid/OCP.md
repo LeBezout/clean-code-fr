@@ -17,4 +17,4 @@ Il faut pouvoir modifier le comportement d'un module sans en modifier le code.
 * [Blog Victor Freches](http://objet-java.blogspot.fr/2012/12/principe-ouvertferme-openclose.html)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

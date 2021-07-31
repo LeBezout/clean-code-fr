@@ -82,4 +82,4 @@ Quelques outils utilisables pour de l'inspection continue "au poste" (feedback i
 * :gb: [SonarQube](https://www.sonarqube.org/features/clean-code/)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

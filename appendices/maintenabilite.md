@@ -80,4 +80,4 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
 * Éviter les effets de bord. Une méthode ne doit pas altérer/modifier ses paramètres d'entrée. A noter qu'en Java l'ajout du mot clef `final` ne garantie rien (seulement que la variable ne sera pas ré-affectée mais pas que son contenu ne soit pas altéré, c'est pour cela qu'il faut favoriser les implémentations immuables).
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

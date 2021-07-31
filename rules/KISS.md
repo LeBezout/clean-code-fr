@@ -20,4 +20,4 @@
 * [Wikipédia](https://fr.wikipedia.org/wiki/Principe_KISS)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

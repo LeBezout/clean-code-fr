@@ -21,4 +21,4 @@
 * [Wikipédia](https://fr.wikipedia.org/wiki/YAGNI)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

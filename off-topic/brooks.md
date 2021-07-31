@@ -9,3 +9,6 @@
 * et surtout perdre l'unité conceptuelle du logiciel (les spécifications d'origine) qui régissait la première version, en cherchant à imiter la concurrence.
 
 > Un informaticien développant une deuxième version devrait donc être conscient du besoin de stabilité de l'utilisateur moyen et du risque de dépassement des spécifications exigées.
+
+---
+:point_left: [Retour à l'accueil](../README.md)

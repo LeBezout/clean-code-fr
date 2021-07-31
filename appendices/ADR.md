@@ -86,4 +86,4 @@ TODO
 * :fr: [[DevFest Toulouse 2018] Architecture Decision Records: Réconciliez vous avec votre doc - Arnaud Bos](https://www.youtube.com/watch?v=EDYplU1PB5s)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

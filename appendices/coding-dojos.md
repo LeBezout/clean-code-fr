@@ -39,3 +39,6 @@ L'objectif est d'implémenter une solution de façon collaborative par binôme e
 * :fr: [codingdojo.org](http://codingdojo.org/fr/)
 * :fr: [Page Wikipédia](https://fr.wikipedia.org/wiki/Coding_dojo)
 * :fr: [Un Chti café - Coding Dojo en entreprise ](http://www.unchticafe.fr/2010/03/coding-dojo-en-entreprise.html)
+
+---
+:point_left: [Retour à l'accueil](../README.md)

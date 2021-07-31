@@ -29,4 +29,4 @@ Liste de pratiques reconnues comme étant mauvaises voire néfastes.
 * Manque de délégation.
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

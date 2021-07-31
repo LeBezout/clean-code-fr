@@ -16,4 +16,4 @@
 * [Blog Matthias Jouan](https://blog.mjouan.fr/solid-partie-iv-interface-segregation-principle/)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

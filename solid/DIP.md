@@ -18,4 +18,4 @@
 * [Blog Emmanuel Deloget](http://blog.emmanueldeloget.com/index.php?post/2006/11/30/19-le-principe-d-inversion-de-dependance)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

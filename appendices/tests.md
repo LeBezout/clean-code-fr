@@ -121,4 +121,4 @@ Dans tous les cas ce sont des objets (classes, implémentations, ...) qui ne son
 * [Infinitest](https://infinitest.github.io/) : _Each time you change the code Infinitest runs the relevant tests for you!_
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

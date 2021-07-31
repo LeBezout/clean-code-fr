@@ -22,4 +22,4 @@ Une méthode f d'une classe C ne doit appeler que les méthodes des éléments s
 * [Wikipédia](https://fr.wikipedia.org/wiki/Loi_de_D%C3%A9m%C3%A9ter)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

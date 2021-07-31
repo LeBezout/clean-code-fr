@@ -29,4 +29,4 @@ Cette complexité doit être réduite et **à défaut il faut la maîtriser** ca
 * _Refactoring_ régulier
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

@@ -53,7 +53,7 @@
 
 Pour faire gagnert du temps au relecteur et pour l'orienter :
 
-* Revoir son code avant de soumettre : 
+* Revoir son code avant de soumettre :
   * respect des normes internes
   * respect du style (indentation, nommage, ...)
   * respect des principes SOLID
@@ -61,7 +61,7 @@ Pour faire gagnert du temps au relecteur et pour l'orienter :
   * code lisible et compréhensible
   * présence de tests...utiles
 * Commenter les choix techniques.
-* Pointer (et éventuellement décrire) les éléments fondamentaux devant être validés ou partagés 
+* Pointer (et éventuellement décrire) les éléments fondamentaux devant être validés ou partagés
   * expliquer **quoi** et **pourquoi**
   * ... et pas obligatoirement le **comment**
 
@@ -167,4 +167,4 @@ Cette méthode peut être utilisée dans des cas spécifiques ou des compétence
 * :gb: Article : [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

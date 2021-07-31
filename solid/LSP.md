@@ -16,4 +16,4 @@ Principe édicté par Barbara Liskov en 1988
 * [dotnetdojo](http://www.dotnetdojo.com/concevoir-des-applications-solid-lsp/)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

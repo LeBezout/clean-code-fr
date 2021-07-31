@@ -53,7 +53,9 @@ C'est une menace omniprésente qui peut à tout moment mettre en péril un proje
 * Le coût de la dette augmente jusqu'à un point où il n'est plus possible de la rembourser intégralement.
 * La pourriture s'accroît tout au long de la vie du projet.
 
-!!!!!!!!! TODO Vidéo Entropie du logiciel @lilobase
+## Ressources
+
+* [Software Crafts·wo·manship - Dette technique et entropie du logiciel (Arnaud Lemaire)](https://www.youtube.com/watch?v=VKe9EE4MUxk)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

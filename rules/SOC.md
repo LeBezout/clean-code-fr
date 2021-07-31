@@ -13,4 +13,4 @@
 * [Wikipédia](https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pr%C3%A9occupations)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)

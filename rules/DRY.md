@@ -30,4 +30,4 @@
 * [Le principe DRY par Bruno Orsier](https://bruno-orsier.developpez.com/principes/dry/)
 
 ---
-:point_left: [Retour à l'accueil](README.md)
+:point_left: [Retour à l'accueil](../README.md)
