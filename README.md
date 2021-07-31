@@ -263,6 +263,13 @@ Les projets doivent pouvoir :
   * [Zoom sur les tests](appendices/tests.md)
   * [Zoom sur les _Coding Dojos_](appendices/coding-dojos.md)
   * [Zoom sur les _Architectural Decision Records_](appendices/ADR.md)
+* Fiches synthèses :
+  * [OCTO - Culture Code](summury/octo-culture-code.md)
+  * [OCTO - Culture DevOps vol. 1](summury/octo-culture-devops-1.md)
+  * [OCTO - Culture DevOps vol. 2](summury/octo-culture-devops-2.md)
+  * [OCTO - Culture DevOps vol. 3](summury/octo-culture-devops-3.md)
+  * [OCTO - Culture Change](summury/octo-culture-change.md)
+  * [OCTO - Culture Flow](summury/octo-culture-flow.md)
 * HS :
   * [HS : Énumération de différentes lois et principes](off-topic/lois-et-principes.md)
   * [HS : Loi de Brooks - deuxième version logicielle](off-topic/brooks.md)
