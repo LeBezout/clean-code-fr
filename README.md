@@ -8,13 +8,13 @@ _Synthèse des notions de Clean Code de [**Robert C. MARTIN**](https://fr.slides
 
 > Il ne doit exister qu'une et une seule raison de modifier une classe ou un module.
 
-:link: [SRP](SRP.md)
+:link: [SRP](solid/SRP.md)
 
 ### OCP : _Open-Closed Principle_
 
 > Les classes doivent être ouvertes à l'extension mais fermées à la modification.
 
-:link: [OCP](OCP.md)
+:link: [OCP](solid/OCP.md)
 
 Dans un système idéal nous incorporons de nouvelles fonctionnalités en étendant le système, non en modifiant le code existant.
 
@@ -22,13 +22,13 @@ Dans un système idéal nous incorporons de nouvelles fonctionnalités en étend
 
 > Si **S** est un sous-type de **T**, alors tout objet de type **T** peut être remplacé par un objet de type **S** sans altérer les propriétés désirables du programme concerné.
 
-:link: [LSP](LSP.md)
+:link: [LSP](solid/LSP.md)
 
 ### ISP : _Interface Segregation Principle_
 
 > Ne pas dépendre de fonctionnalités dont on n’a pas l’utilité.
 
-:link: [ISP](ISP.md)
+:link: [ISP](solid/ISP.md)
 
 Respecter ce principe permet de réduire efficacement le couplage des classes entre elles.
 
@@ -36,7 +36,7 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 > L'inversion de contrôle déplace les responsabilités secondaires depuis un objet vers d'autres objets qui sont dédiés à chaque responsabilité et respecte ainsi le principe de responsabilité unique.
 
-:link: [DIP](DIP.md)
+:link: [DIP](solid/DIP.md)
 
 ## B- Lois, règles et autres principes
 
@@ -44,19 +44,19 @@ Respecter ce principe permet de réduire efficacement le couplage des classes en
 
 > Principe qui consiste à éviter la redondance de code au travers de l’ensemble d’une application afin de faciliter la maintenance, le test, le débogage et les évolutions de cette dernière.
 
-:link: [DRY](DRY.md)
+:link: [DRY](rules/DRY.md)
 
 ### KISS : _Keep It Simple, Stupid_
 
 > Principe dont la ligne directrice de conception qui préconise la simplicité dans la conception et que toute complexité non indispensable devrait être évitée dans toute la mesure du possible.
 
-:link: [KISS](KISS.md)
+:link: [KISS](rules/KISS.md)
 
 ### YAGNI : _You Ain't Gonna Need It_
 
 > Ce principe indique de ne pas se baser sur d'hypothétiques évolutions futures pour faire les choix du présent.
 
-:link: [YAGNI](YAGNI.md)
+:link: [YAGNI](rules/YAGNI.md)
 
 ### Principe _Fail-Fast_
 
@@ -95,7 +95,7 @@ Exemples :
 
 > Un module ne doit pas connaître les détails internes des objets qu'il manipule.
 
-:link: [demeter](demeter.md)
+:link: [demeter](rules/demeter.md)
 
 ### Règle du Boy-Scout
 
@@ -125,7 +125,7 @@ Un couplage artificiel correspond souvent à un couplage entre deux modules qui 
 
 > Les systèmes logiciels doivent séparer le processus de démarrage, lorsque les objets de l'application sont construits et les dépendances sont établies, de la logique d'exécution qui vient ensuite.
 
-:link: [SOC](SOC.md)
+:link: [SOC](rules/SOC.md)
 
 ### Principe de forte cohésion
 
@@ -252,14 +252,18 @@ Les projets doivent pouvoir :
 
 ## F- Pour aller plus loin
 
-* [Zoom sur le _Software Craftsmanship_](software-craftsmanship.md)
-* [Zoom sur la maintenabilité](maintenabilite.md)
-* [Zoom sur les notions de complexité](complexite.md)
-* [Zoom sur la notion de dette technique et de pourriture](dette-technique.md)
-* [Zoom sur l'inspection continue](continuous-inspection.md)
-* [Zoom sur les mauvaises pratiques](mauvaises-pratiques.md)
-* [Zoom sur les revues de code](code-review.md)
-* [Zoom sur les tests](tests.md)
-* [Zoom sur les _Coding Dojos_](coding-dojos.md)
-* [Zoom sur les _Architectural Decision Records_](ADR.md)
-* [HS : Énumération de différentes lois et principes](lois-et-principes.md)
+* Zooms :
+  * [Zoom sur le _Software Craftsmanship_](appendices/software-craftsmanship.md)
+  * [Zoom sur la maintenabilité](appendices/maintenabilite.md)
+  * [Zoom sur les notions de complexité](appendices/complexite.md)
+  * [Zoom sur la notion de dette technique et de pourriture](appendices/dette-technique.md)
+  * [Zoom sur l'inspection continue](appendices/continuous-inspection.md)
+  * [Zoom sur les mauvaises pratiques](appendices/mauvaises-pratiques.md)
+  * [Zoom sur les revues de code](cappendices/ode-review.md)
+  * [Zoom sur les tests](appendices/tests.md)
+  * [Zoom sur les _Coding Dojos_](appendices/coding-dojos.md)
+  * [Zoom sur les _Architectural Decision Records_](appendices/ADR.md)
+* HS :
+  * [HS : Énumération de différentes lois et principes](off-topic/lois-et-principes.md)
+  * [HS : Loi de Brooks - deuxième version logicielle](off-topic/brooks.md)
+  * [HS : Les grandes règles du développeur](off-topic/regles-developpeur.md)
