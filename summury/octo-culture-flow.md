@@ -6,7 +6,7 @@
 
 Pour aller plus vite, engagez moins de chantiers en parallèle, vous aurez une meilleure concentration et très probablement une meilleure qualité.
 
-## Les principes à adopter tels quels
+## Chapitre 1 - Les principes à adopter tels quels
 
 ### Toute décision est prise en réponse à un évènement et non à une date planifiée
 
@@ -14,7 +14,7 @@ P17 : en décidant par exemple de ne pas mettre tous les risques dans le même p
 
 P20 : l'ajout de nouvelles personnes dans une équipe a généralement un impact négatif à court terme
 
-### chaque équipe connaît son flux de travail
+### Chaque équipe connaît son flux de travail
 
 P26 : Nous sommes surpris car nous ne voyons pas tout de suite les conséquences de nos actes.
 
@@ -22,7 +22,7 @@ P26 : Nous sommes surpris par ce qui dépasse notre limite de compréhension.
 
 P26 : Nous sommes surpris quand la réalité ne correspond pas à notre schéma de pensée.
 
-### une livraison de logiciel est un non-évènement qui peut intervenir n'importe quand
+### Une livraison de logiciel est un non-évènement qui peut intervenir n'importe quand
 
 P32 : il est nécessaire qu'à tout moment il soit dans un état stable, c'est à dire, livrable.
 
@@ -40,7 +40,7 @@ P41 : (BDD) : A l'arrivée, ce qui part en production, c'est la compréhension d
 
 P42 : BDD, TDD, Trunk-Based, CI-CD = facilité à répéter des étapes de production de valeur sans effort et sans risque
 
-### pour résoudre un problème il d'abord le rendre visible
+### Pour résoudre un problème il d'abord le rendre visible
 
 P44 : il est préférable de rendre les problèmes visibles pour générer des discussions et prendre des décisions.
 
@@ -52,13 +52,13 @@ une boucle de rétroaction efficace pour savoir si les changements déployés r�
 P46 : L'observabilité peut se définir comme "_la capacité d'un système à être
 appréhendé par un humain afin qu'il puisse le comprendre, le modifier et le corriger_".
 
-### tout le monde connaît le lien entre sa production et la stratégie de l’organisation
+### Tout le monde connaît le lien entre sa production et la stratégie de l’organisation
 
 P54 : Ce qui a une valeur économique aujourd’hui, ce n’est plus tant le savoir que la capacité à le mettre en œuvre, le contextualiser à un écosystème et se l’approprier.
 
-## Les principes à adapter au contexte
+## Chapitre 2 - Les principes à adapter au contexte
 
-### tout changement pérenne est une modification des habitudes
+### Tout changement pérenne est une modification des habitudes
 
 P66 : la capacité de s'exprimer et de prendre des risques sans crainte est un élément clé.
 
@@ -87,7 +87,7 @@ P73 : Les modes colocalisé et éclaté sont ceux qui montrent les meilleurs ré
 
 P74 : une organisation composée uniquement d’experts, c’est-à-dire de personnes qui ne maîtrisent qu’une seule activité, finira inévitablement par rencontrer des blocages forts.
 
-### les boucles de feedback
+### Les boucles de feedback
 
 P83 : il faut, dans le temps court comme dans le temps long, avoir toujours en ligne de mire les besoins, sans cesse renouvelés, de l’utilisateur final.
 
@@ -99,7 +99,7 @@ P84 : _Lean Startup_ : une méthodologie faite de boucles de feedback courtes po
 
 P85 : C'est bien quand nous avons un besoin, et non juste un problème, que nous cherchons une solution que nous sommes prêts à payer.
 
-### les organisations techniques et humaines sont liées
+### Les organisations techniques et humaines sont liées
 
 P91 : favoriser les couplages faibles, les modes d'interaction :
 
@@ -131,7 +131,7 @@ P98 : Clean Architecture / Hexagonale Architecture :
 
 P100 : Archi hexagonale : l'important est de co-localiser le code métier et de sortir des architectures à découpage technique.
 
-### les écosystèmes sont organisés en minimisant les frictions vis-à-vis de la stratégie
+### Les écosystèmes sont organisés en minimisant les frictions vis-à-vis de la stratégie
 
 P103 : **il n'y a rien de plus stable dans le temps que les domaines métiers.**
 

@@ -35,7 +35,7 @@
 - Vous ne pouvez pas mener un développement logiciel à coups de dettes techniques répétées, et encore moins en vous appuyant sur du code de mauvaise qualité.
 - Travailler seulement sur les dégâts sans tenter de changer les facteurs, c’est comme tenter d’écoper sans rechercher les voies d’eau.
 
-## Better Code
+## Better Code
 
 TODO
 

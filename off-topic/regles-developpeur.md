@@ -39,6 +39,10 @@ Quelques outils :
 * Post-it
 * etc...
 
+## Les bonnes pratiques du développeur
+
+:link: <https://github.com/LeBezout/best-practices-fr/blob/master/developpeur.md>
+
 ## Ressources
 
 ### Talk : "Entre industrialisation et artisanat, le métier de développeur" par Arnaud Lemaire
@@ -74,7 +78,7 @@ Quelques outils :
 > Le processus et la technique ne doivent pas prendre le pas l'un sur l'autre. Pour être un bon programmeur vous devez connaître tous les aspects du développement de logiciel.
 
 * [DEVOXX 2015](https://www.youtube.com/watch?v=tVguV3d8C_Q)
-* [Slides](https://fr.slideshare.net/jl.morlhon/culture-du-programmeur)]
+* [Slides](https://fr.slideshare.net/jl.morlhon/culture-du-programmeur)
 
 ### Talk : "Guide de survie du développeur passionné en milieu hostile" par Christophe PONT et Charlotte CAVALIER
 
