@@ -166,6 +166,8 @@ C'est un processus continu d'améliorations (aussi petites soient-elles, cf règ
 * Une fonction appelée doit se trouver en dessous d'une fonction qui l'appelle.
 * Les variables et les fonctions doivent être définies au plus près de leur utilisation.
 
+:link: [Step-down rule](rules/step-down.md)
+
 ### Style de formatage
 
 Les développeurs de l'équipe doivent se mettre d'accord sur un même style de formatage et le respecter. Idéalement il est documenté et cette documentation facilement accessible. Par exemple : fichier `README.md` à la racine du dépôt GIT.
