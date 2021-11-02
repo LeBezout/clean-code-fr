@@ -55,7 +55,8 @@ C'est une menace omniprésente qui peut à tout moment mettre en péril un proje
 
 ## Ressources
 
-* [Software Crafts·wo·manship - Dette technique et entropie du logiciel (Arnaud Lemaire)](https://www.youtube.com/watch?v=VKe9EE4MUxk)
+* Vidéo : [Software Crafts·wo·manship - Dette technique et entropie du logiciel (Arnaud Lemaire)](https://www.youtube.com/watch?v=VKe9EE4MUxk) - 1h40
+* Vidéo : [La dette technique, est-ce une fatalité ? (Mickael Wegerich)](https://www.youtube.com/watch?v=C2COBA4EFrM) - 30min.
 
 ---
 :point_left: [Retour à l'accueil](../README.md)
