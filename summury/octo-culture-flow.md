@@ -38,23 +38,21 @@ P38 : (trunk based development) : Lorsque les développeurs effectuent toutes le
 
 P41 : (BDD) : A l'arrivée, ce qui part en production, c'est la compréhension de celui qui le code.
 
-P42 : BDD, TDD, Trunk-Based, CI-CD = facilité à répéter des étapes de production de valeur sans effort et sans risque
+P42 : BDD, TDD, Trunk-Based, CI-CD = facilité à répéter des étapes de production de valeur sans effort et sans risque.
 
-### Pour résoudre un problème il d'abord le rendre visible
+### Pour résoudre un problème il faut d'abord le rendre visible
 
 P44 : il est préférable de rendre les problèmes visibles pour générer des discussions et prendre des décisions.
 
 P45 : **lorsque vous traitez des choses sans les rendre visibles vous dissimulez malgré vous le problème au reste de votre écosystème**
 
-P45 : observabilité : Livrer en continu implique d'avoir mis en place
-une boucle de rétroaction efficace pour savoir si les changements déployés régulièrement améliorent ou aggravent la stabilité du système dans sa globalité. Surveiller en continu son infrastructure et ses applications permet de détecter et d'être averti instantanément de tout problème survenu sur une plateforme.
+P45 : observabilité : Livrer en continu implique d'avoir mis en place une boucle de rétroaction efficace pour savoir si les changements déployés régulièrement améliorent ou aggravent la stabilité du système dans sa globalité. Surveiller en continu son infrastructure et ses applications permet de détecter et d'être averti instantanément de tout problème survenu sur une plateforme.
 
-P46 : L'observabilité peut se définir comme "_la capacité d'un système à être
-appréhendé par un humain afin qu'il puisse le comprendre, le modifier et le corriger_".
+P46 : L'observabilité peut se définir comme "_la capacité d'un système à être appréhendé par un humain afin qu'il puisse le comprendre, le modifier et le corriger_".
 
 ### Tout le monde connaît le lien entre sa production et la stratégie de l’organisation
 
-P54 : Ce qui a une valeur économique aujourd’hui, ce n’est plus tant le savoir que la capacité à le mettre en œuvre, le contextualiser à un écosystème et se l’approprier.
+P54 : Ce qui a une valeur économique aujourd'hui, ce n’est plus tant le savoir que la capacité à le mettre en œuvre, le contextualiser à un écosystème et se l’approprier.
 
 ## Chapitre 2 - Les principes à adapter au contexte
 
@@ -66,8 +64,7 @@ P68 : _Pair Programming_ : Le grand bénéfice n'est pas la productivité mais l
 
 P69 : la revue de code : L'efficacité de la revue de code sur le partage est cependant moindre car les développeurs relisant le code n'ont pas participé aux différentes réflexions ayant amené au résultat produit.
 
-P70 : _Mob Programming_ : Le Mob Programming est l’un des moyens les
-plus efficaces, sinon LE moyen le plus efficace, pour :
+P70 : _Mob Programming_ : Le Mob Programming est l’un des moyens les plus efficaces, sinon LE moyen le plus efficace, pour :
 
 - Faire émerger des standards dans une équipe qui vient d’être formée,
 - Réaligner les standards multiples et/ou implicites d’une équipe déjà formée,
@@ -76,8 +73,7 @@ plus efficaces, sinon LE moyen le plus efficace, pour :
 
 P70 : _Shifting Left On Security_ : Les experts sécurité, en général peu nombreux dans les organisations, sont souvent sollicités et inclus à la fin du cycle de vie du logiciel lorsqu'il est souvent pénible et coûteux d'effectuer les correctifs nécessaires.
 
-P70 : Dans cette logique de flux continu de livraison de fonctionnalités, la
-sécurité n'a plus sa place dans une phase aval, complètement déconnectée et réalisée par une autre équipe quand tous les développements sont finalisés
+P70 : Dans cette logique de flux continu de livraison de fonctionnalités, la sécurité n'a plus sa place dans une phase aval, complètement déconnectée et réalisée par une autre équipe quand tous les développements sont finalisés
 
 P71 : **Il est plus simple de s'assurer que les personnes qui construisent le logiciel agissent et le font correctement que d'inspecter des systèmes et des fonctionnalités presque terminées.**
 
@@ -114,8 +110,7 @@ P97 : architecture applicative : Bien ranger sa chambre, c’est éviter toutes 
 P97 : **sortir des architectures à découpage technique pour s'abstraire des
 systèmes externes (base de données, système de fichiers, serveur de mail...) et que le code métier ne soit plus noyé au milieu du code technique (frameworks, librairies).**
 
-P97 : **La valeur d'une application réside dans ses cas d'utilisation et ses services métiers.** la logique métier ne doit pas se retrouver dispersée dans
-plusieurs couches. le modèle métier d'une application (les objets métiers manipulés) n'évolue pas au même rythme que le modèle de stockage ou encore le modèle de présentation.
+P97 : **La valeur d'une application réside dans ses cas d'utilisation et ses services métiers.** la logique métier ne doit pas se retrouver dispersée dans plusieurs couches. le modèle métier d'une application (les objets métiers manipulés) n'évolue pas au même rythme que le modèle de stockage ou encore le modèle de présentation.
 
 P97 : Ce type d'architecture applicative prône un couplage faible en supprimant les adhérences aux composants d'infrastructure: il en résulte
 une meilleure testabilité, orientée sur le comportement métier.
@@ -141,8 +136,7 @@ P105 : modèles : il vaut mieux les conserver sous forme d’exception plutôt q
 
 P106 : l'architecture en continue : Les architectes se doivent donc d'être présents au moment de la mise en œuvre et aux côtés des équipes de réalisation quand les difficultés se présentent.
 
-P107 : Nous prenons les décisions d’architecture au moment où nous
-devons les prendre, pas après mais pas avant non plus.
+P107 : Nous prenons les décisions d’architecture au moment où nous devons les prendre, pas après mais pas avant non plus.
 
 ---
 :point_left: [Retour à l'accueil](../README.md)

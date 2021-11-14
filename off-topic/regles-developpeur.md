@@ -22,6 +22,14 @@ Donner des noms clairs et précis aux objets, classes, méthodes, variables, ...
 
 Si l'on n'arrive pas à nommer clairement un concept, une variable, ... c'est qu'il y a un problème de compréhension autour de celui-ci.
 
+## Profiter de toutes les situations
+
+... même les moins motivantes ou gratifiantes à première vue :
+
+* pour apprendre de nouvelles choses
+* pour améliorer les choses en place (scripter une tâche automatisable par exemple)
+* pour capitaliser (documentation, kata, ...)
+
 ## _Write All Things_
 
 Tout écrire, tout tracer. Pourquoi ?
