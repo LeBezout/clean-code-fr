@@ -80,6 +80,7 @@ Quelques outils utilisables pour de l'inspection continue "au poste" (feedback i
 
 * :gb: [SonarSource White Paper](https://www.sonarsource.com/resources/white-papers/continuous-inspection.html)
 * :gb: [SonarQube](https://www.sonarqube.org/features/clean-code/)
+* :fr: [Blog JetBrains : Gagnez du temps sur les révisions de code et la planification de projet avec l’analyse statique](https://blog.jetbrains.com/fr/qodana/2022/01/gagnez-du-temps-sur-les-revisions-de-code-et-la-planification-de-projet-avec-l-analyse-statique/)
 
 ---
 :point_left: [Retour à l'accueil](../README.md)
