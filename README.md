@@ -2,6 +2,13 @@
 
 _Synthèse des notions de Clean Code de [**Robert C. MARTIN**](https://fr.slideshare.net/MarwenMhamdi/coder-proprement) et autres recommandations._
 
+- [A- Principes S.O.L.I.D.](#a--principes-solid)
+- [B- Lois, règles et autres principes](#b--lois-règles-et-autres-principes)
+- [C- Bonnes pratiques](#c--bonnes-pratiques)
+- [D- Projets](#d--projets)
+- [E- Ressources](#e--ressources)
+- [F- Pour aller plus loin](#f--pour-aller-plus-loin)
+
 ## A- Principes S.O.L.I.D.
 
 ### SRP : _Single Responsibility Principle_
