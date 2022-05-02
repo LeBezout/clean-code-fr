@@ -6,7 +6,7 @@ C'est un concept qui est à ne pas confondre avec celui de pourriture (détério
 
 * Cette dégradation est **volontaire** ou **intentionnelle** pour une période déterminée et son _remboursement_ est déjà planifié **c'est de la dette technique**.
 * Cette dégradation est **assumée** sans intention de la rembourser **ce n'est donc pas de la dette technique, c'est de la pourriture**.
-* Cette dégradation est **inconsciente** (dans le pire des cas ou )les intervenants ne mesurent même pas son ampleur) **ce n'est donc pas de la dette technique, c'est de la pourriture**.
+* Cette dégradation est **inconsciente** (dans le pire des cas où les intervenants ne mesurent même pas son ampleur) **ce n'est donc pas de la dette technique, c'est de la pourriture**.
 
 La pourriture est donc l'accumulation de risques impliqués par les choix techniques effectués tout au long de la vie d'un projet.
 Autrement dit c'est l'ensemble des choix que l'on fait et qui provoqueront des **contraintes** et des **coûts** ultérieurs.
