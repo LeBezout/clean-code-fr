@@ -101,7 +101,9 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 * Mentorat, tutorat
 * Proposer et animer des formations, des Kata ou Coding Dojo
 
-## Liens
+## Ressources
+
+### Liens
 
 * [Blog et Podcast Artisant développeur](http://artisandeveloppeur.fr/)
 * [Blog Octo](https://blog.octo.com/software-craftsmanship-une-culture-a-transmettre/)
@@ -110,11 +112,16 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 * [Être Craftsman, c'est un état d'esprit](https://www.novencia.com/craftsman-presentation/)
 * [Site d'Arnaud Lemaire / Lilobase](https://www.lilobase.me/)
 
-## Livres
+### Vidéos
+
+* :fr: [BreizhCamp - Pascal Le Merrer - eXtreme Programming : LA méthode Agile ?](https://www.youtube.com/watch?v=ev1wsZrfO3M)
+
+### Livres
 
 * :gb: Uncle Bob - The Clean Coder
 * :gb: [Sandro Mancuso - The Software Craftsman](https://blog.cellenza.com/software-craftsmanship/analyse-the-software-craftsman-sandro-mancuso/)
 * :gb: [Andrew Hunt et David Thomas - The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+* :fr: [Software craft : TDD, Clean Code et autres pratiques essentielles](https://www.dunod.com/sciences-techniques/software-craft-tdd-clean-code-et-autres-pratiques-essentielles)
 
 ---
 :point_left: [Retour à l'accueil](../README.md)
