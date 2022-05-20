@@ -85,6 +85,7 @@ Le principe du _développements pilotés par les tests_ est d'écrire les tests 
 * Réduction du nombre d'anomalies et des régressions.
 * Évite la sur-ingénierie.
 * C'est une bonne documentation associée au code et toujours à jour.
+* Implique de-facto une courverture du code à 100%.
 
 ## Les tests d'apprentissage
 
