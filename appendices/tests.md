@@ -47,7 +47,7 @@ serait pas suffisamment testé.
 1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
 1. **R**EPEATABLE (Reproductible) : les tests doivent pouvoir être reproduits dans n'importe quel environnement.
 1. **S**ELF-VALIDATING (Auto-validant) : les tests doivent avoir un résultat binaire : ils réussissent ou ils échouent. Vous ne devez pas avoir à consulter un fichier de journalisation ou comparer manuellement 2 fichiers.
-1. **T**IMELY (au moment opportun) : les tests doivent être écrits au moment opportun : juste avant le code de production qui permet de les réussir (voir Test First ou TDD) ... ou **T**HOROUGH (approfondis) : les tests doivent explorer l'essentiel des possbilités en utilisant des cas négatifs et positifs.
+1. **T**IMELY (au moment opportun) : les tests doivent être écrits au moment opportun : juste avant le code de production qui permet de les réussir (voir Test First ou TDD) ... ou **T**HOROUGH (approfondis) : les tests doivent explorer l'essentiel des possibilités en utilisant des cas négatifs et positifs.
 
 ## Des tests de qualité
 
@@ -90,7 +90,7 @@ Le principe du _développements pilotés par les tests_ est d'écrire les tests 
 
 Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers (dépendances) sont publiées nous exécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
 
-## Fake, Stubs, Mocks, bouchons
+## Fake, Stubs, Mocks, bouchons, simulacres
 
 Dans tous les cas ce sont des objets (classes, implémentations, ...) qui ne sont jamais utilisés dans le code de production, des outils pour le code de test. Néanmoins on peut imaginer, en production, des _fallback_ (solution alternative, solution de repli) utilisant des bouchons.
 
