@@ -113,6 +113,21 @@ Dans tous les cas ce sont des objets (classes, implémentations, ...) qui ne son
 
 :warning: Les définitions peuvent variées il est donc conseillé de définir et de s'accorder sur une définition commune au sein de l'équipe.
 
+## La checklist de validation d'un bon test
+
+Un bon test doit se conformer aux 10 principes suivants :
+
+* [ ] Le test possède un nom évocateur (ou  une description via par exemple `@DisplayName` pour JUnit).
+* [ ] Le test est écrit dans le format _Arange/Act/Assert_ (ou _Given/When/Then_) afin d'assurer sa lisibilité et sa maintenabilité.
+* [ ] Le test ne valide qu'une seule chose (mais il peut contenir plusieurs assertions).
+* [ ] Le test n'est pas un doublon d'un autre (teste la même chose), en d'autres termes il permet d'augmenter la courverture de test.
+* [ ] Le test est auto-portant, il n'a besoin d'aucune dépendance externe à son contexte (BDD, service REST, ...)
+* [ ] Le test respecte le **principe FIRST : FAST**, il est rapide à s'exécuter (ou à échouer).
+* [ ] Le test respecte le **principe FIRST : INDEPENDENT**, il ne dépend pas de l'exécution d'un autre test .
+* [ ] Le test respecte le **principe FIRST : REPEATABLE**, il doit pouvoir être exécuté plusieurs fois en retournant toujours le même résultat.
+* [ ] Le test respecte le **principe FIRST : SELF-VALIDATING**, il passe ou échoue de façon automatique, aucune action humaine ne doit être nécessaire pour le valider.
+* [ ] Le test respecte le **principe FIRST : THOROUGH**, il explore toutes les possibilités (ou il fait partie d'un ensemble permettant de traiter tous les cas possibles).
+
 ## Pour aller encore plus loin dans la pratique des tests
 
 * [PITest](http://pitest.org/), [Stryker Mutator](https://stryker-mutator.io/) : _Mutation Testing System._
