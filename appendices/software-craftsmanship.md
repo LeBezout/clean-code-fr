@@ -115,6 +115,8 @@ Leitmotiv : élever le niveau, atteindre un haut niveau de qualité
 ### Vidéos
 
 * :fr: [BreizhCamp - Pascal Le Merrer - eXtreme Programming : LA méthode Agile ?](https://www.youtube.com/watch?v=ev1wsZrfO3M)
+* :fr: [BDX I/O 2018- Julien Carnelos - Crafters en 2018 : revisitez vos fondamentaux](https://www.youtube.com/watch?v=lVnZmoSeJ9I)
+* :fr: [BreizhCamp - Arnaud Lemaire - Entre industrialisation et artisanat, le métier de développeur](https://www.youtube.com/watch?v=itGmiTS_IPw)
 
 ### Livres
 

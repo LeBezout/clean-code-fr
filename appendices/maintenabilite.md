@@ -45,7 +45,7 @@ Imaginons la situation suivante, un nouveau développeur arrive sur le projet po
 * Favoriser toujours le confort de lecture par rapport au confort d'écriture.
 * Choisir des noms qui **révèlent les intentions**. Les commentaires deviennent de fait superflus.
 * Choisir des noms qui sont prononçables, facilitant ainsi la discussion entre développeurs.
-* Choisir des noms qui sont facilement recherchables.
+* Choisir des noms qui sont facile à rechercher.
 * Éviter les ajouts parasites inutiles :
   * pour une classe, comme les suffixes `*Data` ou `*Info`, le mot de base se suffit généralement à lui même.
   * pour une variable, comme des informations sur l'implémentation : `*List`, `*Map`, ...

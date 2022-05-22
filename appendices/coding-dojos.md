@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Les Coding Dojos, pratique issue de l'_extrem programming_, sont des séances de programmation à plusieurs qui peuvent prendre différentes formes : 1 instructeur ou des binômes tournant.
+Les Coding Dojos, pratique issue de l'_eXtreme programming_, sont des séances de programmation à plusieurs qui peuvent prendre différentes formes : 1 instructeur ou des binômes tournant.
 
 Chaque Coding Dojo porte sur un sujet particulier et clairement identifié et validé avant la séance. Les Coding Dojos permettent d'expérimenter, de tester et d'apprendre en dehors du cadre d'un projet.
 
@@ -38,7 +38,7 @@ L'objectif est d'implémenter une solution de façon collaborative par binôme e
 
 * :fr: [codingdojo.org](http://codingdojo.org/fr/)
 * :fr: [Page Wikipédia](https://fr.wikipedia.org/wiki/Coding_dojo)
-* :fr: [Un Chti café - Coding Dojo en entreprise ](http://www.unchticafe.fr/2010/03/coding-dojo-en-entreprise.html)
+* :fr: [Un Chti café - Coding Dojo en entreprise](http://www.unchticafe.fr/2010/03/coding-dojo-en-entreprise.html)
 
 ---
 :point_left: [Retour à l'accueil](../README.md)

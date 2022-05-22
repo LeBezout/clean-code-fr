@@ -33,7 +33,13 @@ serait pas suffisamment testé.
 * Un pipeline qui n’exécute (presque) aucun test perd environ 99 % de son intérêt. **Il permet juste d’envoyer plus vite des bugs en production**. Pas de tests, pas de qualité. Pas de qualité, pas de confiance. Pas de confiance, pas de prod.
 * Plus un test est rapide (à développer et à exécuter), plus il sera exécuté souvent, plus il aura de la valeur.
 
-## Structure d'un test : Build-Operate-Check
+## Comment faire des tests
+
+### Typologie des tests
+
+**Pyramide des tests** : Tests unitaires -> Tests d'intégration / tests d'API -> Tests End to End (bout en bout) -> Tests de charge, tests de sécurité.
+
+### Structure d'un test : Build-Operate-Check
 
 ... ou _Given-When-Then_ ... ou _Arrange-Act-Assert_
 
@@ -41,7 +47,7 @@ serait pas suffisamment testé.
 1. _Operate_ : Exploiter les données du test.
 1. _Check_ : Vérifier que l'opération a produit les résultats escomptés.
 
-## Principes F.I.R.S.T.
+### Principes F.I.R.S.T.
 
 1. **F**AST : (Rapide) : les tests doivent être rapides. Un test lent est un test qui risque de ne plus être exécuté.
 1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
@@ -49,7 +55,7 @@ serait pas suffisamment testé.
 1. **S**ELF-VALIDATING (Auto-validant) : les tests doivent avoir un résultat binaire : ils réussissent ou ils échouent. Vous ne devez pas avoir à consulter un fichier de journalisation ou comparer manuellement 2 fichiers.
 1. **T**IMELY (au moment opportun) : les tests doivent être écrits au moment opportun : juste avant le code de production qui permet de les réussir (voir Test First ou TDD) ... ou **T**HOROUGH (approfondis) : les tests doivent explorer l'essentiel des possibilités en utilisant des cas négatifs et positifs.
 
-## Des tests de qualité
+### Des tests de qualité
 
 * Le code de test est aussi important que le code de production.
 * La lisibilité est sans doute encore plus importante dans les tests unitaires qu'elle ne l'est dans le code de production.
@@ -59,22 +65,18 @@ serait pas suffisamment testé.
 * Chaque test doit se contenter de valider une et une seule fonctionnalité : un concept par test.
 * Chaque test doit avoir un nom clair sur le principe de `should_XXXXX_If_YYYYYYY`.
 
-## Des tests qui testent
+### Des tests qui testent
 
 * Un test qui ne peut pas échouer est un test qui ne sert à rien.
 * Sans les tests chaque modification est un bogue potentiel : les tests permettent le changement. Les systèmes non testables ne sont pas vérifiables. Un système non vérifiable ne doit jamais être déployé.
 * Rechercher chaque condition limite et écrivez le test correspondant.
 * Les tests restent insuffisants tant qu'il existe des conditions qui n'ont pas été explorées ou des calculs qui n'ont pas été validés.
 
-## Pyramide des tests
-
-Tests unitaires -> Tests d'intégration / tests d'API -> Tests End to End (bout en bout) -> Tests de charge, tests de sécurité.
-
 ## Test First & Test Driven Development
 
-Le principe du _développements pilotés par les tests_ est d'écrire les tests avant le code de production. Test-First est issu des pratiques de l'_eXtreme Programming_, TDD rajoute la notion d'itération et de remise en forme (_refactoring_ : Red->Green->Refactor).
+Le principe du _développements pilotés par les tests est d'écrire les tests avant le code de production. Test-First est issu des pratiques de l'_eXtreme Programming_, TDD rajoute la notion d'itération et de remise en forme (_refactoring_ : Red->Green->Refactor).
 
-### 3 lois du TDD
+### Les 3 lois du TDD
 
 1. Vous ne devez pas écrire un code de production tant que vous n'avez pas écrit un test unitaire d'échec.
 1. Vous devez uniquement écrire le test unitaire suffisant pour échouer : l'impossibilité de compiler est un échec.
@@ -85,11 +87,7 @@ Le principe du _développements pilotés par les tests_ est d'écrire les tests 
 * Réduction du nombre d'anomalies et des régressions.
 * Évite la sur-ingénierie.
 * C'est une bonne documentation associée au code et toujours à jour.
-* Implique de-facto une courverture du code à 100%.
-
-## Les tests d'apprentissage
-
-Les tests d'apprentissage ne sont pas seulement gratuits, ils ont un retour sur investissement positif. Si de nouvelles versions du paquetage tiers (dépendances) sont publiées nous exécutons les tests d'apprentissage pour savoir s'il existe des différences de comportement.
+* Implique de-facto une couverture du code à 100%.
 
 ## Fake, Stubs, Mocks, bouchons, simulacres
 
@@ -120,7 +118,7 @@ Un bon test doit se conformer aux 10 principes suivants :
 * [ ] Le test possède un nom évocateur (ou  une description via par exemple `@DisplayName` pour JUnit).
 * [ ] Le test est écrit dans le format _Arange/Act/Assert_ (ou _Given/When/Then_) afin d'assurer sa lisibilité et sa maintenabilité.
 * [ ] Le test ne valide qu'une seule chose (mais il peut contenir plusieurs assertions).
-* [ ] Le test n'est pas un doublon d'un autre (teste la même chose), en d'autres termes il permet d'augmenter la courverture de test.
+* [ ] Le test n'est pas un doublon d'un autre (teste la même chose), en d'autres termes il permet d'augmenter la couverture de test.
 * [ ] Le test est auto-portant, il n'a besoin d'aucune dépendance externe à son contexte (BDD, service REST, ...)
 * [ ] Le test respecte le **principe FIRST : FAST**, il est rapide à s'exécuter (ou à échouer).
 * [ ] Le test respecte le **principe FIRST : INDEPENDENT**, il ne dépend pas de l'exécution d'un autre test .

@@ -2,7 +2,7 @@
 
 ## Définition
 
-> Ce principe (issu de l'_Extreme Programming_) indique de ne pas se baser sur d'hypothétiques évolutions futures pour faire les choix du présent.
+> Ce principe (issu de l'_eXtreme Programming_) indique de ne pas se baser sur d'hypothétiques évolutions futures pour faire les choix du présent.
 
 ## Détails
 

@@ -41,17 +41,17 @@ Nombre d'outils sont disponibles (directement ou non) pour remonter rapidement a
 _SonarQube_ (anciennement _sonar_ et à ne pas confondre avec _SonarJ_) édité par la société _SonarSource SA_ est le standard du marché dans le domaine de l'analyse de la qualité du code d'une application et supporte plus d'une vingtaine de langages.
 _SonarQube_ définit 3 catégories de violations :
 
-* *Bugs :* Bug avéré ou du code manifestement erroné ou très susceptible de générer un comportement inattendu.
-* *Vulnérabilités :* provenant de code potentiellement vulnérable à l'exploitation par les pirates.
-* *Mauvaises pratiques (_Code Smells_) :* provenant de code qui va dégrader la maintenabilité, la robustesse ou la performance. Elles sont mesurées et affichées principalement en termes de temps qu'elles prendront pour être corriger.
+* _Bugs :_ Bug avéré ou du code manifestement erroné ou très susceptible de générer un comportement inattendu.
+* _Vulnérabilités :_ provenant de code potentiellement vulnérable à l'exploitation par les pirates.
+* _Mauvaises pratiques (_Code Smells_) :_ provenant de code qui va dégrader la maintenabilité, la robustesse ou la performance. Elles sont mesurées et affichées principalement en termes de temps qu'elles prendront pour être corriger.
 
 _SonarQube_ définit également pour chaque anomalie relevée un niveau de criticité parmi 5, du plus au moins important :
 
-* *Bloquant*  (_blocker_) : anomalie à corriger immédiatement.
-* *Critique* (_critical_) : anomalie à corriger rapidement.
-* *Majeur* (_major_) : anomalie à étudier, une correction planifiée est souhaitable.
-* *Mineur* (_minor_) : anomalie à prendre en compte si possible (souvent facile à corriger).
-* *Informatif* (_info_) : anomalie à prendre en compte si possible (souvent facile à corriger).
+* _Bloquant_  (_blocker_) : anomalie à corriger immédiatement.
+* _Critique_ (_critical_) : anomalie à corriger rapidement.
+* _Majeur_ (_major_) : anomalie à étudier, une correction planifiée est souhaitable.
+* _Mineur_ (_minor_) : anomalie à prendre en compte si possible (souvent facile à corriger).
+* _Informatif_ (_info_) : anomalie à prendre en compte si possible (souvent facile à corriger).
 
 Enfin l'outil peut même amender automatiquement les _merge request_ (via [un plugin](https://github.com/gabrie-allaigre/sonar-gitlab-plugin)), les violations étant visibles dès lors directement dans GitLab.
 

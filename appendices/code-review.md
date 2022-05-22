@@ -51,7 +51,7 @@
 
 ### Le relu : préparer la revue
 
-Pour faire gagnert du temps au relecteur et pour l'orienter :
+Pour faire gagner du temps au relecteur et pour l'orienter :
 
 * Revoir son code avant de soumettre :
   * respect des normes internes
@@ -97,7 +97,6 @@ Les Tech Lead mais aussi tous les développeurs. Un Tech Lead doit revoir le cod
 L'aspect partage des connaissances (appropriation collective) et des techniques (montée en compétences en maturité) est un apport majeur de la pratique des revues de code.
 
 ### Limiter le périmètre et le champ d'action
-
 
 * La revue ne doit pas se substituer aux contrôles outillés. On se concentre alors uniquement sur les vérifications qui nécessitent une intervention humaine que l'on pourrait difficilement automatiser.
 * Pour les revues collectives limiter la durée et désigner un modérateur et un gardien du temps.
