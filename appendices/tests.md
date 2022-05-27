@@ -47,7 +47,7 @@ serait pas suffisamment testé.
 1. _Operate_ : Exploiter les données du test.
 1. _Check_ : Vérifier que l'opération a produit les résultats escomptés.
 
-### Principes F.I.R.S.T.
+### Caractéristiques F.I.R.S.T.
 
 1. **F**AST : (Rapide) : les tests doivent être rapides. Un test lent est un test qui risque de ne plus être exécuté.
 1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
@@ -89,27 +89,44 @@ Le principe du _développements pilotés par les tests est d'écrire les tests a
 * C'est une bonne documentation associée au code et toujours à jour.
 * Implique de-facto une couverture du code à 100%.
 
-## Fake, Stubs, Mocks, bouchons, simulacres
+## Dummy, Fake, Stub, Mock, Spy, bouchon, substitut, simulacre
 
 Dans tous les cas ce sont des objets (classes, implémentations, ...) qui ne sont jamais utilisés dans le code de production, des outils pour le code de test. Néanmoins on peut imaginer, en production, des _fallback_ (solution alternative, solution de repli) utilisant des bouchons.
 
+* **Dummy** : Variable ou méthode fantoche :
+  * le contenu ou le comportement n'importe pas.
+  * le contenu ou le comportement n'influe pas sur le résultat du test.
 * **Fake** : Faux-objets
   * Souvent des objets aux capacités limités.
   * Peut être un _stub_ ou _mock_.
 * **Stub** : ébauche
   * Permet de remplacer une dépendance existante et non primordiale pour le test.
   * Peut être configuré pour les besoins du test.
-  * On ne fait aucune assertion sur ces objets.
+  * **_On ne fait aucune assertion sur ces objets_**.
   * Sont utilisés dans la partie _Given_.
 * **Mock** : Objet simulé (simulacre)
   * C'est un _stub_ sur lequel on va pouvoir faire des assertions.
   * Sont utilisés dans la partie _When_ et _Then_.
+* **Spy** : C'est également un substitut à une implémentation réelle
 
 :gb: [Martin Fowler - Mocks Aren't Stubs](https://www.martinfowler.com/articles/mocksArentStubs.html)
 
 :fr: [Benoît Sautel - Mock ou pas mock ?](https://www.fierdecoder.fr/2015/11/mock-ou-pas-mock/)
 
 :warning: Les définitions peuvent variées il est donc conseillé de définir et de s'accorder sur une définition commune au sein de l'équipe.
+
+## Property Based Testing
+
+Contrairement aux tests basés sur les exemples, le _Property-based Testing_ a pour finalité de tester le comportement du code et non le résultat retourné par celui-ci.
+Un test de propriété testera une implémentation avec des valeurs constamment différentes (générées).
+
+Cette technique permet de compléter les tests unitaires, où d'en remplacer certains.
+
+Ressources vidéos :
+
+* :fr: [Devoxx 2021 - Property based testing : de la théorie à la pratique (Nicolas Dubien)](https://www.youtube.com/watch?v=oeaXWvTHyxc) - 30min
+* :fr: [Devoxx 2016 - Property-Based Testing, enfin pour tout le monde (Cyrille Martraire - Romeu MOURA)](https://www.youtube.com/watch?v=O-LWbSUaEQU) - 2h24
+* :fr: [AFUP Day 2020 - Du test à la preuve: introduction au Property Based Testing (Baptiste Langlade)](https://www.youtube.com/watch?v=uUxGngqsER0) - 22min
 
 ## La checklist de validation d'un bon test
 
@@ -118,13 +135,13 @@ Un bon test doit se conformer aux 10 principes suivants :
 * [ ] Le test possède un nom évocateur (ou  une description via par exemple `@DisplayName` pour JUnit).
 * [ ] Le test est écrit dans le format _Arange/Act/Assert_ (ou _Given/When/Then_) afin d'assurer sa lisibilité et sa maintenabilité.
 * [ ] Le test ne valide qu'une seule chose (mais il peut contenir plusieurs assertions).
-* [ ] Le test n'est pas un doublon d'un autre (teste la même chose), en d'autres termes il permet d'augmenter la couverture de test.
-* [ ] Le test est auto-portant, il n'a besoin d'aucune dépendance externe à son contexte (BDD, service REST, ...)
-* [ ] Le test respecte le **principe FIRST : FAST**, il est rapide à s'exécuter (ou à échouer).
-* [ ] Le test respecte le **principe FIRST : INDEPENDENT**, il ne dépend pas de l'exécution d'un autre test .
-* [ ] Le test respecte le **principe FIRST : REPEATABLE**, il doit pouvoir être exécuté plusieurs fois en retournant toujours le même résultat.
-* [ ] Le test respecte le **principe FIRST : SELF-VALIDATING**, il passe ou échoue de façon automatique, aucune action humaine ne doit être nécessaire pour le valider.
-* [ ] Le test respecte le **principe FIRST : THOROUGH**, il explore toutes les possibilités (ou il fait partie d'un ensemble permettant de traiter tous les cas possibles).
+* [ ] Le test n'est pas un doublon d'un autre (teste la même chose), en d'autres termes il permet d'augmenter la couverture de code.
+* [ ] Le test est auto-portant, il n'a besoin d'aucune dépendance externe à son contexte (BDD, service REST, ...) et il ne valide pas inutilement de code externe supposé respecter le comportement qu'on attend de lui.
+* [ ] Le test respecte les **caractéristiques FIRST : FAST**, il est rapide à s'exécuter (ou à échouer).
+* [ ] Le test respecte les **caractéristiques FIRST : INDEPENDENT**, il ne dépend pas de l'exécution d'un autre test .
+* [ ] Le test respecte les **caractéristiques FIRST : REPEATABLE**, il doit pouvoir être exécuté plusieurs fois en retournant toujours le même résultat.
+* [ ] Le test respecte les **caractéristiques FIRST : SELF-VALIDATING**, il passe ou échoue de façon automatique, aucune action humaine ne doit être nécessaire pour le valider.
+* [ ] Le test respecte les **caractéristiques FIRST : THOROUGH**, il explore toutes les possibilités (ou il fait partie d'un ensemble permettant de traiter tous les cas possibles).
 
 ## Pour aller encore plus loin dans la pratique des tests
 
