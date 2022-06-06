@@ -6,6 +6,10 @@ Livre - 288 pages - DUNOD - Cyrille MARTRAIRE, Arnaud THIEFAINE, Dorra BARTAGUIZ
 
 :link: <https://www.dunod.com/sciences-techniques/software-craft-tdd-clean-code-et-autres-pratiques-essentielles>
 
+- [1- Les pratiques incontournables du craft](#partie-1--les-pratiques-incontournables-du-craft)
+- [2- Techniques avancées et élargissements](#partie-2--techniques-avanc%C3%A9es-et-%C3%A9largissements)
+- [3- Craft et attitudes](partie-3--craft-et-attitudes)
+
 ## Avant-propos
 
 Le _Software Craft_ est un ensemble d'attitudes qu'on apprend à adopter pour être plus efficace sur la façon d'utiliser les technologies, quelles qu'elles soient. Ce qui est remarquable avec les attitudes c'est qu'elles sont bien plus pérennes que les technologies sur lesquelles on les applique.
@@ -301,7 +305,7 @@ Code retreat : (retraites de code) : évènement sur une journée où les partic
 
 Initier une dynamique consiste à lancer des actions plutôt modestes, mais régulièrement (dont l'effet cumulé suscitera l'intérêt).
 
-Il faut être centrer sur la livraison de valeur :
+Il faut être centré sur la livraison de valeur :
 
 - Se rappeler les objectifs du craft pour recentrer aussi notre attention sur la livraison de valeur.
 - Ne pas consacrer une part excessive de temps de travail sur sur l'amélioration du code en négligeant la livraison de valeur.
