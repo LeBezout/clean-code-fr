@@ -279,7 +279,7 @@ Les projets doivent pouvoir :
   * [OCTO - Culture DevOps vol. 3](summury/octo-culture-devops-3.md)
   * [OCTO - Culture Change](summury/octo-culture-change.md)
   * [OCTO - Culture Flow](summury/octo-culture-flow.md)
-  * [Software Craft : TDD, Clean code et autres pratiques essentielles](summury/software-craft-pratiques-essentielles.md)
+  * [Software Craft : TDD, Clean Code et autres pratiques essentielles](summury/software-craft-pratiques-essentielles.md)
 * HS :
   * [HS : Énumération de différentes lois et principes](off-topic/lois-et-principes.md)
   * [HS : Loi de Brooks - deuxième version logicielle](off-topic/brooks.md)
