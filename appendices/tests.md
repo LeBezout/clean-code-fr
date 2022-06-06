@@ -39,6 +39,8 @@ serait pas suffisamment testé.
 
 **Pyramide des tests** : Tests unitaires -> Tests d'intégration / tests d'API -> Tests End to End (bout en bout) -> Tests de charge, tests de sécurité.
 
+Chaque type de test apporte son niveau de protection.
+
 ### Structure d'un test : Build-Operate-Check
 
 ... ou _Given-When-Then_ ... ou _Arrange-Act-Assert_
@@ -53,7 +55,7 @@ serait pas suffisamment testé.
 1. **I**NDEPENDENT (Indépendant) : les tests ne doivent pas dépendre les uns des autres. Un test ne doit pas établir les conditions d'exécution du test suivant. Vous devez être en mesure d'exécuter chaque test indépendamment et dans l'ordre que vous voulez.
 1. **R**EPEATABLE (Reproductible) : les tests doivent pouvoir être reproduits dans n'importe quel environnement.
 1. **S**ELF-VALIDATING (Auto-validant) : les tests doivent avoir un résultat binaire : ils réussissent ou ils échouent. Vous ne devez pas avoir à consulter un fichier de journalisation ou comparer manuellement 2 fichiers.
-1. **T**IMELY (au moment opportun) : les tests doivent être écrits au moment opportun : juste avant le code de production qui permet de les réussir (voir Test First ou TDD) ... ou **T**HOROUGH (approfondis) : les tests doivent explorer l'essentiel des possibilités en utilisant des cas négatifs et positifs.
+1. **T**IMELY (au moment opportun) : les tests doivent être écrits au moment opportun : juste avant le code de production qui permet de les réussir (voir Test First ou TDD) ... ou **T**HOROUGH (approfondis/précis) : les tests doivent explorer l'essentiel des possibilités en utilisant des cas négatifs et positifs.
 
 ### Des tests de qualité
 

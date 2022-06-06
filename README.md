@@ -268,7 +268,7 @@ Les projets doivent pouvoir :
   * [Zoom sur la notion de dette technique et de pourriture](appendices/dette-technique.md)
   * [Zoom sur l'inspection continue](appendices/continuous-inspection.md)
   * [Zoom sur les mauvaises pratiques](appendices/mauvaises-pratiques.md)
-  * [Zoom sur les revues de code](cappendices/ode-review.md)
+  * [Zoom sur les revues de code](appendices/code-review.md)
   * [Zoom sur les tests](appendices/tests.md)
   * [Zoom sur les _Coding Dojos_](appendices/coding-dojos.md)
   * [Zoom sur les _Architectural Decision Records_](appendices/ADR.md)
@@ -279,6 +279,7 @@ Les projets doivent pouvoir :
   * [OCTO - Culture DevOps vol. 3](summury/octo-culture-devops-3.md)
   * [OCTO - Culture Change](summury/octo-culture-change.md)
   * [OCTO - Culture Flow](summury/octo-culture-flow.md)
+  * [Software Craft : TDD, Clean code et autres pratiques essentielles](summury/software-craft-pratiques-essentielles.md)
 * HS :
   * [HS : Énumération de différentes lois et principes](off-topic/lois-et-principes.md)
   * [HS : Loi de Brooks - deuxième version logicielle](off-topic/brooks.md)
