@@ -1,8 +1,9 @@
 # Notions de complexité
 
-On distinguera essentiellement 2 notions de complexité :
+On distinguera essentiellement 3 notions de complexité :
 
 * la [complexité essentielle](https://fr.wikipedia.org/wiki/Complexit%C3%A9_essentielle)
+* la complexité obligatoire
 * la [complexité accidentelle](https://fr.wikipedia.org/wiki/Complexit%C3%A9_accidentelle)
 
 ## Complexité essentielle
@@ -10,6 +11,10 @@ On distinguera essentiellement 2 notions de complexité :
 > La complexité essentielle relative à un problème, généralement dans le cadre d'un projet informatique, désigne le degré de complexité minimal d'un programme pour résoudre un problème ou appliquer une solution.
 
 C'est sensé être uniquement la complexité du métier sous-jacent. **Celle-ci ne peut en aucun cas être réduite.**
+
+## Complexité obligatoire
+
+> La complexité obligatoire est la complexité qui est nécessaire pour que le logiciel rende un service.
 
 ## Complexité accidentelle
 
@@ -27,6 +32,10 @@ Cette complexité doit être réduite et **à défaut il faut la maîtriser** ca
 * Application du principe d'orthogonalité
 * Pas d'_over-engineering_, d'optimisation prématurée, de fonctionnalités "au cas où"
 * _Refactoring_ régulier
+
+## Références
+
+* [Blog Lilobase - Certaines complexités sont plus utiles que d’autres](https://www.lilobase.me/certaines-complexites-sont-plus-utiles-que-dautres/)
 
 ---
 :point_left: [Retour à l'accueil](../README.md)
