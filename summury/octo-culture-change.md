@@ -1,6 +1,6 @@
 # Fiche synthèse : OCTO - Culture Change - 2019
 
-:link: <https://publication.octo.com/fr/fr/telechargement-livre-blanc-culture-change> : _Le guide de remise en forme de votre organisation par l'agilité _
+:link: <https://publication.octo.com/fr/fr/telechargement-livre-blanc-culture-change> : _Le guide de remise en forme de votre organisation par l'agilité_
 
 > Réussir sa transformation Agile, ce n'est pas avaler une pilule méthodologique, il s'agit d'apprendre, progressivement, un tout nouveau mode de vie..."
 
