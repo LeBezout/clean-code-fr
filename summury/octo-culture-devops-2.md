@@ -1,6 +1,6 @@
-# Fiche synthèse : OCTO - Culture DevOps vol. 2
+# Fiche synthèse : OCTO - Culture DevOps vol. 2 - 2018
 
-:link: <https://www.octo.com/publications/33-culture-devops-vol-02/>
+:link: <https://publication.octo.com/fr/telechargement-livre-blanc-culture-devops-vol-2> : _Le nouveau guide de survie des dev', ops et architectes !_
 
 ## Chapitre 1 - Une API REST sinon rien
 
