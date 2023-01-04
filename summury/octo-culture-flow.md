@@ -1,6 +1,6 @@
-# Fiche synthèse : OCTO - Culture Flow
+# Fiche synthèse : OCTO - Culture Flow - 2021
 
-:link: <https://www.octo.com/publications/culture-flow/>
+:link: <https://publication.octo.com/culture-flow-livre-blanc-octo-technology> : _Un nouveau rythme pour les organisations agiles_
 
 ## Préface
 
