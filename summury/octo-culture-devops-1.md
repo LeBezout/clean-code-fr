@@ -1,6 +1,6 @@
-# Fiche synthèse : OCTO - Culture DevOps vol. 1
+# Fiche synthèse : OCTO - Culture DevOps vol. 1 - 2018
 
-:link: <https://www.octo.com/publications/30-culture-devops-vol-01/>
+:link: <https://publication.octo.com/fr/telechargement-livre-blanc-culture-devops-vol-1> : 
 
 ## Morceaux choisis
 
