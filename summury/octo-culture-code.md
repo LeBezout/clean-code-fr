@@ -1,6 +1,6 @@
-# Fiche synthèse : OCTO - Culture Code
+# Fiche synthèse : OCTO - Culture Code - 2016
 
-:link: <https://www.octo.com/publications/culture-code/>
+:link: <https://publication.octo.com/fr/telechargement-livre-blanc-culture-code> : _Software Craftsmanship : Better Places with Better Code_
 
 ## Introduction
 
