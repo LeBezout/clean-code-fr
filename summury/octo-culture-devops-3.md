@@ -1,6 +1,6 @@
-# Fiche synthèse : OCTO - Culture DevOps vol. 3
+# Fiche synthèse : OCTO - Culture DevOps vol. 3 - 2019
 
-:link: <https://www.octo.com/publications/culture-devops-volume-3/>
+:link: <https://publication.octo.com/fr/telechargement-livre-blanc-culture-devops-vol-3> : _Hautement disponible, scalable, observable et sécurisée : l’infrastructure sera de qualité ou ne sera pas !_
 
 ## Chapitre 1 - L'individu
 
