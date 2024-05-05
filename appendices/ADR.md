@@ -2,7 +2,7 @@
 
 ## Généralités
 
-L'idée est de créer **au plus proche** du code source un dossier contenant les décisions prises concernant l'architecture du projet (architecture applicative ou plus générale).
+L'idée est de créer **au plus proche** du code source un dossier contenant les décisions prises concernant l'architecture du projet (architecture applicative ou plus générale, on pourrait dire des "IDR" : _Important Decision Records_).
 
 C'est une sorte de journal de toutes les décisions architecturales prises durant la vie du projet.
 
@@ -71,6 +71,12 @@ QUOI ?
 
 COMMENT ?
 
+## Justification
+
+> Détail des justifcations des décisions retenues
+
+POURQUOI ?
+
 ## Conséquences
 
 > Description des impacts que ce changement a impliqués
@@ -82,8 +88,9 @@ TODO
 
 * :uk: [Homepage of the ADR GitHub organization](https://adr.github.io/)
 * :uk: [Command-line tools for working with ADR](https://github.com/npryce/adr-tools)
-* :uk: [Blog : Managing Architecture Decision Records with ADR-Tools](https://www.hascode.com/2018/05/managing-architecture-decision-records-with-adr-tools/)
-* :fr: [[DevFest Toulouse 2018] Architecture Decision Records: Réconciliez vous avec votre doc - Arnaud Bos](https://www.youtube.com/watch?v=EDYplU1PB5s)
+* :uk: Blog : [Managing Architecture Decision Records with ADR-Tools](https://www.hascode.com/2018/05/managing-architecture-decision-records-with-adr-tools/)
+* :fr: Vidéo : [[DevFest Toulouse 2018] Architecture Decision Records: Réconciliez vous avec votre doc - Arnaud Bos](https://www.youtube.com/watch?v=EDYplU1PB5s)
+* :fr: Vidéo : [[Devoxx 2024 Paris] ADR: Le chaînon manquant](https://www.youtube.com/watch?v=LdmOaSDn000)
 
 ---
 :point_left: [Retour à l'accueil](../README.md)
