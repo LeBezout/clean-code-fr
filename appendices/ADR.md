@@ -73,7 +73,7 @@ COMMENT ?
 
 ## Justification
 
-> Détail des justifcations des décisions retenues
+> Détail des justifications des décisions retenues
 
 POURQUOI ?
 

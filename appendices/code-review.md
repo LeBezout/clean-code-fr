@@ -163,10 +163,10 @@ Cette méthode peut être utilisée dans des cas spécifiques ou des compétence
 ## G- Annexes
 
 * :fr: Vidéos : [Playlist Youtube](https://www.youtube.com/playlist?list=PLM5oYKLr93VlE4Oq7KrZUGHObWEWV1rRX)
-* :gb: Article : [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
+* :gb: Article : [How to Make Your Code Reviewer Fall in Love with You par _Michael Lynch_](https://mtlynch.io/code-review-love/)
 * :fr: Article : [La revue de code bienveillante par _Gilles Roustan_](https://gb-prod.fr/2016/12/01/la-revue-de-code-bienveillante.html)
 * :fr: Article : [Comment faire une bonne revue de code ? par _Mindsers Blog_](https://mindsers.blog/fr/post/conseils-bonne-revue-code/)
-* :fr: Article : [Tu peux valider ma pullrequest ? par_Julien Hatzig_](https://medium.com/just-tech-it-now/tu-peux-valider-ma-pullrequest-8a11b16f20e6)
+* :fr: Article : [Tu peux valider ma pullrequest ? par _Julien Hatzig_](https://medium.com/just-tech-it-now/tu-peux-valider-ma-pullrequest-8a11b16f20e6)
 
 ---
 :point_left: [Retour à l'accueil](../README.md)

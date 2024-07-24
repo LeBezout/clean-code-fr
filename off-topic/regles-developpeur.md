@@ -2,7 +2,7 @@
 
 ## Les fondamentaux avant les frameworks ou les langages
 
-TODO
+Il est fondamental de maîtriser les concepts sous-jacents, les principes de conceptions, les Design Patterns, ... comme autant de socles solides avant de se lancer dans des nouveaux frameworks ou langages.
 
 ## _Clear Code_ plutôt que _Cleaver Code_
 
